@@ -1,0 +1,155 @@
+Date,Comp_y,Round_y,home_team,away_team,actual_result,predicted_result,home_win_prob,draw_prob,away_win_prob
+2024-01-01,Premier League,Matchweek 20,Newcastle Utd,Liverpool,away_win,home_win,0.6739134,0.0011625149,0.32492405
+2024-01-02,Premier League,Matchweek 20,Brighton,West Ham,draw,home_win,0.5289737,0.35038278,0.1206435
+2024-01-13,Premier League,Matchweek 21,Fulham,Chelsea,away_win,away_win,0.022305898,0.0029525368,0.9747416
+2024-01-13,Premier League,Matchweek 21,Manchester City,Newcastle Utd,home_win,home_win,0.5307566,0.16235943,0.30688405
+2024-01-14,Premier League,Matchweek 21,Tottenham,Manchester Utd,draw,away_win,0.020551573,0.0010479718,0.97840047
+2024-01-20,Premier League,Matchweek 21,Crystal Palace,Arsenal,away_win,away_win,0.0034330876,0.029385226,0.9671817
+2024-01-21,Premier League,Matchweek 21,West Ham,Sheffield Utd,draw,home_win,0.41083547,0.22048707,0.3686774
+2024-01-21,Premier League,Matchweek 21,Liverpool,Bournemouth,home_win,home_win,0.95635754,0.02696989,0.016672648
+2024-01-22,Premier League,Matchweek 21,Wolves,Brighton,draw,away_win,0.23020315,0.009810217,0.75998664
+2024-01-30,Premier League,Matchweek 22,Arsenal,Nott'ham Forest,home_win,home_win,0.9255259,0.001617872,0.072856225
+2024-01-30,Premier League,Matchweek 22,Newcastle Utd,Aston Villa,home_win,home_win,0.5166549,0.40704998,0.07629506
+2024-01-30,Premier League,Matchweek 22,Brighton,Luton Town,away_win,home_win,0.95010805,0.009184743,0.040707167
+2024-01-30,Premier League,Matchweek 22,Sheffield Utd,Crystal Palace,away_win,home_win,0.648695,0.21553938,0.13576567
+2024-01-31,Premier League,Matchweek 22,Chelsea,Liverpool,away_win,away_win,0.019405283,0.18224922,0.79834545
+2024-02-01,Premier League,Matchweek 22,Manchester Utd,Wolves,home_win,home_win,0.92695206,0.0009937547,0.07205418
+2024-02-01,Premier League,Matchweek 22,Bournemouth,West Ham,draw,away_win,0.04100388,0.07980096,0.87919515
+2024-02-03,Premier League,Matchweek 23,Luton Town,Newcastle Utd,draw,away_win,0.03153681,0.028680682,0.93978256
+2024-02-03,Premier League,Matchweek 23,Aston Villa,Sheffield Utd,home_win,home_win,0.56997555,0.1746245,0.25539994
+2024-02-03,Premier League,Matchweek 23,Crystal Palace,Brighton,away_win,away_win,0.004896866,0.12876734,0.8663358
+2024-02-04,Premier League,Matchweek 23,Liverpool,Arsenal,away_win,home_win,0.72681016,0.0015947466,0.27159512
+2024-02-04,Premier League,Matchweek 23,Nott'ham Forest,Bournemouth,draw,away_win,0.02373091,0.0040953946,0.97217375
+2024-02-04,Premier League,Matchweek 23,West Ham,Manchester Utd,away_win,away_win,0.0018663032,0.0018806339,0.9962531
+2024-02-04,Premier League,Matchweek 23,Wolves,Chelsea,home_win,away_win,0.4080725,0.12926744,0.46266004
+2024-02-10,Premier League,Matchweek 24,Newcastle Utd,Nott'ham Forest,home_win,home_win,0.9853857,0.00336179,0.011252444
+2024-02-10,Premier League,Matchweek 24,Bournemouth,Fulham,away_win,away_win,0.013025552,0.00081151276,0.98616296
+2024-02-10,Premier League,Matchweek 24,Sheffield Utd,Luton Town,home_win,draw,0.029417645,0.51343197,0.4571504
+2024-02-10,Premier League,Matchweek 24,Brighton,Tottenham,away_win,away_win,0.2710789,0.04867633,0.6802448
+2024-02-10,Premier League,Matchweek 24,Brentford,Wolves,home_win,away_win,0.27044767,0.0057048053,0.72384757
+2024-02-11,Premier League,Matchweek 24,Arsenal,West Ham,home_win,home_win,0.60387313,0.02045588,0.37567094
+2024-02-11,Premier League,Matchweek 24,Manchester Utd,Aston Villa,home_win,home_win,0.92100984,0.006695057,0.0722952
+2024-02-12,Premier League,Matchweek 24,Chelsea,Crystal Palace,home_win,home_win,0.6331494,0.33093756,0.035912976
+2024-02-17,Premier League,Matchweek 25,Liverpool,Brentford,home_win,home_win,0.9805227,0.0047786837,0.014698682
+2024-02-17,Premier League,Matchweek 25,Aston Villa,Fulham,home_win,home_win,0.71747446,0.015240983,0.2672846
+2024-02-17,Premier League,Matchweek 25,Chelsea,Manchester City,draw,home_win,0.48871934,0.058313683,0.45296693
+2024-02-17,Premier League,Matchweek 25,West Ham,Nott'ham Forest,away_win,away_win,0.37789717,0.14196111,0.48014173
+2024-02-17,Premier League,Matchweek 25,Wolves,Tottenham,home_win,home_win,0.8820879,0.04982032,0.06809186
+2024-02-17,Premier League,Matchweek 25,Bournemouth,Newcastle Utd,draw,away_win,0.1753195,0.002359691,0.8223208
+2024-02-18,Premier League,Matchweek 25,Brighton,Sheffield Utd,home_win,away_win,0.3411894,0.008520061,0.65029055
+2024-02-18,Premier League,Matchweek 25,Manchester Utd,Luton Town,home_win,home_win,0.9596129,0.010841543,0.029545577
+2024-02-20,Premier League,Matchweek 18,Brentford,Manchester City,away_win,away_win,0.00032933988,0.00021958849,0.99945104
+2024-02-21,Premier League,Matchweek 26,Luton Town,Liverpool,away_win,home_win,0.52348983,0.0077058095,0.46880433
+2024-02-24,Premier League,Matchweek 26,Fulham,Manchester Utd,home_win,away_win,0.0040380186,0.000956558,0.9950054
+2024-02-24,Premier League,Matchweek 26,Nott'ham Forest,Aston Villa,away_win,away_win,0.1830195,0.0029532588,0.8140272
+2024-02-24,Premier League,Matchweek 26,Newcastle Utd,Arsenal,away_win,away_win,0.36562592,0.25581816,0.37855592
+2024-02-24,Premier League,Matchweek 26,Manchester City,Bournemouth,home_win,home_win,0.9898221,0.0030762474,0.0071016136
+2024-02-25,Premier League,Matchweek 26,Sheffield Utd,Wolves,away_win,away_win,0.004643618,0.019581256,0.9757751
+2024-02-26,Premier League,Matchweek 26,Brentford,West Ham,away_win,away_win,0.13897909,0.054576375,0.8064446
+2024-03-02,Premier League,Matchweek 27,Wolves,Newcastle Utd,away_win,away_win,0.00721575,0.008301218,0.984483
+2024-03-02,Premier League,Matchweek 27,Aston Villa,Luton Town,home_win,away_win,0.053414248,0.0026653977,0.9439204
+2024-03-02,Premier League,Matchweek 27,Crystal Palace,Tottenham,away_win,away_win,0.011545661,0.030045182,0.95840913
+2024-03-02,Premier League,Matchweek 27,Liverpool,Nott'ham Forest,home_win,home_win,0.9833272,0.013280937,0.0033917828
+2024-03-02,Premier League,Matchweek 27,Chelsea,Brentford,draw,home_win,0.8997627,0.00462317,0.09561415
+2024-03-02,Premier League,Matchweek 27,Brighton,Fulham,away_win,home_win,0.9975478,9.0921785e-06,0.0024431092
+2024-03-03,Premier League,Matchweek 27,Manchester Utd,Manchester City,away_win,home_win,0.53545606,0.0008341089,0.4637098
+2024-03-04,Premier League,Matchweek 27,Arsenal,Sheffield Utd,home_win,home_win,0.9116778,0.050475616,0.037846662
+2024-03-09,Premier League,Matchweek 28,Brentford,Arsenal,away_win,away_win,0.0014243616,0.07800565,0.92056996
+2024-03-09,Premier League,Matchweek 28,Luton Town,Crystal Palace,draw,home_win,0.9499984,0.040643495,0.009358181
+2024-03-09,Premier League,Matchweek 28,Fulham,Wolves,away_win,away_win,0.0467931,0.004621945,0.948585
+2024-03-09,Premier League,Matchweek 28,Everton,Manchester Utd,away_win,away_win,0.44349116,0.0010455245,0.5554633
+2024-03-10,Premier League,Matchweek 28,Tottenham,Aston Villa,home_win,home_win,0.83160436,0.025770392,0.14262523
+2024-03-10,Premier League,Matchweek 28,Nott'ham Forest,Brighton,away_win,away_win,0.0070758206,0.0033184974,0.98960567
+2024-03-10,Premier League,Matchweek 28,Manchester City,Liverpool,draw,home_win,0.7143153,0.13823351,0.1474512
+2024-03-11,Premier League,Matchweek 28,Newcastle Utd,Chelsea,away_win,home_win,0.9329216,0.0021295943,0.0649488
+2024-03-13,Premier League,Matchweek 17,Luton Town,Bournemouth,away_win,home_win,0.92464066,0.0009869174,0.07437243
+2024-03-16,Premier League,Matchweek 29,Tottenham,Fulham,away_win,home_win,0.9188376,0.0077219666,0.0734404
+2024-03-16,Premier League,Matchweek 29,Nott'ham Forest,Luton Town,draw,draw,0.102821216,0.7092182,0.18796055
+2024-03-17,Premier League,Matchweek 29,Aston Villa,West Ham,draw,home_win,0.615447,0.012931329,0.3716217
+2024-03-30,Premier League,Matchweek 30,Wolves,Aston Villa,away_win,away_win,0.023518417,0.0015308557,0.9749508
+2024-03-30,Premier League,Matchweek 30,Luton Town,Tottenham,away_win,away_win,0.4128539,0.0028072179,0.5843389
+2024-03-30,Premier League,Matchweek 30,Crystal Palace,Nott'ham Forest,draw,away_win,0.017686775,0.20036727,0.78194594
+2024-03-30,Premier League,Matchweek 30,Everton,Bournemouth,away_win,home_win,0.9910909,1.6140591e-05,0.008892955
+2024-03-30,Premier League,Matchweek 30,West Ham,Newcastle Utd,away_win,away_win,0.0065768505,0.0041007856,0.98932236
+2024-03-30,Premier League,Matchweek 30,Manchester Utd,Brentford,draw,home_win,0.8895471,0.00089495804,0.10955797
+2024-03-31,Premier League,Matchweek 30,Arsenal,Manchester City,draw,home_win,0.96403486,0.008542015,0.027423203
+2024-03-31,Premier League,Matchweek 30,Brighton,Liverpool,away_win,away_win,0.20578912,0.12323055,0.6709803
+2024-04-02,Premier League,Matchweek 31,Fulham,Nott'ham Forest,away_win,away_win,0.04791913,0.13838759,0.8136932
+2024-04-02,Premier League,Matchweek 31,Everton,Newcastle Utd,draw,away_win,0.068210244,0.05649098,0.8752988
+2024-04-02,Premier League,Matchweek 31,Crystal Palace,Bournemouth,away_win,home_win,0.48447502,0.14535156,0.37017342
+2024-04-02,Premier League,Matchweek 31,Tottenham,West Ham,draw,home_win,0.5865843,0.016886367,0.3965293
+2024-04-03,Premier League,Matchweek 31,Aston Villa,Manchester City,away_win,away_win,0.20198217,0.04545419,0.7525636
+2024-04-03,Premier League,Matchweek 31,Brighton,Brentford,draw,away_win,0.21976788,0.020491704,0.7597404
+2024-04-03,Premier League,Matchweek 31,Luton Town,Arsenal,away_win,away_win,0.0005408876,0.0033303765,0.99612874
+2024-04-04,Premier League,Matchweek 31,Manchester Utd,Chelsea,away_win,home_win,0.9455353,0.004215405,0.050249357
+2024-04-06,Premier League,Matchweek 32,Bournemouth,Luton Town,away_win,away_win,0.36972287,0.015431543,0.6148456
+2024-04-06,Premier League,Matchweek 32,Manchester City,Crystal Palace,home_win,home_win,0.89213234,0.038188275,0.06967937
+2024-04-06,Premier League,Matchweek 32,Newcastle Utd,Fulham,home_win,home_win,0.9808729,0.0024970802,0.01663002
+2024-04-06,Premier League,Matchweek 32,Arsenal,Brighton,home_win,home_win,0.74541193,0.0051141577,0.2494739
+2024-04-06,Premier League,Matchweek 32,Brentford,Aston Villa,draw,away_win,0.050115768,0.015375752,0.9345085
+2024-04-06,Premier League,Matchweek 32,West Ham,Wolves,home_win,away_win,0.024227004,0.040189274,0.9355837
+2024-04-07,Premier League,Matchweek 32,Nott'ham Forest,Tottenham,away_win,away_win,0.3771662,0.048390765,0.57444304
+2024-04-07,Premier League,Matchweek 32,Liverpool,Manchester Utd,draw,home_win,0.9476006,0.012480309,0.03991912
+2024-04-13,Premier League,Matchweek 33,Tottenham,Newcastle Utd,away_win,away_win,0.14979787,0.0021050337,0.8480971
+2024-04-13,Premier League,Matchweek 33,Manchester Utd,Bournemouth,draw,home_win,0.98091906,0.0018185897,0.017262401
+2024-04-13,Premier League,Matchweek 33,Wolves,Nott'ham Forest,draw,draw,0.036895834,0.53520477,0.42789936
+2024-04-13,Premier League,Matchweek 33,Luton Town,Manchester City,away_win,away_win,0.0013042256,0.00033179877,0.998364
+2024-04-14,Premier League,Matchweek 33,Crystal Palace,Liverpool,home_win,away_win,0.005029241,0.0410955,0.9538753
+2024-04-14,Premier League,Matchweek 33,Fulham,West Ham,home_win,home_win,0.799261,0.07047977,0.13025928
+2024-04-14,Premier League,Matchweek 33,Aston Villa,Arsenal,home_win,away_win,0.020591035,0.062204055,0.9172049
+2024-04-15,Premier League,Matchweek 33,Everton,Chelsea,away_win,away_win,0.26927328,0.0017532917,0.72897345
+2024-04-20,Premier League,Matchweek 34,Brentford,Luton Town,home_win,home_win,0.641077,0.022211226,0.3367118
+2024-04-20,Premier League,Matchweek 34,Arsenal,Wolves,home_win,home_win,0.5828504,0.08859269,0.32855693
+2024-04-21,Premier League,Matchweek 34,Nott'ham Forest,Everton,away_win,away_win,0.4304321,0.0064773853,0.5630905
+2024-04-21,Premier League,Matchweek 34,Liverpool,Fulham,home_win,home_win,0.8146829,0.1554241,0.029892912
+2024-04-21,Premier League,Matchweek 34,West Ham,Crystal Palace,away_win,away_win,0.3615769,0.095863655,0.5425595
+2024-04-21,Premier League,Matchweek 34,Bournemouth,Aston Villa,away_win,away_win,0.017710492,0.0013919615,0.98089755
+2024-04-23,Premier League,Matchweek 29,Chelsea,Arsenal,away_win,away_win,0.050967686,0.03549306,0.9135393
+2024-04-24,Premier League,Matchweek 29,Newcastle Utd,Crystal Palace,away_win,home_win,0.59437853,0.32100967,0.0846118
+2024-04-24,Premier League,Matchweek 29,Bournemouth,Wolves,home_win,away_win,0.10385547,0.0028058777,0.8933387
+2024-04-24,Premier League,Matchweek 29,Liverpool,Everton,away_win,home_win,0.9429386,0.05014029,0.006921118
+2024-04-25,Premier League,Matchweek 29,Manchester City,Brighton,home_win,home_win,0.97755015,0.014417693,0.008032175
+2024-04-27,Premier League,Matchweek 35,Burnley,Manchester Utd,draw,away_win,0.0032123472,0.009987987,0.9867997
+2024-04-27,Premier League,Matchweek 35,Crystal Palace,Fulham,draw,away_win,0.23746915,0.17151207,0.5910188
+2024-04-27,Premier League,Matchweek 35,Liverpool,West Ham,draw,home_win,0.9409619,0.031657092,0.027380953
+2024-04-27,Premier League,Matchweek 35,Luton Town,Wolves,away_win,away_win,0.3459689,0.105423816,0.54860723
+2024-04-27,Premier League,Matchweek 35,Chelsea,Aston Villa,draw,home_win,0.80932087,0.028347656,0.16233154
+2024-04-27,Premier League,Matchweek 35,Sheffield Utd,Newcastle Utd,away_win,away_win,0.00031032003,0.00028954682,0.99940014
+2024-04-27,Premier League,Matchweek 35,Brentford,Everton,away_win,away_win,0.22531974,0.0090274885,0.7656528
+2024-04-28,Premier League,Matchweek 35,Brighton,Bournemouth,away_win,home_win,0.50671,0.008063615,0.4852264
+2024-04-28,Premier League,Matchweek 35,Manchester City,Nott'ham Forest,home_win,home_win,0.9796748,0.019319052,0.0010061979
+2024-04-28,Premier League,Matchweek 35,Arsenal,Tottenham,home_win,home_win,0.6728411,0.00896902,0.3181899
+2024-05-02,Premier League,Matchweek 26,Tottenham,Chelsea,away_win,away_win,0.03350295,0.0420871,0.9244099
+2024-05-03,Premier League,Matchweek 36,Everton,Luton Town,draw,home_win,0.4683257,0.28673092,0.24494334
+2024-05-04,Premier League,Matchweek 36,Wolves,Manchester City,away_win,away_win,0.0013875422,0.02278065,0.9758318
+2024-05-04,Premier League,Matchweek 36,Newcastle Utd,Burnley,home_win,home_win,0.6322926,0.21922544,0.14848194
+2024-05-04,Premier League,Matchweek 36,Fulham,Brentford,draw,away_win,0.3603512,0.007469318,0.63217944
+2024-05-04,Premier League,Matchweek 36,Bournemouth,Arsenal,away_win,away_win,0.026764346,0.001040277,0.9721954
+2024-05-04,Premier League,Matchweek 36,Nott'ham Forest,Sheffield Utd,home_win,home_win,0.96887904,0.024096726,0.007024245
+2024-05-05,Premier League,Matchweek 36,Tottenham,Liverpool,away_win,away_win,0.009633,0.00238776,0.98797923
+2024-05-05,Premier League,Matchweek 36,West Ham,Chelsea,away_win,away_win,0.0027666423,0.045118432,0.952115
+2024-05-05,Premier League,Matchweek 36,Aston Villa,Brighton,away_win,home_win,0.5602665,0.035502795,0.40423068
+2024-05-06,Premier League,Matchweek 36,Manchester Utd,Crystal Palace,away_win,home_win,0.87901443,0.029987201,0.090998374
+2024-05-11,Premier League,Matchweek 37,Crystal Palace,Wolves,home_win,home_win,0.90069354,0.073134504,0.026171984
+2024-05-11,Premier League,Matchweek 37,Manchester City,Fulham,home_win,home_win,0.99768466,0.00074041897,0.0015749057
+2024-05-11,Premier League,Matchweek 37,Luton Town,West Ham,away_win,away_win,0.020109374,0.04002692,0.9398637
+2024-05-11,Premier League,Matchweek 37,Burnley,Tottenham,away_win,away_win,0.40103072,0.0064825094,0.59248674
+2024-05-11,Premier League,Matchweek 37,Chelsea,Nott'ham Forest,home_win,home_win,0.97697574,0.004697121,0.018327123
+2024-05-11,Premier League,Matchweek 37,Sheffield Utd,Everton,away_win,home_win,0.5046812,0.33496496,0.16035385
+2024-05-11,Premier League,Matchweek 37,Brentford,Bournemouth,home_win,home_win,0.776799,0.0070455,0.2161555
+2024-05-11,Premier League,Matchweek 37,Brighton,Newcastle Utd,draw,away_win,0.01017609,0.006827378,0.9829965
+2024-05-12,Premier League,Matchweek 37,Arsenal,Manchester Utd,home_win,home_win,0.6564083,0.053385653,0.29020607
+2024-05-13,Premier League,Matchweek 37,Liverpool,Aston Villa,draw,home_win,0.95948976,0.0051542865,0.035355974
+2024-05-14,Premier League,Matchweek 34,Manchester City,Tottenham,home_win,home_win,0.82419264,0.13911529,0.036692016
+2024-05-15,Premier League,Matchweek 34,Newcastle Utd,Manchester Utd,away_win,away_win,0.24504767,0.030999787,0.72395253
+2024-05-15,Premier League,Matchweek 34,Chelsea,Brighton,home_win,home_win,0.8412851,0.0075942064,0.15112069
+2024-05-19,Premier League,Matchweek 38,Tottenham,Sheffield Utd,home_win,home_win,0.99179953,0.0053846296,0.0028159022
+2024-05-19,Premier League,Matchweek 38,Nott'ham Forest,Burnley,home_win,home_win,0.9028556,0.030466555,0.06667791
+2024-05-19,Premier League,Matchweek 38,Manchester Utd,Brighton,home_win,home_win,0.60102004,0.006124169,0.3928558
+2024-05-19,Premier League,Matchweek 38,Aston Villa,Crystal Palace,away_win,home_win,0.4905061,0.10060575,0.40888816
+2024-05-19,Premier League,Matchweek 38,Bournemouth,Chelsea,away_win,away_win,0.050422236,0.0030303334,0.9465474
+2024-05-19,Premier League,Matchweek 38,Wolves,Liverpool,away_win,away_win,0.0025153672,0.019546112,0.97793853
+2024-05-19,Premier League,Matchweek 38,Fulham,Luton Town,home_win,home_win,0.8883401,0.10062793,0.011031902
+2024-05-19,Premier League,Matchweek 38,Everton,Arsenal,away_win,draw,0.03191625,0.51601213,0.45207158
+2024-05-19,Premier League,Matchweek 38,Newcastle Utd,Brentford,home_win,home_win,0.94277537,0.013836105,0.043388523
+2024-05-19,Premier League,Matchweek 38,West Ham,Manchester City,away_win,away_win,0.0019289225,0.14926353,0.8488076
