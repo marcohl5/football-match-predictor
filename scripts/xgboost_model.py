@@ -39,7 +39,7 @@ class XGBoostFootballModel:
         if self.df is None or self.df.empty:
             self.df = pd.read_csv(data_path)
 
-        self.features=pred_cols
+        self.features = pred_cols
         if self.features is None:
             self.features = [
                 "Venue_Code", "Hour", "Opp_Code",

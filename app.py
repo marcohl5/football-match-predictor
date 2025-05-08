@@ -5,8 +5,8 @@ from scripts.xgboost_model import XGBoostFootballModel
 # *********************** INSERT PREDICTION PARAMETERS ***********************
 
 # League Name Parameter Input:
-# 'Premier League' / 'Serie A' / 'La Liga'
-league_name = "Premier League"
+# 'Premier League' / 'Serie A' / 'La Liga' / 'Bundesliga' / 'Ligue 1'
+league_name = "Ligue 1"
 
 # 'Strength' / 'Strength_Fpl'
 strength_type = "Strength_Fpl"
@@ -21,7 +21,7 @@ model_output_path = "output"
 predictor_columns = [
                 "Venue_Code", "Hour", "Opp_Code",
                 # "Relative_Strength",
-                "Away_Strength",
+                # "Away_Strength",
                 "GF_weighted_rolling", "GA_weighted_rolling",
                 "xG_weighted_rolling", "xGA_weighted_rolling",
                 "SoT_weighted_rolling", "Poss_weighted_rolling",
@@ -56,7 +56,7 @@ processed_data, all_predictor_cols = preprocessor.run()
 # Initialise and run hyperparameter tuning
 tuner = XGBoostHyperparameterTuner(data_path="",
                                    # data_path=f"processed-data/matches/processed_{league_name_strip}_matches.csv"
-                                   pred_cols=all_predictor_cols,
+                                   pred_cols=predictor_columns,
                                    df=processed_data,
                                    output_path="output",
                                    max_evals=100)
@@ -68,7 +68,7 @@ model = XGBoostFootballModel(
         data_path="",
         model_output_path=model_output_path,
         params=best_params,
-        pred_cols=all_predictor_cols,
+        pred_cols=predictor_columns,
         df=processed_data,
 )
 
