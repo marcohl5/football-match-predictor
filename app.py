@@ -43,33 +43,34 @@ league_name_strip = league_name.lower().replace(" ", "")
 preprocessor = BaseDataPreprocess(
         league_name=league_name,
         match_path=match_path,
-        strength_file=strength_file,
         strength_type=strength_type,
         output_path=output_path,
         file_name=f"{league_name_strip}_matches.csv",
         elo_scaling_type="log",  # input "log"/"linear"
         min_weight=0.7,  # PL performs best with 0.7, 1.3 min/max weight
-        max_weight=1.3
+        max_weight=1.3,
+        elo_history_file="processed-data/teams/processed_elo.csv"
     )
 processed_data, all_predictor_cols = preprocessor.run()
 
 # Initialise and run hyperparameter tuning
 tuner = XGBoostHyperparameterTuner(data_path="",
                                    # data_path=f"processed-data/matches/processed_{league_name_strip}_matches.csv"
-                                   pred_cols=predictor_columns,
+                                   pred_cols=all_predictor_cols,
                                    df=processed_data,
                                    output_path="output",
                                    max_evals=100)
 best_params = tuner.run_tuning()
-best_params.update({"early_stopping_rounds": 10})
+# best_params.update({"early_stopping_rounds": 10})
 
 # Initialise and run xgBoost model
 model = XGBoostFootballModel(
         data_path="",
         model_output_path=model_output_path,
         params=best_params,
-        pred_cols=predictor_columns,
+        pred_cols=all_predictor_cols,
         df=processed_data,
 )
 
 results = model.run_pipeline()
+

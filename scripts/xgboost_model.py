@@ -3,31 +3,37 @@ import numpy as np
 import xgboost as xgb
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, f1_score
-from typing import Dict, List, Optional, Union
+from typing import Dict, List, Optional  # Removed Union as it wasn't strictly needed here
 import seaborn as sns
 import warnings
+import os
+
 warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)  # For XGBoost related future warnings
 
 
 class XGBoostFootballModel:
     """
-    XGBoost model for predicting football match outcomes with proper train/validation/test splits.
-    Postprocessing of results is also included.
+    XGBoost model for predicting football match outcomes (Home Win, Draw, Away Win)
+    using a single model trained on match-centric data.
     """
 
     def __init__(self,
-                 data_path: str,
                  model_output_path: str,
                  params: dict,
                  pred_cols: List[str],
-                 df: pd.DataFrame = None,
+                 df: pd.DataFrame,  # df is now required, data_path can be removed or made optional
+                 data_path: Optional[str] = None,  # Made data_path optional
                  ):
         """
         Initialise the XGBoost football prediction model.
 
         Parameters:
-            data_path (str): Path to the processed match data used as predictors
-            output_path (str): Path where outputs will be saved
+            model_output_path (str): Path where outputs (figures, results) will be saved.
+            params (dict): Hyperparameters for the XGBoost model.
+            pred_cols (List[str]): List of feature column names to be used for training.
+            df (pd.DataFrame): The processed DataFrame where each row is a unique match.
+            data_path (Optional[str]): Path to the processed match data (used if df is None).
         """
         self.data_path = data_path
         self.output_path = model_output_path
@@ -35,117 +41,149 @@ class XGBoostFootballModel:
         self.performance = {}
         self.params = params
         self.df = df
+        self.features = pred_cols  # Renamed pred_cols to self.features for consistency
 
-        if self.df is None or self.df.empty:
-            self.df = pd.read_csv(data_path)
+        if self.df is None:
+            if self.data_path:
+                print(f"Loading data from {self.data_path}")
+                self.df = pd.read_csv(self.data_path)
+                # Ensure 'Date' is datetime if loading from CSV
+                if 'Date' in self.df.columns:
+                    self.df['Date'] = pd.to_datetime(self.df['Date'])
+            else:
+                raise ValueError("DataFrame 'df' or 'data_path' must be provided.")
 
-        self.features = pred_cols
-        if self.features is None:
+        if self.df.empty:
+            raise ValueError("Provided DataFrame 'df' is empty.")
+
+        if not self.features:  # Check if the list is empty
+            # Define a more sensible default list based on the new structure
+            # This default is just a placeholder and should ideally always be passed via pred_cols
+            warnings.warn("No 'pred_cols' provided. Using a generic default list which might not be optimal.")
             self.features = [
-                "Venue_Code", "Hour", "Opp_Code",
-                # "Relative_Strength",
-                "Away_Strength",
-                "GF_weighted_rolling", "GA_weighted_rolling",
-                "xG_weighted_rolling", "xGA_weighted_rolling",
-                "SoT_weighted_rolling", "Poss_weighted_rolling",
-                "xAG_weighted_rolling",
-                # "Att Pen_weighted_rolling",
-                "npxG/Sh_weighted_rolling", "KP_weighted_rolling",
-                "CK_weighted_rolling",
-                "PPA_weighted_rolling", "GCA_weighted_rolling",
-                "SCA_weighted_rolling", "np:G-xG_weighted_rolling",
-                "PSxG+/-_weighted_rolling", "1/3_weighted_rolling"
+                'Venue_Code', 'Hour', 'Home_Elo', 'Away_Elo', 'Relative_Elo',
+                'Home_Schedule_Strength_rolling', 'Away_Schedule_Strength_rolling',
+                # Add some example rolling cols, this needs to match your actual generated columns
+                'Home_GF_rolling', 'Away_GF_rolling', 'Home_GA_rolling', 'Away_GA_rolling',
+                'Home_xG_rolling', 'Away_xG_rolling', 'Home_xGA_rolling', 'Away_xGA_rolling'
             ]
-    def prepare_data(self) -> tuple[pd.DataFrame]:
+            # Ensure these default features exist in the dataframe
+            missing_default_features = [f for f in self.features if f not in self.df.columns]
+            if missing_default_features:
+                raise ValueError(f"Default features are missing from the DataFrame: {missing_default_features}. "
+                                 "Please provide 'pred_cols'.")
+
+        # Ensure all specified features are in the DataFrame
+        missing_features = [f for f in self.features if f not in self.df.columns]
+        if missing_features:
+            raise ValueError(f"Features specified in 'pred_cols' are missing from the DataFrame: {missing_features}")
+
+        # Ensure Target column exists
+        if "Target" not in self.df.columns:
+            raise ValueError("DataFrame must contain a 'Target' column (0: Home Win, 1: Draw, 2: Away Win).")
+
+    def prepare_data(self) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.Series, pd.Series, pd.Series]:
         """
         Split data into training, validation, and test sets based on dates.
+        The DataFrame self.df is assumed to have one row per match.
 
         Returns:
             (tuple): X_train, X_val, X_test, y_train, y_val, y_test
         """
+        # Ensure 'Date' column is datetime
+        if not pd.api.types.is_datetime64_any_dtype(self.df['Date']):
+            self.df['Date'] = pd.to_datetime(self.df['Date'])
+
         # Training set: Seasons 2020-2021 to 2022-2023
         train_data = self.df[(self.df["Date"] < "2023-08-01") &
-                             (self.df["Date"] > "2020-08-01")]
+                             (self.df["Date"] > "2020-08-01")].copy()  # Use .copy()
 
         # Validation set: Roughly first half of 2023-2024 season
         val_data = self.df[(self.df["Date"] < "2024-01-01") &
-                           (self.df["Date"] >= "2023-08-01")]
+                           (self.df["Date"] >= "2023-08-01")].copy()
 
         # Test set: Roughly second half of 2023-2024 season
         test_data = self.df[(self.df["Date"] >= "2024-01-01") &
-                            (self.df["Date"] < "2024-08-01")]
+                            (self.df["Date"] < "2024-08-01")].copy()  # Assuming end of season is before Aug 1st
+
+        if train_data.empty or val_data.empty or test_data.empty:
+            warnings.warn("One or more data splits (train, val, test) are empty. "
+                          "Check date ranges and data availability.")
+            # Depending on strictness, you might raise an error here
+            # For now, let's allow it to proceed but it will likely fail in training/evaluation
 
         # Split into features and target
+        # Ensure 'Target' is integer type for XGBoost classification
         X_train = train_data[self.features]
-        y_train = train_data["Target"]
+        y_train = train_data["Target"].astype(int)
 
         X_val = val_data[self.features]
-        y_val = val_data["Target"]
+        y_val = val_data["Target"].astype(int)
 
         X_test = test_data[self.features]
-        y_test = test_data["Target"]
-
-        # print(self.features)
+        y_test = test_data["Target"].astype(int)
 
         return X_train, X_val, X_test, y_train, y_val, y_test
 
-    def train_model(self, X_train, y_train, X_val, y_val):
+    def train_model(self, X_train: pd.DataFrame, y_train: pd.Series, X_val: pd.DataFrame,
+                    y_val: pd.Series) -> xgb.XGBClassifier:
         """
         Train the XGBoost model with early stopping.
-
-        Parameters:
-            X_train (DataFrame): Training features
-            y_train (DataFrame): Training target
-            X_val (DataFrame): Validation features
-            y_val (DataFrame): Validation target
-
-        Returns:
-            trained XGBoost model
         """
-        # Initialise model with optimised hyperparameters
+        # Default parameters if None provided (can be tuned externally)
         if self.params is None:
             self.params = {
+                "objective": "multi:softprob",  # For multiclass probability
+                "num_class": 3,  # Home Win, Draw, Away Win
                 "eval_metric": "mlogloss",
                 "early_stopping_rounds": 10,
-                "colsample_bytree": 0.8624235873312975,
-                "gamma": 1.6925896014626893,
-                "max_depth": 17,
-                "min_child_weight": 3,
-                "reg_alpha": 79,
-                "reg_lambda": 0.5284193927768616,
-                "use_label_encoder": False,
-                "verbosity": 1
+                "use_label_encoder": False,  # Deprecated, set to False
+                "verbosity": 1,
+                # Add other common XGBoost params like eta, max_depth, subsample, colsample_bytree
+                # These would ideally come from hyperparameter tuning
+                "eta": 0.1,
+                "max_depth": 6,
+                "subsample": 0.8,
+                "colsample_bytree": 0.8
             }
+        else:  # Ensure essential params are present if user provides some
+            self.params.setdefault("objective", "multi:softprob")
+            self.params.setdefault("num_class", 3)
+            self.params.setdefault("eval_metric", "mlogloss")
+            self.params.setdefault("use_label_encoder", False)
 
+        # XGBClassifier takes hyperparameters directly, not nested under 'params'
+        # Unpack the params dictionary for the constructor
+        model_params = self.params.copy()
+        # early_stopping_rounds is a fit param, not init param for XGBClassifier directly
+        # some params like 'num_class' are inferred if objective is multi:*
 
-        self.model = xgb.XGBClassifier(
-            params=self.params
-        )
+        self.model = xgb.XGBClassifier(**model_params)
 
         # Train model with early stopping
+        # Note: 'early_stopping_rounds' is passed to fit() method
+        fit_params = {}
+        if "early_stopping_rounds" in self.params:
+            fit_params["early_stopping_rounds"] = self.params["early_stopping_rounds"]
+
         self.model.fit(
             X_train, y_train,
             eval_set=[(X_train, y_train), (X_val, y_val)],
-            verbose=True
+            verbose=False,  # Can be set to True or an int for verbosity during training
+            **fit_params
         )
         return self.model
 
-    def evaluate_model(self, X_val, y_val, X_test, y_test):
+    def evaluate_model(self, X_val: pd.DataFrame, y_val: pd.Series, X_test: pd.DataFrame, y_test: pd.Series) -> dict:
         """
-        Evaluate the model on validation and test sets with multiple metrics.
-
-        Parameters:
-            X_val: Validation features
-            y_val: Validation target
-            X_test: Test features
-            y_test: Test target
-
-        Returns:
-            (dict): Dictionary of performance metrics
+        Evaluate the model on validation and test sets.
         """
+        if self.model is None:
+            raise ValueError("Model has not been trained yet.")
+
         # Predict on validation set
-        val_probs = self.model.predict_proba(X_val)
-        val_preds = np.argmax(val_probs, axis=1)
+        val_probs = self.model.predict_proba(X_val)  # Probabilities for [class_0, class_1, class_2]
+        val_preds = np.argmax(val_probs, axis=1)  # Predicted class (0, 1, or 2)
 
         # Predict on test set
         test_probs = self.model.predict_proba(X_test)
@@ -158,19 +196,20 @@ class XGBoostFootballModel:
                 "f1_macro": f1_score(y_val, val_preds, average="macro"),
                 "f1_weighted": f1_score(y_val, val_preds, average="weighted"),
                 "confusion_matrix": confusion_matrix(y_val, val_preds),
-                "classification_report": classification_report(y_val, val_preds, output_dict=True)
+                "classification_report": classification_report(y_val, val_preds, output_dict=True, zero_division=0)
             },
             "test": {
                 "accuracy": accuracy_score(y_test, test_preds),
                 "f1_macro": f1_score(y_test, test_preds, average="macro"),
                 "f1_weighted": f1_score(y_test, test_preds, average="weighted"),
                 "confusion_matrix": confusion_matrix(y_test, test_preds),
-                "classification_report": classification_report(y_test, test_preds, output_dict=True)
+                "classification_report": classification_report(y_test, test_preds, output_dict=True, zero_division=0)
             }
         }
 
-        # Print key performance metrics
+        # Print key performance metrics (similar to before)
         print("\n=== Model Performance ===")
+        # ... (printing logic remains the same) ...
         print(f"\nValidation Metrics:")
         print(f"Accuracy: {self.performance['validation']['accuracy']:.4f}")
         print(f"F1 Score (Weighted): {self.performance['validation']['f1_weighted']:.4f}")
@@ -183,151 +222,136 @@ class XGBoostFootballModel:
 
         return self.performance
 
-    def analyse_feature_importance(self) -> None | pd.DataFrame:
+    def analyse_feature_importance(self) -> Optional[pd.DataFrame]:
         """
-        Analyse and visualise feature importance from the trained model.
-
-        Returns:
-            feature_importance (DataFrame): Contains feature importance analysis results
+        Analyse and visualise feature importance. (Largely unchanged)
         """
         if self.model is None:
             print("Model not trained yet. Please train the model first.")
-            return
+            return None  # Return None instead of just printing
 
-        # Get feature importance
         importance = self.model.feature_importances_
-        feature_importance = pd.DataFrame({
+        feature_importance_df = pd.DataFrame({  # Renamed to avoid conflict
             "Feature": self.features,
             "Importance": importance
         }).sort_values(by="Importance", ascending=False)
 
-        # Plot feature importance
-        plt.figure(figsize=(12, 8))
-        sns.barplot(x="Importance", y="Feature", data=feature_importance)
+        plt.figure(figsize=(12, max(8, len(self.features) * 0.3)))  # Dynamic height
+        sns.barplot(x="Importance", y="Feature", data=feature_importance_df)
         plt.title("Feature Importance", fontsize=16)
         plt.tight_layout()
+        # Ensure output directory for figures exists
+        os.makedirs(os.path.join(self.output_path, "figures"), exist_ok=True)
         plt.savefig(f"{self.output_path}/figures/feature_importance.png")
+        plt.close()  # Close plot to free memory
 
-        print("\n=== Top 5 Most Important Features ===")
-        print(feature_importance.head())
+        print("\n=== Top Features ===")  # Print more than 5 if available
+        print(feature_importance_df.head(min(10, len(feature_importance_df))))
 
-        return feature_importance
+        return feature_importance_df
 
-    def process_match_predictions(self, X_test: pd.DataFrame, y_test) -> tuple[pd.DataFrame, float]:
-        """
-        Process predictions and calculate match probabilities.
+    def process_match_predictions(self, X_test: pd.DataFrame, y_test: pd.Series) -> tuple[pd.DataFrame, float]:
+        if self.model is None:
+            raise ValueError("Model has not been trained yet.")
 
-        Parameters:
-            X_test (DataFrame): Test features
-            y_test (DataFrame): Test target
+        # X_test comes from prepare_data. Assume it has the correct rows (features)
+        # and its index corresponds to the original self.df rows for the test set.
 
-        Returns:
-            match_df (DataFrame): Processed predictions with match probabilities
-            accuracy (float): Model accuracy based on pre-processed results
-        """
-        # Get test data with dates
-        test_data = self.df[(self.df["Date"] >= "2024-01-01") &
-                            (self.df["Date"] < "2024-08-01")].copy().reset_index(drop=True)
+        print(f"DEBUG process_match_predictions: Shape of input X_test: {X_test.shape}")
 
-        # Get probabilities
-        test_probs = self.model.predict_proba(X_test)
-        probs_df = pd.DataFrame(test_probs, columns=["0", "1", "2"])
+        # Get the full rows from self.df that X_test represents
+        # This ensures all original columns are present and perfectly aligned with X_test
+        if X_test.empty:
+            warnings.warn("X_test is empty in process_match_predictions.")
+            return pd.DataFrame(), 0.0
 
-        # Combine with test data
-        combined_df = pd.concat([test_data, probs_df], axis=1)
+        test_data_full_aligned = self.df.loc[X_test.index].copy()
 
-        # Select relevant columns
-        combined_df = combined_df[["Date", "Time", "Comp", "Round", "Day",
-                                   "Venue", "Result", "GF", "GA", "Opponent",
-                                   "Season", "Team", "Target",
-                                   "0", "1", "2"]]
+        print(
+            f"DEBUG process_match_predictions: Shape of test_data_full_aligned (from X_test.index): {test_data_full_aligned.shape}")
 
-        # Merge home and away teams for the same match
-        merged_df = combined_df.merge(combined_df,
-                                      left_on=["Date", "Team"],
-                                      right_on=["Date", "Opponent"])
+        if len(X_test) != len(test_data_full_aligned):
+            # This should ideally not happen if X_test.index is valid for self.df
+            raise ValueError("Critical misalignment: X_test.index could not fully re-select rows from self.df.")
 
-        # Extract relevant columns and clean up
-        match_df = self.process_merged_predictions(merged_df)
+        test_probs_array = self.model.predict_proba(X_test)
 
-        # Calculate model accuracy
-        correct_predictions = (match_df["actual_result"] == match_df["predicted_result"]).sum()
-        total_matches = len(match_df)
-        accuracy = correct_predictions / total_matches * 100
+        # Create probs_df using the index of test_data_full_aligned (which is same as X_test.index)
+        probs_df = pd.DataFrame(test_probs_array,
+                                columns=["home_win_prob", "draw_prob", "away_win_prob"],
+                                index=test_data_full_aligned.index)
 
-        print(f"\n=== Match Prediction Results ===")
-        print(f"Correct predictions: {correct_predictions}/{total_matches}")
-        print(f"Accuracy: {accuracy:.2f}%")
+        # Join probabilities to the aligned full data
+        match_predictions_df = test_data_full_aligned.join(probs_df)
 
-        # Save processed predictions
-        match_df.to_csv(f"{self.output_path}/results/match_predictions.csv", index=False)
+        print(
+            f"DEBUG process_match_predictions: Shape of match_predictions_df after join: {match_predictions_df.shape}")
+        print(
+            f"DEBUG process_match_predictions: NaNs in away_win_prob after join: {match_predictions_df['away_win_prob'].isnull().sum()}")
+        if match_predictions_df['away_win_prob'].isnull().any():
+            warnings.warn("NaNs found in probability columns after join! Check index alignment.")
+            # print(match_predictions_df[match_predictions_df['away_win_prob'].isnull()].head())
 
-        return match_df, accuracy
+        # Determine predicted result string
+        # Ensure no NaNs in probabilities before argmax, or handle it
+        # If probabilities have NaNs, argmax on that row might be problematic
+        # For rows with NaN probs, predicted_result_code might become NaN or raise error
+        # Safest: only calculate for rows where probs are not NaN
+        valid_prob_rows = match_predictions_df[["home_win_prob", "draw_prob", "away_win_prob"]].notna().all(axis=1)
 
-    def process_merged_predictions(self, merged_df: pd.DataFrame) -> pd.DataFrame:
-        """
-        Function to process the merged predictions dataframe.
+        match_predictions_df["predicted_result_code"] = np.nan  # Initialize
+        if valid_prob_rows.any():  # if there are any valid rows
+            match_predictions_df.loc[valid_prob_rows, "predicted_result_code"] = np.argmax(
+                match_predictions_df.loc[valid_prob_rows, ["home_win_prob", "draw_prob", "away_win_prob"]].values,
+                axis=1
+            )
 
-        Parameters:
-            merged_df (DataFrame): DataFrame with pre-processed merged match predictions
+        map_code_to_string = {0: "home_win", 1: "draw", 2: "away_win"}  # Consistent with Target: 0:Away, 1:Draw, 2:Home
+        match_predictions_df["predicted_result"] = match_predictions_df["predicted_result_code"].map(map_code_to_string)
+        match_predictions_df["actual_result"] = match_predictions_df["Target"].map(map_code_to_string)
 
-        Returns:
-            (DataFrame): Cleaned and processed match predictions
-        """
-        # Keep only home matches to avoid duplicates
-        match_df = merged_df[~merged_df.Venue_x.str.contains("Away")].copy()
+        # Calculate accuracy only on rows where prediction was possible
+        # Or on all rows if you want to penalize for failed predictions (NaNs)
+        valid_predictions_df = match_predictions_df.dropna(subset=["predicted_result", "actual_result"])
+        if not valid_predictions_df.empty:
+            correct_predictions = (
+                        valid_predictions_df["actual_result"] == valid_predictions_df["predicted_result"]).sum()
+            total_matches_for_accuracy = len(valid_predictions_df)
+            accuracy = (
+                        correct_predictions / total_matches_for_accuracy * 100) if total_matches_for_accuracy > 0 else 0.0
+        else:
+            correct_predictions = 0
+            total_matches_for_accuracy = 0
+            accuracy = 0.0
 
-        # Rename columns for clarity
-        match_df = match_df.rename(columns={
-            "Team_x": "away_team",
-            "Team_y": "home_team",
-            "Result_y": "home_result",
-            "2_x": "away_w",
-            "1_x": "away_d",
-            "0_x": "away_l",
-            "2_y": "home_w",
-            "1_y": "home_d",
-            "0_y": "home_l"
-        })
+        print(f"\n=== Match Prediction Results (on Test Set) ===")
+        print(f"Total test samples from X_test: {len(X_test)}")
+        print(f"Matches with valid probabilities for prediction: {int(valid_prob_rows.sum())}")
+        print(f"Matches with valid actual & predicted results for accuracy calc: {total_matches_for_accuracy}")
+        print(f"Correct discrete predictions: {correct_predictions}/{total_matches_for_accuracy}")
+        print(f"Discrete prediction accuracy: {accuracy:.2f}%")
 
-        # Calculate normalised probabilities
-        match_df["home_win_prob"] = match_df["home_w"] * match_df["away_l"]
-        match_df["draw_prob"] = match_df["home_d"] * match_df["away_d"]
-        match_df["away_win_prob"] = match_df["away_w"] * match_df["home_l"]
+        output_cols = ['Date', 'Time', 'Comp', 'Round', 'Day', 'Home_Team', 'Away_Team',
+                       'Target', 'actual_result', 'predicted_result',
+                       'home_win_prob', 'draw_prob', 'away_win_prob']
+        output_cols_exist = [col for col in output_cols if col in match_predictions_df.columns]
+        match_predictions_df_output = match_predictions_df[output_cols_exist]
 
-        # Normalise probabilities
-        prob_sum = match_df["home_win_prob"] + match_df["draw_prob"] + match_df["away_win_prob"]
-        match_df["home_win_prob"] = match_df["home_win_prob"] / prob_sum
-        match_df["draw_prob"] = match_df["draw_prob"] / prob_sum
-        match_df["away_win_prob"] = match_df["away_win_prob"] / prob_sum
+        os.makedirs(os.path.join(self.output_path, "results"), exist_ok=True)
+        match_predictions_df_output.to_csv(f"{self.output_path}/results/match_predictions.csv", index=False)
 
-        # Determine predicted result based on highest probability
-        match_df["predicted_result"] = match_df[["home_win_prob", "draw_prob", "away_win_prob"]].idxmax(axis=1)
-        match_df["predicted_result"] = match_df["predicted_result"].map({
-            "home_win_prob": "home_win",
-            "draw_prob": "draw",
-            "away_win_prob": "away_win"
-        })
-
-        # Map actual results
-        match_df["actual_result"] = match_df["home_result"].map({
-            "W": "home_win",
-            "D": "draw",
-            "L": "away_win"
-        })
-
-        # Select final columns
-        return match_df[["Date", "Comp_y", "Round_y", "home_team", "away_team",
-                         "actual_result", "predicted_result",
-                         "home_win_prob", "draw_prob", "away_win_prob"]]
+        return match_predictions_df_output, accuracy
 
     def plot_prediction_distribution(self, match_df: pd.DataFrame) -> None:
         """
         Plot the distribution of correct vs incorrect predictions by probability.
-
-        Parameters:
-            match_df (DataFrame): DataFrame with match predictions
+        'match_df' should be the output from process_match_predictions.
         """
+        if not all(col in match_df.columns for col in
+                   ["home_win_prob", "draw_prob", "away_win_prob", "actual_result", "predicted_result"]):
+            print("Skipping plot_prediction_distribution: DataFrame is missing required probability or result columns.")
+            return
+
         # Get max probability for each prediction
         match_df["max_prob"] = match_df[["home_win_prob", "draw_prob", "away_win_prob"]].max(axis=1)
         match_df["is_correct"] = match_df["actual_result"] == match_df["predicted_result"]
@@ -336,16 +360,17 @@ class XGBoostFootballModel:
         correct_preds = match_df.loc[match_df["is_correct"], "max_prob"]
         incorrect_preds = match_df.loc[~match_df["is_correct"], "max_prob"]
 
-        # Plot histogram
-        bins = np.linspace(0.3, 1.0, 25)
+        # Plot histogram (largely unchanged, ensure directory exists)
+        # ... (plotting code remains similar, ensure save path is correct) ...
+        bins = np.linspace(0.3, 1.0, 25)  # Min prob for a 3-class is ~0.33
         plt.figure(figsize=(12, 8))
 
-        plt.hist(incorrect_preds, bins, alpha=0.5, color="red",
+        plt.hist(incorrect_preds, bins=bins, alpha=0.5, color="red",
                  edgecolor="#1E212A", label="Incorrect Predictions")
-        plt.hist(correct_preds, bins, alpha=0.5, color="green",
+        plt.hist(correct_preds, bins=bins, alpha=0.5, color="green",
                  edgecolor="#1E212A", label="Correct Predictions")
 
-        plt.xlabel("Prediction Confidence (Probability)")
+        plt.xlabel("Prediction Confidence (Max Probability of Predicted Outcome)")
         plt.ylabel("Number of Matches")
         plt.title(f"Prediction Accuracy by Confidence Level",
                   fontsize=16, fontweight="bold")
@@ -353,20 +378,21 @@ class XGBoostFootballModel:
         plt.grid(alpha=0.3)
         plt.tight_layout()
 
+        os.makedirs(os.path.join(self.output_path, "figures"), exist_ok=True)
         plt.savefig(f"{self.output_path}/figures/prediction_distribution.png")
+        plt.close()
 
-    def analyse_prediction_skewness(self, match_df: pd.DataFrame) -> tuple[int, int]:
+    def analyse_prediction_skewness(self, match_df: pd.DataFrame) -> Optional[tuple[pd.Series, pd.Series]]:
         """
         Analyse the skewness of the model's predictions.
-
-        Parameters:
-            match_df (DataFrame): DataFrame with match predictions
-
-        Returns:
-            prediction_counts (int): Number of predictions made
-            accuracy_counts (int): Number of accurate predictions made
+        'match_df' should be the output from process_match_predictions.
         """
-        # Calculate skewness of predictions
+        if not all(col in match_df.columns for col in ["predicted_result", "actual_result"]):
+            print("Skipping analyse_prediction_skewness: DataFrame is missing result columns.")
+            return None
+
+        # Calculate skewness of predictions (largely unchanged)
+        # ... (skewness analysis and plotting code remains similar, ensure save path) ...
         prediction_counts = match_df["predicted_result"].value_counts()
         actual_counts = match_df["actual_result"].value_counts()
 
@@ -381,52 +407,60 @@ class XGBoostFootballModel:
 
         # Plot comparison
         fig, ax = plt.subplots(figsize=(10, 6))
-
         x = np.arange(3)
         width = 0.35
+        categories = ["home_win", "draw", "away_win"]  # Ensure this order matches your Target mapping if needed
 
-        # Ensure consistent order
-        categories = ["home_win", "draw", "away_win"]
         predicted_values = [prediction_counts.get(cat, 0) for cat in categories]
         actual_values = [actual_counts.get(cat, 0) for cat in categories]
 
-        rects1 = ax.bar(x - width / 2, predicted_values, width, label="Predicted")
-        rects2 = ax.bar(x + width / 2, actual_values, width, label="Actual")
+        ax.bar(x - width / 2, predicted_values, width, label="Predicted")
+        ax.bar(x + width / 2, actual_values, width, label="Actual")
 
         ax.set_ylabel("Frequency")
         ax.set_title("Prediction Distribution vs Actual Distribution")
         ax.set_xticks(x)
         ax.set_xticklabels(categories)
         ax.legend()
-
         plt.tight_layout()
+        os.makedirs(os.path.join(self.output_path, "figures"), exist_ok=True)
         plt.savefig(f"{self.output_path}/figures/prediction_skewness.png")
+        plt.close()
 
-        # Calculate statistical skewness of probabilities
-        probability_skewness = {
-            "home_win_prob": match_df["home_win_prob"].skew(),
-            "draw_prob": match_df["draw_prob"].skew(),
-            "away_win_prob": match_df["away_win_prob"].skew()
-        }
-
-        print("\nProbability Skewness (statistical):")
-        for outcome, skew in probability_skewness.items():
-            print(f"{outcome}: {skew:.4f}")
+        # Probability skewness
+        if all(col in match_df.columns for col in ["home_win_prob", "draw_prob", "away_win_prob"]):
+            probability_skewness = {
+                "home_win_prob": match_df["home_win_prob"].skew(),
+                "draw_prob": match_df["draw_prob"].skew(),
+                "away_win_prob": match_df["away_win_prob"].skew()
+            }
+            print("\nProbability Skewness (statistical):")
+            for outcome, skew_val in probability_skewness.items():  # Renamed skew to skew_val
+                print(f"{outcome}: {skew_val:.4f}")
+        else:
+            print("\nSkipping probability skewness: probability columns missing.")
 
         return prediction_counts, actual_counts
 
     def run_pipeline(self) -> dict:
         """
         Run the complete model pipeline from data preparation to evaluation.
-
-        Returns:
-            (dict): Performance metrics and processed match predictions
         """
-        print("=== Starting Football Match Prediction Pipeline ===")
+        print("=== Starting Football Match Prediction Pipeline (Single Model Version) ===")
+
+        if self.df.empty:
+            print("ERROR: DataFrame is empty. Cannot run pipeline.")
+            return {"error": "DataFrame empty"}
 
         # Prepare data
         print("\nPreparing data splits...")
         X_train, X_val, X_test, y_train, y_val, y_test = self.prepare_data()
+
+        if X_train.empty or X_val.empty or X_test.empty:
+            print("ERROR: One or more data splits are empty. Pipeline cannot continue.")
+            print(f"Train samples: {len(X_train)}, Val samples: {len(X_val)}, Test samples: {len(X_test)}")
+            return {"error": "Empty data splits"}
+
         print(f"Training samples: {len(X_train)}")
         print(f"Validation samples: {len(X_val)}")
         print(f"Test samples: {len(X_test)}")
@@ -445,30 +479,27 @@ class XGBoostFootballModel:
 
         # Process match predictions
         print("\nProcessing match predictions...")
-        match_df, accuracy = self.process_match_predictions(X_test, y_test)
+        # Pass X_test and y_test to process_match_predictions
+        match_predictions_df, discrete_accuracy = self.process_match_predictions(X_test, y_test)
 
         # Visualisation
-        print("\nGenerating visualisations...")
-        self.plot_prediction_distribution(match_df)
-        self.analyse_prediction_skewness(match_df)
+        if not match_predictions_df.empty:
+            print("\nGenerating visualisations...")
+            self.plot_prediction_distribution(match_predictions_df)
+            self.analyse_prediction_skewness(match_predictions_df)
+        else:
+            print("\nSkipping visualisations as match_predictions_df is empty.")
 
         print(f"\n=== Pipeline Complete ===")
-        print(f"Model accuracy on test set: {self.performance['test']['accuracy']:.4f}")
-        print(f"Match prediction accuracy: {accuracy:.2f}%")
+        if "test" in self.performance and "accuracy" in self.performance["test"]:
+            print(f"Model accuracy on test set (from evaluate_model): {self.performance['test']['accuracy']:.4f}")
+        print(f"Discrete prediction accuracy (from process_match_predictions): {discrete_accuracy:.2f}%")
 
         return {
             "performance": self.performance,
-            "match_predictions": match_df
+            "match_predictions": match_predictions_df  # This is now the direct prediction output
         }
 
 
 if __name__ == "__main__":
-    # For isolated running
-    model = XGBoostFootballModel(
-        data_path="../processed-data/matches/processed_seriea_matches.csv",
-        model_output_path="../output",
-        params=None,
-        pred_cols=None,
-        df=None,
-        )
-    results = model.run_pipeline()
+  print ("temp")
