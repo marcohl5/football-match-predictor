@@ -1,0 +1,15 @@
+{
+    "colsample_bytree": 0.8035651858278754,
+    "gamma": 1.7305409999279004,
+    "learning_rate": 0.18486235100672668,
+    "max_depth": 7,
+    "min_child_weight": 10,
+    "n_estimators": 500,
+    "reg_alpha": 27,
+    "reg_lambda": 0.20630178685456357,
+    "subsample": 0.6138813743427279,
+    "objective": "multi:softprob",
+    "num_class": 3,
+    "eval_metric": "mlogloss",
+    "use_label_encoder": false
+}

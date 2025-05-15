@@ -72,7 +72,7 @@ class BaseDataPreprocess:
 
     ROLLING_COLS = [
         "GF", "GA", "xG", "xGA", "Poss",  # Fixtures page stats
-        "SoT", "SoT%", "G/Sh", "G/SoT", "Dist", "FK_x",  # Shooting stats 1
+        "Sh", "SoT", "SoT%", "G/Sh", "G/SoT", "Dist", "FK_x",  # Shooting stats 1
         "PK", "PKatt", "npxG", "npxG/Sh", "G-xG", "np:G-xG",  # Shooting stats 2
         "SoTA", "PSxG", "PSxG+/-", "Opp",  # GK stats
         "1/3", "TotDist", "PrgDist", "xAG", "xA", "KP", "CrsPA", "PrgP", "PPA",  # Passing stats
@@ -163,14 +163,6 @@ class BaseDataPreprocess:
             lambda date: f"{date.year}-{date.month:02d}"
         )
 
-        # Add season column (e.g., 2020-2021)
-        self.df["Season"] = self.df["Date"].apply(
-            lambda date: (
-                f"{date.year}-{date.year + 1}" if date.month >= 7
-                else f"{date.year - 1}-{date.year}"
-            )
-        )
-
     def fix_names(self) -> None:
         """
         Standardise team and opponent names using league-specific mappings, based on Fbref data.
@@ -251,8 +243,13 @@ class BaseDataPreprocess:
         self.df["Team"] = self.df["Team"].astype(str)
         self.df["Opponent"] = self.df["Opponent"].astype(str)
 
+        df_elo["Date"] = pd.to_datetime(df_elo["Date"], errors="coerce")
+
         # Filter df_elo for the current league
         df_elo_league_specific = df_elo[df_elo["Competition"] == self.league_name].copy()
+
+        df_elo_league_specific["month_day"] = df_elo_league_specific["Date"].dt.strftime("%m-%d")
+        df_elo_league_specific = df_elo_league_specific[df_elo_league_specific["month_day"] == "08-01"]
 
         if df_elo_league_specific.empty:
             warnings.warn(f"No Elo data found for league '{self.league_name}' in elo_history_file. "
@@ -369,7 +366,7 @@ class BaseDataPreprocess:
         """Combines Home and Away perspective rows for each match into a single row."""
 
         # Create a unique match ID (Date + sorted team names)
-        self.df["Match_ID"] = self.df["Date"].dt.strftime('%Y-%m-%d') + '_' + \
+        self.df["Match_ID"] = self.df["Date"].dt.strftime("%Y-%m-%d") + '_' + \
                               self.df.apply(lambda row: '_'.join(sorted([row["Team"], row["Opponent"]])), axis=1)
 
         # Separate Home and Away views
@@ -457,6 +454,8 @@ class BaseDataPreprocess:
         # Concatenate all lists
         predictor_cols = static_cols + home_rolling_cols + away_rolling_cols
 
+        df_merged = df_merged.sort_values(by="Date", ascending=True)
+
         return df_merged, predictor_cols
 
     def save_data(self, df_matches: pd.DataFrame) -> None:
@@ -488,10 +487,11 @@ class BaseDataPreprocess:
 
         merged_matches, predictor_cols = self.combine_match_rows()
 
+        # Filter out rows where teams haven't played 5 home/away games yet
         if predictor_cols and not merged_matches.empty:
 
             print(f"Shape of processed_df before final dropna: {merged_matches.shape}")
-            merged_matches.dropna(subset=["Home_GF_rolling"], inplace=True)
+            merged_matches.dropna(subset=["Home_Poss_rolling", "Away_Poss_rolling"], inplace=True)
             processed_df = merged_matches.reset_index(drop=True)
             print(f"Shape of processed_df after final dropna: {processed_df.shape}")
 

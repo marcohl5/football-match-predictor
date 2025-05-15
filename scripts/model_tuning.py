@@ -19,7 +19,8 @@ class XGBoostHyperparameterTuner:
 
     def __init__(self,
                  pred_cols: List[str],
-                 df: pd.DataFrame,  # df is now required
+                 df: pd.DataFrame,
+                 league_name: str,
                  data_path: Optional[str] = None,  # Made data_path optional
                  output_path: str = "./output/",
                  max_evals: int = 100):
@@ -30,6 +31,7 @@ class XGBoostHyperparameterTuner:
         self.output_path = output_path
         self.max_evals = max_evals
         self.df = df
+        self.league_name = league_name
         self.features = pred_cols
 
         if self.df is None:
@@ -201,7 +203,8 @@ class XGBoostHyperparameterTuner:
         # final_model_params['early_stopping_rounds'] = 10 # Add this if you want it in the JSON for model init
 
         # Save best parameters to file
-        output_file_path = os.path.join(self.output_path, "best_tuned_params_multiclass.json")
+        league_name_strip = self.league_name.lower().replace(" ", "")
+        output_file_path = os.path.join(self.output_path, f"tuned_params_{league_name_strip}.json")
         with open(output_file_path, "w") as f:
             json.dump(final_model_params, f, indent=4)
         print(f"Best parameters saved to {output_file_path}")
@@ -214,6 +217,7 @@ if __name__ == "__main__":
     tuner = XGBoostHyperparameterTuner(data_path="../processed-data/matches/processed_seriea_matches.csv",
                                        pred_cols=None,
                                        df=None,
+                                       league_name="Bundesliga",
                                        output_path="../output",
                                        max_evals=100)
     best_params = tuner.run_tuning()

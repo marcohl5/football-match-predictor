@@ -13,7 +13,6 @@ strength_type = "Strength_Fpl"
 
 # *********************** Parameters that shouldn't need to be touched ***********************
 match_path = "original-data/matches/"
-strength_file = "processed-data/teams/processed_szn_start_elo.csv"
 output_path = "processed-data/matches/"
 model_output_path = "output"
 
@@ -58,6 +57,7 @@ tuner = XGBoostHyperparameterTuner(data_path="",
                                    # data_path=f"processed-data/matches/processed_{league_name_strip}_matches.csv"
                                    pred_cols=all_predictor_cols,
                                    df=processed_data,
+                                   league_name=league_name,
                                    output_path="output",
                                    max_evals=100)
 best_params = tuner.run_tuning()
