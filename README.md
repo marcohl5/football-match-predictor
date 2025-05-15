@@ -19,6 +19,8 @@ Predictions are available for the following leagues at the moment:
 * Premier League 
 * La Liga
 * Serie A
+* Bundesliga
+* Ligue 1
 
 #### Further Improvements
 * Provide live predictions using an auto-updating script for every game week
