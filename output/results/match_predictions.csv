@@ -1,154 +1,154 @@
 Date,Time,Comp,Round,Day,Home_Team,Away_Team,Target,actual_result,predicted_result,home_win_prob,draw_prob,away_win_prob
-2024-01-12,21:00,Ligue 1,Matchweek 18,Fri,Marseille,Strasbourg,1,draw,home_win,0.4702604,0.27087477,0.25886485
-2024-01-13,17:00,Ligue 1,Matchweek 18,Sat,Monaco,Reims,2,away_win,home_win,0.5715821,0.18120195,0.24721597
-2024-01-13,21:00,Ligue 1,Matchweek 18,Sat,Rennes,Nice,0,home_win,away_win,0.19394122,0.21797892,0.5880798
-2024-01-14,20:45,Ligue 1,Matchweek 18,Sun,Lens,Paris SG,2,away_win,away_win,0.24651837,0.18714891,0.5663327
-2024-01-14,13:00,Ligue 1,Matchweek 18,Sun,Lille,Lorient,0,home_win,home_win,0.5493257,0.26093566,0.18973866
-2024-01-14,15:00,Ligue 1,Matchweek 18,Sun,Nantes,Clermont Foot,2,away_win,home_win,0.45725438,0.36111802,0.18162756
-2024-01-14,15:00,Ligue 1,Matchweek 18,Sun,Brest,Montpellier,0,home_win,home_win,0.49435592,0.15660162,0.3490425
-2024-01-14,17:05,Ligue 1,Matchweek 18,Sun,Le Havre,Lyon,0,home_win,away_win,0.17074858,0.23635721,0.5928942
-2024-01-14,15:00,Ligue 1,Matchweek 18,Sun,Metz,Toulouse,2,away_win,draw,0.3217306,0.34047204,0.33779737
-2024-01-26,21:00,Ligue 1,Matchweek 19,Fri,Lyon,Rennes,2,away_win,away_win,0.33331996,0.24594493,0.4207351
-2024-01-27,21:00,Ligue 1,Matchweek 19,Sat,Marseille,Monaco,1,draw,home_win,0.4107666,0.33582258,0.25341085
-2024-01-27,17:00,Ligue 1,Matchweek 19,Sat,Nice,Metz,0,home_win,home_win,0.5914179,0.23575003,0.17283203
-2024-01-28,13:00,Ligue 1,Matchweek 19,Sun,Montpellier,Lille,1,draw,draw,0.33149764,0.3842807,0.28422165
-2024-01-28,17:05,Ligue 1,Matchweek 19,Sun,Toulouse,Lens,2,away_win,away_win,0.2521396,0.35839298,0.3894674
-2024-01-28,15:00,Ligue 1,Matchweek 19,Sun,Lorient,Le Havre,1,draw,home_win,0.3562623,0.32472852,0.31900918
-2024-01-28,15:00,Ligue 1,Matchweek 19,Sun,Reims,Nantes,1,draw,home_win,0.73289496,0.15351838,0.113586694
-2024-01-28,20:45,Ligue 1,Matchweek 19,Sun,Paris SG,Brest,1,draw,home_win,0.6201221,0.118844934,0.261033
-2024-01-28,15:00,Ligue 1,Matchweek 19,Sun,Clermont Foot,Strasbourg,1,draw,away_win,0.17704101,0.32476082,0.49819824
-2024-02-02,21:00,Ligue 1,Matchweek 20,Fri,Strasbourg,Paris SG,2,away_win,away_win,0.15352575,0.28444475,0.5620295
-2024-02-03,17:00,Ligue 1,Matchweek 20,Sat,Rennes,Montpellier,0,home_win,home_win,0.69155926,0.15905212,0.14938866
-2024-02-03,21:00,Ligue 1,Matchweek 20,Sat,Nantes,Lens,2,away_win,home_win,0.40493095,0.24432272,0.35074627
-2024-02-04,15:00,Ligue 1,Matchweek 20,Sun,Metz,Lorient,2,away_win,home_win,0.4613455,0.2847383,0.25391626
-2024-02-04,13:00,Ligue 1,Matchweek 20,Sun,Monaco,Le Havre,1,draw,home_win,0.81232166,0.109466515,0.07821183
-2024-02-04,20:45,Ligue 1,Matchweek 20,Sun,Lyon,Marseille,0,home_win,away_win,0.2864222,0.23295176,0.4806261
-2024-02-04,17:05,Ligue 1,Matchweek 20,Sun,Brest,Nice,1,draw,away_win,0.4042032,0.18069726,0.4150996
-2024-02-04,15:00,Ligue 1,Matchweek 20,Sun,Reims,Toulouse,2,away_win,home_win,0.58613396,0.3148015,0.099064514
-2024-02-04,15:00,Ligue 1,Matchweek 20,Sun,Lille,Clermont Foot,0,home_win,home_win,0.64519376,0.22402325,0.13078299
-2024-02-09,21:00,Ligue 1,Matchweek 21,Fri,Marseille,Metz,1,draw,home_win,0.62669486,0.24383958,0.12946552
-2024-02-10,17:00,Ligue 1,Matchweek 21,Sat,Lens,Strasbourg,0,home_win,away_win,0.37744784,0.196646,0.42590612
-2024-02-10,21:00,Ligue 1,Matchweek 21,Sat,Paris SG,Lille,0,home_win,home_win,0.62635845,0.16602716,0.20761442
-2024-02-11,13:00,Ligue 1,Matchweek 21,Sun,Le Havre,Rennes,2,away_win,away_win,0.1562755,0.24738553,0.596339
-2024-02-11,20:45,Ligue 1,Matchweek 21,Sun,Nice,Monaco,2,away_win,home_win,0.43488005,0.21352285,0.35159707
-2024-02-11,17:05,Ligue 1,Matchweek 21,Sun,Montpellier,Lyon,2,away_win,home_win,0.43711278,0.3322138,0.23067342
-2024-02-11,15:00,Ligue 1,Matchweek 21,Sun,Toulouse,Nantes,2,away_win,home_win,0.48350412,0.3427226,0.17377324
-2024-02-11,15:00,Ligue 1,Matchweek 21,Sun,Clermont Foot,Brest,1,draw,away_win,0.14737216,0.27569634,0.5769315
-2024-02-11,15:00,Ligue 1,Matchweek 21,Sun,Lorient,Reims,0,home_win,away_win,0.24080548,0.2460795,0.513115
-2024-02-16,21:00,Ligue 1,Matchweek 22,Fri,Lyon,Nice,0,home_win,home_win,0.45298842,0.25851837,0.28849322
-2024-02-17,17:00,Ligue 1,Matchweek 22,Sat,Lille,Le Havre,0,home_win,home_win,0.58114314,0.21063004,0.20822681
-2024-02-17,21:00,Ligue 1,Matchweek 22,Sat,Nantes,Paris SG,2,away_win,away_win,0.32835263,0.27914125,0.39250612
-2024-02-18,13:00,Ligue 1,Matchweek 22,Sun,Strasbourg,Lorient,2,away_win,home_win,0.5806729,0.2309155,0.18841158
-2024-02-18,15:00,Ligue 1,Matchweek 22,Sun,Rennes,Clermont Foot,0,home_win,home_win,0.5752681,0.201717,0.2230149
-2024-02-18,17:05,Ligue 1,Matchweek 22,Sun,Reims,Lens,1,draw,away_win,0.25816098,0.34369358,0.39814547
-2024-02-18,15:00,Ligue 1,Matchweek 22,Sun,Monaco,Toulouse,2,away_win,home_win,0.81014097,0.092089415,0.09776962
-2024-02-18,20:45,Ligue 1,Matchweek 22,Sun,Brest,Marseille,0,home_win,away_win,0.35544828,0.20253117,0.44202054
-2024-02-18,15:00,Ligue 1,Matchweek 22,Sun,Montpellier,Metz,0,home_win,home_win,0.6224555,0.24723315,0.13031134
-2024-02-23,21:00,Ligue 1,Matchweek 23,Fri,Metz,Lyon,2,away_win,away_win,0.22051403,0.32038733,0.45909864
-2024-02-24,21:00,Ligue 1,Matchweek 23,Sat,Strasbourg,Brest,2,away_win,away_win,0.25231418,0.22866108,0.5190248
-2024-02-24,17:00,Ligue 1,Matchweek 23,Sat,Lorient,Nantes,2,away_win,home_win,0.44709465,0.32495525,0.22795005
-2024-02-25,15:00,Ligue 1,Matchweek 23,Sun,Nice,Clermont Foot,1,draw,home_win,0.71267444,0.14297225,0.1443533
-2024-02-25,15:00,Ligue 1,Matchweek 23,Sun,Le Havre,Reims,2,away_win,home_win,0.34978807,0.31672567,0.3334862
-2024-02-25,20:45,Ligue 1,Matchweek 23,Sun,Marseille,Montpellier,0,home_win,home_win,0.623396,0.16478854,0.2118155
-2024-02-25,17:05,Ligue 1,Matchweek 23,Sun,Paris SG,Rennes,1,draw,home_win,0.59399337,0.17721614,0.22879048
-2024-02-25,15:00,Ligue 1,Matchweek 23,Sun,Toulouse,Lille,0,home_win,home_win,0.35017163,0.33257744,0.3172509
-2024-02-25,13:00,Ligue 1,Matchweek 23,Sun,Lens,Monaco,2,away_win,away_win,0.3059402,0.20030603,0.4937537
-2024-03-01,21:00,Ligue 1,Matchweek 24,Fri,Monaco,Paris SG,1,draw,home_win,0.4406765,0.1900799,0.3692436
-2024-03-02,21:00,Ligue 1,Matchweek 24,Sat,Clermont Foot,Marseille,2,away_win,away_win,0.14276397,0.24795608,0.60928
-2024-03-02,17:00,Ligue 1,Matchweek 24,Sat,Reims,Lille,2,away_win,away_win,0.3181309,0.30272266,0.3791464
-2024-03-03,20:45,Ligue 1,Matchweek 24,Sun,Lyon,Lens,2,away_win,away_win,0.26540756,0.3515948,0.38299766
-2024-03-03,15:00,Ligue 1,Matchweek 24,Sun,Brest,Le Havre,0,home_win,home_win,0.669015,0.16481677,0.16616829
-2024-03-03,17:05,Ligue 1,Matchweek 24,Sun,Rennes,Lorient,2,away_win,home_win,0.573136,0.22063468,0.20622931
-2024-03-03,13:00,Ligue 1,Matchweek 24,Sun,Toulouse,Nice,0,home_win,home_win,0.39601365,0.37761748,0.22636893
-2024-03-03,15:00,Ligue 1,Matchweek 24,Sun,Nantes,Metz,2,away_win,home_win,0.5740249,0.25574505,0.17023006
-2024-03-03,15:00,Ligue 1,Matchweek 24,Sun,Montpellier,Strasbourg,1,draw,away_win,0.2335235,0.30050802,0.46596855
-2024-03-08,21:00,Ligue 1,Matchweek 25,Fri,Nice,Montpellier,2,away_win,home_win,0.70318925,0.13667232,0.16013846
-2024-03-09,17:00,Ligue 1,Matchweek 25,Sat,Lorient,Lyon,2,away_win,away_win,0.33976334,0.26491976,0.39531693
-2024-03-09,21:00,Ligue 1,Matchweek 25,Sat,Lens,Brest,0,home_win,away_win,0.28227156,0.214669,0.50305945
-2024-03-10,15:00,Ligue 1,Matchweek 25,Sun,Strasbourg,Monaco,2,away_win,away_win,0.19897701,0.33546516,0.46555778
-2024-03-10,20:45,Ligue 1,Matchweek 25,Sun,Marseille,Nantes,0,home_win,home_win,0.63988984,0.16327173,0.1968384
-2024-03-10,15:00,Ligue 1,Matchweek 25,Sun,Le Havre,Toulouse,0,home_win,home_win,0.45973378,0.2552847,0.28498155
-2024-03-10,15:00,Ligue 1,Matchweek 25,Sun,Metz,Clermont Foot,0,home_win,home_win,0.40154582,0.34485722,0.25359693
-2024-03-10,13:00,Ligue 1,Matchweek 25,Sun,Paris SG,Reims,1,draw,home_win,0.7021584,0.15574156,0.14210005
-2024-03-10,17:05,Ligue 1,Matchweek 25,Sun,Lille,Rennes,1,draw,home_win,0.41074398,0.213326,0.37592998
-2024-03-15,21:00,Ligue 1,Matchweek 26,Fri,Toulouse,Lyon,2,away_win,away_win,0.30703408,0.32669607,0.3662699
-2024-03-16,21:00,Ligue 1,Matchweek 26,Sat,Lens,Nice,2,away_win,home_win,0.42499763,0.20069896,0.3743034
-2024-03-16,17:00,Ligue 1,Matchweek 26,Sat,Nantes,Strasbourg,2,away_win,home_win,0.46042863,0.31461877,0.22495258
-2024-03-17,13:00,Ligue 1,Matchweek 26,Sun,Brest,Lille,1,draw,away_win,0.3641925,0.23810077,0.39770678
-2024-03-17,17:05,Ligue 1,Matchweek 26,Sun,Rennes,Marseille,0,home_win,away_win,0.24978667,0.25030035,0.49991295
-2024-03-17,15:00,Ligue 1,Matchweek 26,Sun,Clermont Foot,Le Havre,0,home_win,draw,0.33308142,0.35527107,0.3116475
-2024-03-17,15:00,Ligue 1,Matchweek 26,Sun,Monaco,Lorient,1,draw,home_win,0.6649478,0.19563532,0.13941683
-2024-03-17,15:00,Ligue 1,Matchweek 26,Sun,Reims,Metz,0,home_win,home_win,0.57391745,0.29440868,0.1316738
-2024-03-17,20:45,Ligue 1,Matchweek 26,Sun,Montpellier,Paris SG,2,away_win,away_win,0.35799342,0.26176223,0.3802443
-2024-03-29,21:00,Ligue 1,Matchweek 27,Fri,Lille,Lens,0,home_win,home_win,0.5088006,0.20336093,0.2878385
-2024-03-30,17:00,Ligue 1,Matchweek 27,Sat,Metz,Monaco,2,away_win,away_win,0.23136319,0.21856122,0.5500756
-2024-03-30,21:00,Ligue 1,Matchweek 27,Sat,Lyon,Reims,1,draw,home_win,0.3724851,0.27053857,0.35697633
-2024-03-31,17:05,Ligue 1,Matchweek 27,Sun,Strasbourg,Rennes,0,home_win,draw,0.18322362,0.44666904,0.3701073
-2024-03-31,15:00,Ligue 1,Matchweek 27,Sun,Clermont Foot,Toulouse,2,away_win,away_win,0.2840911,0.30527416,0.41063473
-2024-03-31,13:00,Ligue 1,Matchweek 27,Sun,Lorient,Brest,2,away_win,away_win,0.10935405,0.27523404,0.6154119
-2024-03-31,15:00,Ligue 1,Matchweek 27,Sun,Le Havre,Montpellier,2,away_win,home_win,0.42665327,0.23437294,0.3389738
-2024-03-31,15:00,Ligue 1,Matchweek 27,Sun,Nice,Nantes,2,away_win,home_win,0.672205,0.13872637,0.18906865
-2024-03-31,20:45,Ligue 1,Matchweek 27,Sun,Marseille,Paris SG,2,away_win,away_win,0.34211782,0.18187779,0.4760044
-2024-04-05,21:00,Ligue 1,Matchweek 28,Fri,Lille,Marseille,0,home_win,home_win,0.40698028,0.214964,0.37805572
-2024-04-06,21:00,Ligue 1,Matchweek 28,Sat,Paris SG,Clermont Foot,1,draw,home_win,0.7213394,0.13762829,0.14103231
-2024-04-06,17:00,Ligue 1,Matchweek 28,Sat,Lens,Le Havre,1,draw,home_win,0.4853111,0.2621774,0.25251147
-2024-04-07,20:45,Ligue 1,Matchweek 28,Sun,Nantes,Lyon,2,away_win,away_win,0.33551064,0.3090756,0.3554138
-2024-04-07,13:00,Ligue 1,Matchweek 28,Sun,Brest,Metz,0,home_win,home_win,0.6485142,0.17249653,0.1789892
-2024-04-07,15:00,Ligue 1,Matchweek 28,Sun,Toulouse,Strasbourg,1,draw,home_win,0.5012799,0.2774437,0.2212764
-2024-04-07,15:00,Ligue 1,Matchweek 28,Sun,Montpellier,Lorient,0,home_win,home_win,0.53725344,0.23186192,0.23088463
-2024-04-07,15:00,Ligue 1,Matchweek 28,Sun,Reims,Nice,1,draw,away_win,0.34063953,0.25734684,0.40201363
-2024-04-07,17:05,Ligue 1,Matchweek 28,Sun,Monaco,Rennes,0,home_win,home_win,0.47745013,0.2812178,0.24133201
-2024-04-12,21:00,Ligue 1,Matchweek 29,Fri,Metz,Lens,0,home_win,away_win,0.109176725,0.17633772,0.7144856
-2024-04-13,21:00,Ligue 1,Matchweek 29,Sat,Rennes,Toulouse,2,away_win,home_win,0.4862045,0.28677145,0.22702405
-2024-04-13,17:00,Ligue 1,Matchweek 29,Sat,Strasbourg,Reims,0,home_win,draw,0.31505737,0.34625226,0.33869034
-2024-04-14,13:00,Ligue 1,Matchweek 29,Sun,Le Havre,Nantes,2,away_win,draw,0.26664758,0.36794746,0.36540493
-2024-04-14,15:00,Ligue 1,Matchweek 29,Sun,Clermont Foot,Montpellier,1,draw,draw,0.33199775,0.3490096,0.3189926
-2024-04-14,20:45,Ligue 1,Matchweek 29,Sun,Lyon,Brest,0,home_win,away_win,0.16766384,0.25675103,0.57558507
-2024-04-19,21:00,Ligue 1,Matchweek 30,Fri,Nice,Lorient,0,home_win,home_win,0.42878518,0.3482954,0.2229194
-2024-04-20,21:00,Ligue 1,Matchweek 30,Sat,Lens,Clermont Foot,0,home_win,home_win,0.5788144,0.16327798,0.25790763
-2024-04-20,17:00,Ligue 1,Matchweek 30,Sat,Nantes,Rennes,2,away_win,away_win,0.35257033,0.28674757,0.3606821
-2024-04-21,15:00,Ligue 1,Matchweek 30,Sun,Lille,Strasbourg,0,home_win,home_win,0.66148496,0.14870533,0.18980974
-2024-04-21,21:00,Ligue 1,Matchweek 30,Sun,Paris SG,Lyon,0,home_win,home_win,0.6679554,0.12712142,0.20492318
-2024-04-21,15:00,Ligue 1,Matchweek 30,Sun,Reims,Montpellier,2,away_win,home_win,0.5414846,0.20598826,0.25252715
-2024-04-21,19:00,Ligue 1,Matchweek 30,Sun,Toulouse,Marseille,1,draw,away_win,0.29229802,0.30265984,0.40504208
-2024-04-21,17:05,Ligue 1,Matchweek 30,Sun,Brest,Monaco,2,away_win,home_win,0.4636972,0.19547716,0.34082562
-2024-04-21,15:00,Ligue 1,Matchweek 30,Sun,Le Havre,Metz,2,away_win,home_win,0.38585642,0.3457034,0.26844016
-2024-04-24,21:00,Ligue 1,Matchweek 29,Wed,Monaco,Lille,0,home_win,away_win,0.34466523,0.2704629,0.3848719
-2024-04-24,21:00,Ligue 1,Matchweek 29,Wed,Marseille,Nice,1,draw,home_win,0.47934893,0.1356417,0.38500944
-2024-04-24,19:00,Ligue 1,Matchweek 29,Wed,Lorient,Paris SG,2,away_win,away_win,0.20179762,0.2944231,0.5037793
-2024-04-26,21:00,Ligue 1,Matchweek 31,Fri,Montpellier,Nantes,1,draw,home_win,0.5313582,0.20676976,0.26187208
-2024-04-27,21:00,Ligue 1,Matchweek 31,Sat,Paris SG,Le Havre,1,draw,home_win,0.75893843,0.11102802,0.13003357
-2024-04-28,13:00,Ligue 1,Matchweek 31,Sun,Metz,Lille,2,away_win,away_win,0.270309,0.17403652,0.55565447
-2024-04-28,15:00,Ligue 1,Matchweek 31,Sun,Strasbourg,Nice,2,away_win,away_win,0.29121447,0.29041114,0.41837433
-2024-04-28,15:00,Ligue 1,Matchweek 31,Sun,Lorient,Toulouse,2,away_win,draw,0.24613866,0.38481575,0.36904562
-2024-04-28,15:00,Ligue 1,Matchweek 31,Sun,Clermont Foot,Reims,0,home_win,away_win,0.22354633,0.3878982,0.38855544
-2024-04-28,21:00,Ligue 1,Matchweek 31,Sun,Marseille,Lens,0,home_win,away_win,0.2299612,0.24683213,0.52320665
-2024-04-28,17:05,Ligue 1,Matchweek 31,Sun,Rennes,Brest,2,away_win,away_win,0.38896963,0.22188117,0.3891492
-2024-04-28,19:00,Ligue 1,Matchweek 31,Sun,Lyon,Monaco,0,home_win,away_win,0.29951867,0.25075263,0.44972867
-2024-05-03,21:00,Ligue 1,Matchweek 32,Fri,Lens,Lorient,0,home_win,home_win,0.64303696,0.15679803,0.20016499
-2024-05-03,19:00,Ligue 1,Matchweek 32,Fri,Toulouse,Montpellier,2,away_win,home_win,0.48704454,0.30389825,0.20905726
-2024-05-04,19:00,Ligue 1,Matchweek 32,Sat,Metz,Rennes,2,away_win,away_win,0.21812749,0.30200034,0.47987217
-2024-05-04,17:00,Ligue 1,Matchweek 32,Sat,Monaco,Clermont Foot,0,home_win,home_win,0.5774247,0.2213216,0.20125368
-2024-05-04,15:00,Ligue 1,Matchweek 32,Sat,Le Havre,Strasbourg,0,home_win,draw,0.2934956,0.45681986,0.24968456
-2024-05-04,21:00,Ligue 1,Matchweek 32,Sat,Brest,Nantes,1,draw,home_win,0.7041352,0.101251386,0.19461346
-2024-05-06,21:00,Ligue 1,Matchweek 32,Mon,Lille,Lyon,2,away_win,home_win,0.4955102,0.17729253,0.32719728
-2024-05-10,21:00,Ligue 1,Matchweek 33,Fri,Brest,Reims,1,draw,home_win,0.61711764,0.22982584,0.1530565
-2024-05-10,21:00,Ligue 1,Matchweek 33,Fri,Nice,Le Havre,0,home_win,home_win,0.66414434,0.19142589,0.1444298
-2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Montpellier,Monaco,2,away_win,away_win,0.14293863,0.30311063,0.5539507
-2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Clermont Foot,Lyon,2,away_win,away_win,0.15992576,0.26465267,0.57542163
-2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Marseille,Lorient,0,home_win,home_win,0.5146668,0.19800061,0.2873326
-2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Strasbourg,Metz,0,home_win,home_win,0.58744115,0.21227483,0.20028399
-2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Nantes,Lille,2,away_win,away_win,0.14427227,0.18731336,0.66841435
-2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Rennes,Lens,1,draw,home_win,0.5337414,0.2240023,0.24225625
-2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Paris SG,Toulouse,2,away_win,home_win,0.52687854,0.18408896,0.28903255
-2024-05-15,21:00,Ligue 1,Matchweek 32,Wed,Nice,Paris SG,2,away_win,away_win,0.32403243,0.21050325,0.46546435
-2024-05-15,21:00,Ligue 1,Matchweek 32,Wed,Reims,Marseille,0,home_win,draw,0.2597069,0.39019302,0.35010013
-2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Toulouse,Brest,2,away_win,home_win,0.43691105,0.27642196,0.28666702
-2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Le Havre,Marseille,2,away_win,away_win,0.1814283,0.29825997,0.5203118
-2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Lorient,Clermont Foot,0,home_win,draw,0.35491917,0.42718226,0.21789859
-2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Monaco,Nantes,0,home_win,home_win,0.6952475,0.11219543,0.1925571
-2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Reims,Rennes,0,home_win,draw,0.18010762,0.45858985,0.36130252
-2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Lyon,Strasbourg,0,home_win,home_win,0.39330563,0.35132894,0.2553655
-2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Lens,Montpellier,1,draw,home_win,0.5360789,0.18419366,0.2797275
-2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Lille,Nice,1,draw,home_win,0.46507442,0.19156358,0.34336194
-2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Metz,Paris SG,2,away_win,away_win,0.14893657,0.2169901,0.6340733
+2024-01-12,21:00,Ligue 1,Matchweek 18,Fri,Marseille,Strasbourg,1,draw,home_win,0.53042215,0.25388092,0.2156969
+2024-01-13,17:00,Ligue 1,Matchweek 18,Sat,Monaco,Reims,2,away_win,home_win,0.6318968,0.1280526,0.24005057
+2024-01-13,21:00,Ligue 1,Matchweek 18,Sat,Rennes,Nice,0,home_win,away_win,0.1869187,0.19428405,0.6187972
+2024-01-14,20:45,Ligue 1,Matchweek 18,Sun,Lens,Paris SG,2,away_win,away_win,0.23707643,0.17451443,0.5884091
+2024-01-14,13:00,Ligue 1,Matchweek 18,Sun,Lille,Lorient,0,home_win,home_win,0.589166,0.27394485,0.1368892
+2024-01-14,15:00,Ligue 1,Matchweek 18,Sun,Nantes,Clermont Foot,2,away_win,home_win,0.46448067,0.37380168,0.16171764
+2024-01-14,15:00,Ligue 1,Matchweek 18,Sun,Brest,Montpellier,0,home_win,away_win,0.41379136,0.13602202,0.45018667
+2024-01-14,17:05,Ligue 1,Matchweek 18,Sun,Le Havre,Lyon,0,home_win,away_win,0.15366723,0.20562975,0.640703
+2024-01-14,15:00,Ligue 1,Matchweek 18,Sun,Metz,Toulouse,2,away_win,away_win,0.30810967,0.32202837,0.36986196
+2024-01-26,21:00,Ligue 1,Matchweek 19,Fri,Lyon,Rennes,2,away_win,away_win,0.343542,0.2530059,0.4034521
+2024-01-27,21:00,Ligue 1,Matchweek 19,Sat,Marseille,Monaco,1,draw,home_win,0.37510774,0.36377102,0.2611212
+2024-01-27,17:00,Ligue 1,Matchweek 19,Sat,Nice,Metz,0,home_win,home_win,0.5739669,0.24054477,0.18548833
+2024-01-28,13:00,Ligue 1,Matchweek 19,Sun,Montpellier,Lille,1,draw,home_win,0.38096505,0.3736585,0.24537648
+2024-01-28,17:05,Ligue 1,Matchweek 19,Sun,Toulouse,Lens,2,away_win,away_win,0.23603164,0.36848068,0.39548773
+2024-01-28,15:00,Ligue 1,Matchweek 19,Sun,Lorient,Le Havre,1,draw,home_win,0.39003658,0.34160358,0.26835987
+2024-01-28,15:00,Ligue 1,Matchweek 19,Sun,Reims,Nantes,1,draw,home_win,0.7350324,0.16841757,0.096549995
+2024-01-28,20:45,Ligue 1,Matchweek 19,Sun,Paris SG,Brest,1,draw,home_win,0.66348433,0.08611862,0.25039706
+2024-01-28,15:00,Ligue 1,Matchweek 19,Sun,Clermont Foot,Strasbourg,1,draw,away_win,0.19928111,0.28234887,0.51837003
+2024-02-02,21:00,Ligue 1,Matchweek 20,Fri,Strasbourg,Paris SG,2,away_win,away_win,0.12297485,0.32037738,0.55664784
+2024-02-03,17:00,Ligue 1,Matchweek 20,Sat,Rennes,Montpellier,0,home_win,home_win,0.63290256,0.14287482,0.22422266
+2024-02-03,21:00,Ligue 1,Matchweek 20,Sat,Nantes,Lens,2,away_win,home_win,0.41942146,0.25342712,0.3271514
+2024-02-04,15:00,Ligue 1,Matchweek 20,Sun,Metz,Lorient,2,away_win,home_win,0.53168476,0.2172082,0.25110707
+2024-02-04,13:00,Ligue 1,Matchweek 20,Sun,Monaco,Le Havre,1,draw,home_win,0.8746423,0.08039025,0.044967405
+2024-02-04,20:45,Ligue 1,Matchweek 20,Sun,Lyon,Marseille,0,home_win,away_win,0.317324,0.21004304,0.472633
+2024-02-04,17:05,Ligue 1,Matchweek 20,Sun,Brest,Nice,1,draw,away_win,0.37085593,0.18148322,0.4476609
+2024-02-04,15:00,Ligue 1,Matchweek 20,Sun,Reims,Toulouse,2,away_win,home_win,0.5760639,0.3118174,0.112118736
+2024-02-04,15:00,Ligue 1,Matchweek 20,Sun,Lille,Clermont Foot,0,home_win,home_win,0.67056954,0.22313118,0.106299326
+2024-02-09,21:00,Ligue 1,Matchweek 21,Fri,Marseille,Metz,1,draw,home_win,0.59041375,0.27020696,0.13937926
+2024-02-10,17:00,Ligue 1,Matchweek 21,Sat,Lens,Strasbourg,0,home_win,away_win,0.4057805,0.1477275,0.44649196
+2024-02-10,21:00,Ligue 1,Matchweek 21,Sat,Paris SG,Lille,0,home_win,home_win,0.55771786,0.17252025,0.26976186
+2024-02-11,13:00,Ligue 1,Matchweek 21,Sun,Le Havre,Rennes,2,away_win,away_win,0.14268023,0.19657232,0.66074747
+2024-02-11,20:45,Ligue 1,Matchweek 21,Sun,Nice,Monaco,2,away_win,home_win,0.50226307,0.16766968,0.3300673
+2024-02-11,17:05,Ligue 1,Matchweek 21,Sun,Montpellier,Lyon,2,away_win,home_win,0.62398946,0.20547184,0.17053871
+2024-02-11,15:00,Ligue 1,Matchweek 21,Sun,Toulouse,Nantes,2,away_win,home_win,0.51820564,0.3443672,0.13742714
+2024-02-11,15:00,Ligue 1,Matchweek 21,Sun,Clermont Foot,Brest,1,draw,away_win,0.15072954,0.22812848,0.621142
+2024-02-11,15:00,Ligue 1,Matchweek 21,Sun,Lorient,Reims,0,home_win,away_win,0.227408,0.23958586,0.53300613
+2024-02-16,21:00,Ligue 1,Matchweek 22,Fri,Lyon,Nice,0,home_win,home_win,0.526391,0.22855711,0.24505185
+2024-02-17,17:00,Ligue 1,Matchweek 22,Sat,Lille,Le Havre,0,home_win,home_win,0.52173775,0.23228435,0.24597788
+2024-02-17,21:00,Ligue 1,Matchweek 22,Sat,Nantes,Paris SG,2,away_win,home_win,0.3557061,0.30922738,0.33506653
+2024-02-18,13:00,Ligue 1,Matchweek 22,Sun,Strasbourg,Lorient,2,away_win,home_win,0.63942724,0.1971917,0.16338101
+2024-02-18,15:00,Ligue 1,Matchweek 22,Sun,Rennes,Clermont Foot,0,home_win,home_win,0.5907338,0.18789694,0.22136922
+2024-02-18,17:05,Ligue 1,Matchweek 22,Sun,Reims,Lens,1,draw,draw,0.21892267,0.41691002,0.36416736
+2024-02-18,15:00,Ligue 1,Matchweek 22,Sun,Monaco,Toulouse,2,away_win,home_win,0.8289439,0.07030858,0.10074757
+2024-02-18,20:45,Ligue 1,Matchweek 22,Sun,Brest,Marseille,0,home_win,away_win,0.32126555,0.19428596,0.48444852
+2024-02-18,15:00,Ligue 1,Matchweek 22,Sun,Montpellier,Metz,0,home_win,home_win,0.65369666,0.22032312,0.12598024
+2024-02-23,21:00,Ligue 1,Matchweek 23,Fri,Metz,Lyon,2,away_win,away_win,0.2780107,0.27485144,0.44713783
+2024-02-24,21:00,Ligue 1,Matchweek 23,Sat,Strasbourg,Brest,2,away_win,away_win,0.247678,0.22107066,0.5312513
+2024-02-24,17:00,Ligue 1,Matchweek 23,Sat,Lorient,Nantes,2,away_win,home_win,0.4464169,0.32879806,0.22478497
+2024-02-25,15:00,Ligue 1,Matchweek 23,Sun,Nice,Clermont Foot,1,draw,home_win,0.7970581,0.103571504,0.09937037
+2024-02-25,15:00,Ligue 1,Matchweek 23,Sun,Le Havre,Reims,2,away_win,away_win,0.31968907,0.27178988,0.4085211
+2024-02-25,20:45,Ligue 1,Matchweek 23,Sun,Marseille,Montpellier,0,home_win,home_win,0.5900964,0.15904342,0.25086015
+2024-02-25,17:05,Ligue 1,Matchweek 23,Sun,Paris SG,Rennes,1,draw,home_win,0.5908689,0.18065892,0.22847214
+2024-02-25,15:00,Ligue 1,Matchweek 23,Sun,Toulouse,Lille,0,home_win,draw,0.35247236,0.37050512,0.27702254
+2024-02-25,13:00,Ligue 1,Matchweek 23,Sun,Lens,Monaco,2,away_win,away_win,0.28274393,0.15431558,0.5629405
+2024-03-01,21:00,Ligue 1,Matchweek 24,Fri,Monaco,Paris SG,1,draw,home_win,0.47401017,0.17763889,0.34835097
+2024-03-02,21:00,Ligue 1,Matchweek 24,Sat,Clermont Foot,Marseille,2,away_win,away_win,0.11347899,0.2314667,0.6550543
+2024-03-02,17:00,Ligue 1,Matchweek 24,Sat,Reims,Lille,2,away_win,draw,0.26218688,0.378364,0.35944906
+2024-03-03,20:45,Ligue 1,Matchweek 24,Sun,Lyon,Lens,2,away_win,away_win,0.28392425,0.3214652,0.3946105
+2024-03-03,15:00,Ligue 1,Matchweek 24,Sun,Brest,Le Havre,0,home_win,home_win,0.5437702,0.24479482,0.21143496
+2024-03-03,17:05,Ligue 1,Matchweek 24,Sun,Rennes,Lorient,2,away_win,home_win,0.6306751,0.20568547,0.16363943
+2024-03-03,13:00,Ligue 1,Matchweek 24,Sun,Toulouse,Nice,0,home_win,home_win,0.4526565,0.3451186,0.20222488
+2024-03-03,15:00,Ligue 1,Matchweek 24,Sun,Nantes,Metz,2,away_win,home_win,0.58525187,0.23619483,0.17855327
+2024-03-03,15:00,Ligue 1,Matchweek 24,Sun,Montpellier,Strasbourg,1,draw,away_win,0.21955045,0.29619724,0.4842523
+2024-03-08,21:00,Ligue 1,Matchweek 25,Fri,Nice,Montpellier,2,away_win,home_win,0.6553114,0.16924202,0.17544657
+2024-03-09,17:00,Ligue 1,Matchweek 25,Sat,Lorient,Lyon,2,away_win,home_win,0.4171004,0.17513947,0.40776017
+2024-03-09,21:00,Ligue 1,Matchweek 25,Sat,Lens,Brest,0,home_win,away_win,0.30390936,0.16446544,0.53162515
+2024-03-10,15:00,Ligue 1,Matchweek 25,Sun,Strasbourg,Monaco,2,away_win,away_win,0.2119882,0.32118288,0.46682888
+2024-03-10,20:45,Ligue 1,Matchweek 25,Sun,Marseille,Nantes,0,home_win,home_win,0.68232703,0.16923736,0.1484356
+2024-03-10,15:00,Ligue 1,Matchweek 25,Sun,Le Havre,Toulouse,0,home_win,home_win,0.45648512,0.1785246,0.36499032
+2024-03-10,15:00,Ligue 1,Matchweek 25,Sun,Metz,Clermont Foot,0,home_win,home_win,0.49708018,0.30535322,0.19756661
+2024-03-10,13:00,Ligue 1,Matchweek 25,Sun,Paris SG,Reims,1,draw,home_win,0.7262701,0.122762844,0.15096714
+2024-03-10,17:05,Ligue 1,Matchweek 25,Sun,Lille,Rennes,1,draw,away_win,0.40573433,0.18294346,0.41132218
+2024-03-15,21:00,Ligue 1,Matchweek 26,Fri,Toulouse,Lyon,2,away_win,home_win,0.38701448,0.32616395,0.2868216
+2024-03-16,21:00,Ligue 1,Matchweek 26,Sat,Lens,Nice,2,away_win,away_win,0.38101995,0.15942237,0.45955765
+2024-03-16,17:00,Ligue 1,Matchweek 26,Sat,Nantes,Strasbourg,2,away_win,home_win,0.5274327,0.30955845,0.16300885
+2024-03-17,13:00,Ligue 1,Matchweek 26,Sun,Brest,Lille,1,draw,away_win,0.26723427,0.24550551,0.48726025
+2024-03-17,17:05,Ligue 1,Matchweek 26,Sun,Rennes,Marseille,0,home_win,away_win,0.26399943,0.2475764,0.48842424
+2024-03-17,15:00,Ligue 1,Matchweek 26,Sun,Clermont Foot,Le Havre,0,home_win,draw,0.35168576,0.35274255,0.29557166
+2024-03-17,15:00,Ligue 1,Matchweek 26,Sun,Monaco,Lorient,1,draw,home_win,0.6705592,0.17939131,0.15004945
+2024-03-17,15:00,Ligue 1,Matchweek 26,Sun,Reims,Metz,0,home_win,home_win,0.5251585,0.36195925,0.112882204
+2024-03-17,20:45,Ligue 1,Matchweek 26,Sun,Montpellier,Paris SG,2,away_win,home_win,0.4472796,0.22397467,0.32874575
+2024-03-29,21:00,Ligue 1,Matchweek 27,Fri,Lille,Lens,0,home_win,home_win,0.49387634,0.18308991,0.3230337
+2024-03-30,17:00,Ligue 1,Matchweek 27,Sat,Metz,Monaco,2,away_win,away_win,0.20334764,0.19262269,0.60402966
+2024-03-30,21:00,Ligue 1,Matchweek 27,Sat,Lyon,Reims,1,draw,away_win,0.34457478,0.24847125,0.40695396
+2024-03-31,17:05,Ligue 1,Matchweek 27,Sun,Strasbourg,Rennes,0,home_win,draw,0.17360233,0.48040757,0.3459901
+2024-03-31,15:00,Ligue 1,Matchweek 27,Sun,Clermont Foot,Toulouse,2,away_win,away_win,0.29287878,0.28136405,0.4257572
+2024-03-31,13:00,Ligue 1,Matchweek 27,Sun,Lorient,Brest,2,away_win,away_win,0.094754025,0.26048788,0.64475805
+2024-03-31,15:00,Ligue 1,Matchweek 27,Sun,Le Havre,Montpellier,2,away_win,away_win,0.3602736,0.21205777,0.42766866
+2024-03-31,15:00,Ligue 1,Matchweek 27,Sun,Nice,Nantes,2,away_win,home_win,0.76684517,0.11018948,0.12296541
+2024-03-31,20:45,Ligue 1,Matchweek 27,Sun,Marseille,Paris SG,2,away_win,away_win,0.37820294,0.19039689,0.43140015
+2024-04-05,21:00,Ligue 1,Matchweek 28,Fri,Lille,Marseille,0,home_win,away_win,0.38620934,0.20348454,0.4103062
+2024-04-06,21:00,Ligue 1,Matchweek 28,Sat,Paris SG,Clermont Foot,1,draw,home_win,0.80171216,0.09210214,0.106185704
+2024-04-06,17:00,Ligue 1,Matchweek 28,Sat,Lens,Le Havre,1,draw,home_win,0.45299506,0.30036065,0.2466443
+2024-04-07,20:45,Ligue 1,Matchweek 28,Sun,Nantes,Lyon,2,away_win,home_win,0.3497544,0.31710118,0.33314446
+2024-04-07,13:00,Ligue 1,Matchweek 28,Sun,Brest,Metz,0,home_win,home_win,0.7359951,0.14822415,0.11578075
+2024-04-07,15:00,Ligue 1,Matchweek 28,Sun,Toulouse,Strasbourg,1,draw,home_win,0.53811926,0.31360993,0.14827086
+2024-04-07,15:00,Ligue 1,Matchweek 28,Sun,Montpellier,Lorient,0,home_win,home_win,0.5721698,0.24157707,0.18625318
+2024-04-07,15:00,Ligue 1,Matchweek 28,Sun,Reims,Nice,1,draw,away_win,0.30932897,0.27548227,0.41518876
+2024-04-07,17:05,Ligue 1,Matchweek 28,Sun,Monaco,Rennes,0,home_win,home_win,0.46029618,0.27907136,0.26063243
+2024-04-12,21:00,Ligue 1,Matchweek 29,Fri,Metz,Lens,0,home_win,away_win,0.11081599,0.13068274,0.7585013
+2024-04-13,21:00,Ligue 1,Matchweek 29,Sat,Rennes,Toulouse,2,away_win,home_win,0.5260716,0.28821525,0.1857132
+2024-04-13,17:00,Ligue 1,Matchweek 29,Sat,Strasbourg,Reims,0,home_win,home_win,0.3473634,0.3083824,0.34425426
+2024-04-14,13:00,Ligue 1,Matchweek 29,Sun,Le Havre,Nantes,2,away_win,home_win,0.39172995,0.29247946,0.31579062
+2024-04-14,15:00,Ligue 1,Matchweek 29,Sun,Clermont Foot,Montpellier,1,draw,away_win,0.3343645,0.31439215,0.35124332
+2024-04-14,20:45,Ligue 1,Matchweek 29,Sun,Lyon,Brest,0,home_win,away_win,0.1272884,0.21428241,0.6584292
+2024-04-19,21:00,Ligue 1,Matchweek 30,Fri,Nice,Lorient,0,home_win,home_win,0.45543465,0.34957457,0.1949908
+2024-04-20,21:00,Ligue 1,Matchweek 30,Sat,Lens,Clermont Foot,0,home_win,home_win,0.5696091,0.20255113,0.22783977
+2024-04-20,17:00,Ligue 1,Matchweek 30,Sat,Nantes,Rennes,2,away_win,home_win,0.38173765,0.27159587,0.34666646
+2024-04-21,15:00,Ligue 1,Matchweek 30,Sun,Lille,Strasbourg,0,home_win,home_win,0.66651195,0.12939383,0.20409422
+2024-04-21,21:00,Ligue 1,Matchweek 30,Sun,Paris SG,Lyon,0,home_win,home_win,0.7194481,0.09940505,0.18114688
+2024-04-21,15:00,Ligue 1,Matchweek 30,Sun,Reims,Montpellier,2,away_win,home_win,0.66827273,0.17090048,0.1608268
+2024-04-21,19:00,Ligue 1,Matchweek 30,Sun,Toulouse,Marseille,1,draw,draw,0.27809432,0.37449715,0.34740853
+2024-04-21,17:05,Ligue 1,Matchweek 30,Sun,Brest,Monaco,2,away_win,home_win,0.49812487,0.14162916,0.36024597
+2024-04-21,15:00,Ligue 1,Matchweek 30,Sun,Le Havre,Metz,2,away_win,home_win,0.41869694,0.31715786,0.26414517
+2024-04-24,21:00,Ligue 1,Matchweek 29,Wed,Monaco,Lille,0,home_win,away_win,0.33480752,0.24873115,0.4164613
+2024-04-24,21:00,Ligue 1,Matchweek 29,Wed,Marseille,Nice,1,draw,home_win,0.48526442,0.10116563,0.41356993
+2024-04-24,19:00,Ligue 1,Matchweek 29,Wed,Lorient,Paris SG,2,away_win,away_win,0.16249104,0.28122684,0.55628216
+2024-04-26,21:00,Ligue 1,Matchweek 31,Fri,Montpellier,Nantes,1,draw,home_win,0.6034286,0.18437548,0.21219593
+2024-04-27,21:00,Ligue 1,Matchweek 31,Sat,Paris SG,Le Havre,1,draw,home_win,0.7779911,0.10311313,0.11889575
+2024-04-28,13:00,Ligue 1,Matchweek 31,Sun,Metz,Lille,2,away_win,away_win,0.33292013,0.10895303,0.55812687
+2024-04-28,15:00,Ligue 1,Matchweek 31,Sun,Strasbourg,Nice,2,away_win,away_win,0.33049706,0.3074423,0.36206067
+2024-04-28,15:00,Ligue 1,Matchweek 31,Sun,Lorient,Toulouse,2,away_win,draw,0.23657647,0.4107915,0.35263205
+2024-04-28,15:00,Ligue 1,Matchweek 31,Sun,Clermont Foot,Reims,0,home_win,draw,0.19189394,0.4160669,0.39203912
+2024-04-28,21:00,Ligue 1,Matchweek 31,Sun,Marseille,Lens,0,home_win,away_win,0.2533759,0.2023218,0.5443023
+2024-04-28,17:05,Ligue 1,Matchweek 31,Sun,Rennes,Brest,2,away_win,home_win,0.4053263,0.24729615,0.34737754
+2024-04-28,19:00,Ligue 1,Matchweek 31,Sun,Lyon,Monaco,0,home_win,away_win,0.25521424,0.23425005,0.5105357
+2024-05-03,21:00,Ligue 1,Matchweek 32,Fri,Lens,Lorient,0,home_win,home_win,0.66540444,0.14253068,0.19206487
+2024-05-03,19:00,Ligue 1,Matchweek 32,Fri,Toulouse,Montpellier,2,away_win,home_win,0.5617791,0.29140425,0.14681669
+2024-05-04,19:00,Ligue 1,Matchweek 32,Sat,Metz,Rennes,2,away_win,away_win,0.24664426,0.2903506,0.46300516
+2024-05-04,17:00,Ligue 1,Matchweek 32,Sat,Monaco,Clermont Foot,0,home_win,home_win,0.5693419,0.25090027,0.17975788
+2024-05-04,15:00,Ligue 1,Matchweek 32,Sat,Le Havre,Strasbourg,0,home_win,draw,0.27182102,0.44820517,0.27997383
+2024-05-04,21:00,Ligue 1,Matchweek 32,Sat,Brest,Nantes,1,draw,home_win,0.7737232,0.06445295,0.16182387
+2024-05-06,21:00,Ligue 1,Matchweek 32,Mon,Lille,Lyon,2,away_win,home_win,0.56280786,0.14081547,0.29637665
+2024-05-10,21:00,Ligue 1,Matchweek 33,Fri,Brest,Reims,1,draw,home_win,0.68301845,0.20400962,0.11297192
+2024-05-10,21:00,Ligue 1,Matchweek 33,Fri,Nice,Le Havre,0,home_win,home_win,0.6211024,0.20990795,0.16898963
+2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Montpellier,Monaco,2,away_win,away_win,0.12920952,0.32383004,0.5469604
+2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Clermont Foot,Lyon,2,away_win,away_win,0.13748197,0.25278732,0.6097307
+2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Marseille,Lorient,0,home_win,home_win,0.54322374,0.14651537,0.31026086
+2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Strasbourg,Metz,0,home_win,home_win,0.6240362,0.19380464,0.18215919
+2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Nantes,Lille,2,away_win,away_win,0.12802285,0.15979342,0.7121837
+2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Rennes,Lens,1,draw,home_win,0.6065721,0.19337153,0.2000564
+2024-05-12,21:00,Ligue 1,Matchweek 33,Sun,Paris SG,Toulouse,2,away_win,home_win,0.4688161,0.15346862,0.37771526
+2024-05-15,21:00,Ligue 1,Matchweek 32,Wed,Nice,Paris SG,2,away_win,away_win,0.32272488,0.22856613,0.448709
+2024-05-15,21:00,Ligue 1,Matchweek 32,Wed,Reims,Marseille,0,home_win,draw,0.26001242,0.4932572,0.24673034
+2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Toulouse,Brest,2,away_win,home_win,0.42247513,0.2711943,0.30633056
+2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Le Havre,Marseille,2,away_win,away_win,0.15056092,0.2501586,0.5992805
+2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Lorient,Clermont Foot,0,home_win,draw,0.3819321,0.44679785,0.17127003
+2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Monaco,Nantes,0,home_win,home_win,0.71812713,0.08842242,0.19345044
+2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Reims,Rennes,0,home_win,draw,0.14161742,0.58387035,0.27451223
+2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Lyon,Strasbourg,0,home_win,home_win,0.4480064,0.3385543,0.21343929
+2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Lens,Montpellier,1,draw,home_win,0.6180629,0.1619284,0.22000867
+2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Lille,Nice,1,draw,home_win,0.45845747,0.18455344,0.35698906
+2024-05-19,21:00,Ligue 1,Matchweek 34,Sun,Metz,Paris SG,2,away_win,away_win,0.13808353,0.20227206,0.65964437
