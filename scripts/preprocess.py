@@ -70,6 +70,7 @@ class BaseDataPreprocess:
     with strength-based weighting and rolling averages.
     """
 
+    """ Original rolling cols
     ROLLING_COLS = [
         "GF", "GA", "xG", "xGA", "Poss",  # Fixtures page stats
         "Sh", "SoT", "SoT%", "G/Sh", "G/SoT", "Dist", "FK_x",  # Shooting stats 1
@@ -80,9 +81,25 @@ class BaseDataPreprocess:
         "GCA", "PassLive", "PassDead", "SCA",  # GCA stats
         "Att Pen", "PrgC", "Mis", "Dis"  # Possession stats
     ]
+    
+    Old v2 rolling cols
+    col_predictor = ["gf", "ga", "xg", "xga", "sot", "poss", "xag", "att pen",
+                "npxg/sh", "kp", "ppa", "gca", "sca", "np:g-xg", "psxg+/-", "1/3", "cmp%"]
+    """
+
+    ROLLING_COLS = [
+        "GF", "GA", "xG", "xGA", "Poss",  # Fixtures page stats
+        "Sh", "SoT", "SoT%",  # Shooting stats 1
+        "npxG", "npxG/Sh",  # Shooting stats 2
+        "SoTA", "PSxG", "PSxG+/-", "Opp",  # GK stats
+        "1/3", "xAG", "xA", "KP", "CrsPA", "PrgP", "PPA",  # Passing stats
+        "FK_y", "TB", "Crs", "CK",  # Pass type stats
+        "GCA", "PassLive", "PassDead", "SCA",  # GCA stats
+        "Att Pen", "PrgC" # Possession stats
+    ]
 
     # Rolling average weights - most recent games have higher weight
-    ROLLING_WEIGHTS = np.array([0.15, 0.18, 0.20, 0.22, 0.25])
+    ROLLING_WEIGHTS = np.array([0.1602, 0.178, 0.1978, 0.2198, 0.2442])
 
     ROLLING_WINDOW_SIZE = 5
     MIN_ROLLING_PERIODS = 5
@@ -438,8 +455,8 @@ class BaseDataPreprocess:
 
         static_cols = [
             "Hour",
-            "Home_Elo",
-            "Away_Elo",
+            # "Home_Elo",
+            # "Away_Elo",
             "Relative_Elo",
             "Home_Schedule_Strength_rolling",
             "Away_Schedule_Strength_rolling"

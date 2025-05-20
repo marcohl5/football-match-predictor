@@ -6,7 +6,7 @@ from scripts.xgboost_model import XGBoostFootballModel
 
 # League Name Parameter Input:
 # 'Premier League' / 'Serie A' / 'La Liga' / 'Bundesliga' / 'Ligue 1'
-league_name = "Ligue 1"
+league_name = "Premier League"
 
 # 'Strength' / 'Strength_Fpl'
 strength_type = "Strength_Fpl"
@@ -70,6 +70,7 @@ model = XGBoostFootballModel(
         params=best_params,
         pred_cols=all_predictor_cols,
         df=processed_data,
+        league_name=league_name
 )
 
 results = model.run_pipeline()

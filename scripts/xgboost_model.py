@@ -22,7 +22,8 @@ class XGBoostFootballModel:
                  model_output_path: str,
                  params: dict,
                  pred_cols: List[str],
-                 df: pd.DataFrame,  # df is now required, data_path can be removed or made optional
+                 df: pd.DataFrame,
+                 league_name: str,
                  data_path: Optional[str] = None,  # Made data_path optional
                  ):
         """
@@ -41,6 +42,7 @@ class XGBoostFootballModel:
         self.performance = {}
         self.params = params
         self.df = df
+        self.league_name = league_name
         self.features = pred_cols  # Renamed pred_cols to self.features for consistency
 
         if self.df is None:
@@ -331,14 +333,16 @@ class XGBoostFootballModel:
         print(f"Correct discrete predictions: {correct_predictions}/{total_matches_for_accuracy}")
         print(f"Discrete prediction accuracy: {accuracy:.2f}%")
 
-        output_cols = ['Date', 'Time', 'Comp', 'Round', 'Day', 'Home_Team', 'Away_Team',
+        output_cols = ["Date", "Time", "Comp", "Round", "Day", "GF", "GA", "Home_Team", 'Away_Team',
                        'Target', 'actual_result', 'predicted_result',
                        'home_win_prob', 'draw_prob', 'away_win_prob']
         output_cols_exist = [col for col in output_cols if col in match_predictions_df.columns]
         match_predictions_df_output = match_predictions_df[output_cols_exist]
 
+        league_name_strip = self.league_name.lower().replace(" ", "")
+
         os.makedirs(os.path.join(self.output_path, "results"), exist_ok=True)
-        match_predictions_df_output.to_csv(f"{self.output_path}/results/match_predictions.csv", index=False)
+        match_predictions_df_output.to_csv(f"{self.output_path}/results/match_predictions_{league_name_strip}.csv", index=False)
 
         return match_predictions_df_output, accuracy
 
@@ -497,7 +501,7 @@ class XGBoostFootballModel:
 
         return {
             "performance": self.performance,
-            "match_predictions": match_predictions_df  # This is now the direct prediction output
+            "match_predictions": match_predictions_df
         }
 
 

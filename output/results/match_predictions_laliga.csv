@@ -1,0 +1,181 @@
+Date,Time,Comp,Round,Day,GF,GA,Home_Team,Away_Team,Target,actual_result,predicted_result,home_win_prob,draw_prob,away_win_prob
+2024-01-02,19:15,La Liga,Matchweek 19,Tue,1.0,1.0,Real Sociedad,Alaves,1,draw,home_win,0.5501995,0.28055346,0.169247
+2024-01-02,17:00,La Liga,Matchweek 19,Tue,0.0,2.0,Getafe,Rayo Vallecano,2,away_win,home_win,0.6323761,0.2284528,0.13917111
+2024-01-02,21:30,La Liga,Matchweek 19,Tue,3.0,1.0,Valencia,Villarreal,0,home_win,home_win,0.5071181,0.29527774,0.19760413
+2024-01-03,17:00,La Liga,Matchweek 19,Wed,2.0,0.0,Granada,Cadiz,0,home_win,home_win,0.34294727,0.34008926,0.3169635
+2024-01-03,19:15,La Liga,Matchweek 19,Wed,2.0,1.0,Celta Vigo,Betis,0,home_win,away_win,0.36396503,0.2611115,0.3749235
+2024-01-03,19:15,La Liga,Matchweek 19,Wed,1.0,0.0,Real Madrid,Mallorca,0,home_win,home_win,0.575287,0.20204872,0.22266434
+2024-01-04,20:30,La Liga,Matchweek 19,Thu,1.0,2.0,Las Palmas,Barcelona,2,away_win,away_win,0.20246989,0.19738252,0.60014755
+2024-01-04,17:00,La Liga,Matchweek 19,Thu,1.0,0.0,Osasuna,Almeria,0,home_win,home_win,0.61922413,0.2541508,0.12662503
+2024-01-04,19:15,La Liga,Matchweek 19,Thu,0.0,2.0,Sevilla,Athletic Club,2,away_win,away_win,0.31194505,0.27209315,0.41596186
+2024-01-12,21:00,La Liga,Matchweek 20,Fri,2.0,3.0,Sevilla,Alaves,2,away_win,home_win,0.56105095,0.2452128,0.19373628
+2024-01-13,13:00,La Liga,Matchweek 20,Sat,3.0,0.0,Las Palmas,Villarreal,0,home_win,home_win,0.42979097,0.26089692,0.3093121
+2024-01-13,18:30,La Liga,Matchweek 20,Sat,2.0,1.0,Athletic Club,Real Sociedad,0,home_win,home_win,0.3907869,0.25051543,0.35869765
+2024-01-13,16:15,La Liga,Matchweek 20,Sat,1.0,1.0,Mallorca,Celta Vigo,1,draw,home_win,0.62489444,0.21705839,0.1580472
+2024-01-13,21:00,La Liga,Matchweek 20,Sat,1.0,0.0,Betis,Granada,0,home_win,home_win,0.5174677,0.2658081,0.21672423
+2024-01-14,14:00,La Liga,Matchweek 20,Sun,0.0,0.0,Almeria,Girona,1,draw,away_win,0.23954976,0.31195787,0.44849235
+2024-01-14,16:15,La Liga,Matchweek 20,Sun,1.0,4.0,Cadiz,Valencia,2,away_win,home_win,0.45526767,0.24199548,0.30273685
+2024-01-19,21:00,La Liga,Matchweek 21,Fri,1.0,0.0,Alaves,Cadiz,0,home_win,home_win,0.62422127,0.209885,0.16589372
+2024-01-20,16:15,La Liga,Matchweek 21,Sat,1.0,1.0,Villarreal,Mallorca,1,draw,home_win,0.4602329,0.27747673,0.2622903
+2024-01-20,14:00,La Liga,Matchweek 21,Sat,0.0,2.0,Rayo Vallecano,Las Palmas,2,away_win,home_win,0.54859656,0.27307856,0.17832485
+2024-01-20,18:30,La Liga,Matchweek 21,Sat,1.0,0.0,Valencia,Athletic Club,0,home_win,away_win,0.28765735,0.29715237,0.41519028
+2024-01-20,21:00,La Liga,Matchweek 21,Sat,0.0,1.0,Celta Vigo,Real Sociedad,2,away_win,away_win,0.22757506,0.24974194,0.522683
+2024-01-21,18:30,La Liga,Matchweek 21,Sun,2.0,4.0,Betis,Barcelona,2,away_win,away_win,0.22347942,0.24091032,0.53561026
+2024-01-21,14:00,La Liga,Matchweek 21,Sun,3.0,2.0,Osasuna,Getafe,0,home_win,home_win,0.42414793,0.3215583,0.25429377
+2024-01-21,21:00,La Liga,Matchweek 21,Sun,5.0,1.0,Girona,Sevilla,0,home_win,home_win,0.52077115,0.2529984,0.22623041
+2024-01-21,16:15,La Liga,Matchweek 21,Sun,3.0,2.0,Real Madrid,Almeria,0,home_win,home_win,0.74353623,0.1591977,0.097266026
+2024-01-26,21:00,La Liga,Matchweek 22,Fri,0.0,3.0,Almeria,Alaves,2,away_win,home_win,0.36955652,0.32308072,0.30736277
+2024-01-27,21:00,La Liga,Matchweek 22,Sat,0.0,1.0,Mallorca,Betis,2,away_win,away_win,0.3455203,0.25247493,0.40200475
+2024-01-27,14:00,La Liga,Matchweek 22,Sat,0.0,0.0,Real Sociedad,Rayo Vallecano,1,draw,home_win,0.6179153,0.2659409,0.11614382
+2024-01-27,18:30,La Liga,Matchweek 22,Sat,3.0,5.0,Barcelona,Villarreal,2,away_win,home_win,0.6187158,0.21194072,0.16934346
+2024-01-27,15:15,La Liga,Matchweek 22,Sat,1.0,2.0,Las Palmas,Real Madrid,2,away_win,away_win,0.23589717,0.25729376,0.5068091
+2024-01-28,16:15,La Liga,Matchweek 22,Sun,0.0,0.0,Cadiz,Athletic Club,1,draw,away_win,0.24245672,0.28208816,0.47545508
+2024-01-28,18:30,La Liga,Matchweek 22,Sun,1.0,1.0,Sevilla,Osasuna,1,draw,home_win,0.51841486,0.27994058,0.20164457
+2024-01-28,14:00,La Liga,Matchweek 22,Sun,0.0,1.0,Celta Vigo,Girona,2,away_win,away_win,0.24864092,0.2675472,0.4838119
+2024-01-29,21:00,La Liga,Matchweek 22,Mon,2.0,0.0,Getafe,Granada,0,home_win,home_win,0.41199803,0.29871982,0.28928208
+2024-01-31,19:00,La Liga,Matchweek 20,Wed,1.0,0.0,Barcelona,Osasuna,0,home_win,home_win,0.55759007,0.21806075,0.22434919
+2024-02-01,21:00,La Liga,Matchweek 20,Thu,0.0,2.0,Getafe,Real Madrid,2,away_win,away_win,0.19324219,0.30599746,0.5007604
+2024-02-02,21:00,La Liga,Matchweek 23,Fri,4.0,0.0,Athletic Club,Mallorca,0,home_win,home_win,0.5399214,0.23688062,0.22319795
+2024-02-03,18:30,La Liga,Matchweek 23,Sat,1.0,3.0,Alaves,Barcelona,2,away_win,away_win,0.18387266,0.1816392,0.63448817
+2024-02-03,14:00,La Liga,Matchweek 23,Sat,2.0,1.0,Valencia,Almeria,0,home_win,home_win,0.46298307,0.29181445,0.24520247
+2024-02-03,16:15,La Liga,Matchweek 23,Sat,1.0,1.0,Granada,Las Palmas,1,draw,home_win,0.36268732,0.32463446,0.31267822
+2024-02-03,21:00,La Liga,Matchweek 23,Sat,0.0,0.0,Girona,Real Sociedad,1,draw,home_win,0.464611,0.31513223,0.22025678
+2024-02-04,18:30,La Liga,Matchweek 23,Sun,1.0,1.0,Betis,Getafe,1,draw,home_win,0.39678606,0.27944717,0.3237668
+2024-02-04,16:15,La Liga,Matchweek 23,Sun,0.0,3.0,Osasuna,Celta Vigo,2,away_win,home_win,0.56507117,0.26348308,0.17144573
+2024-02-04,14:00,La Liga,Matchweek 23,Sun,0.0,0.0,Villarreal,Cadiz,1,draw,home_win,0.5351401,0.27640954,0.18845038
+2024-02-05,21:00,La Liga,Matchweek 23,Mon,1.0,2.0,Rayo Vallecano,Sevilla,2,away_win,home_win,0.58792925,0.22843857,0.18363221
+2024-02-09,21:00,La Liga,Matchweek 24,Fri,0.0,2.0,Cadiz,Betis,2,away_win,away_win,0.2766538,0.29839915,0.42494702
+2024-02-10,20:00,La Liga,Matchweek 24,Sat,2.0,0.0,Las Palmas,Valencia,0,home_win,home_win,0.39552078,0.28066367,0.32381558
+2024-02-10,14:00,La Liga,Matchweek 24,Sat,1.0,1.0,Alaves,Villarreal,1,draw,home_win,0.38362414,0.29144806,0.32492775
+2024-02-10,16:15,La Liga,Matchweek 24,Sat,0.0,1.0,Real Sociedad,Osasuna,2,away_win,home_win,0.52253705,0.28668794,0.19077499
+2024-02-10,18:30,La Liga,Matchweek 24,Sat,4.0,0.0,Real Madrid,Girona,0,home_win,home_win,0.45202965,0.22712348,0.3208469
+2024-02-11,21:00,La Liga,Matchweek 24,Sun,3.0,3.0,Barcelona,Granada,1,draw,home_win,0.5724725,0.19483295,0.2326945
+2024-02-11,14:00,La Liga,Matchweek 24,Sun,3.0,2.0,Getafe,Celta Vigo,0,home_win,home_win,0.48944804,0.33121732,0.1793346
+2024-02-11,16:15,La Liga,Matchweek 24,Sun,2.0,1.0,Mallorca,Rayo Vallecano,0,home_win,home_win,0.5960593,0.2812015,0.12273917
+2024-02-12,21:00,La Liga,Matchweek 24,Mon,0.0,0.0,Almeria,Athletic Club,1,draw,away_win,0.27290162,0.34106055,0.38603786
+2024-02-16,21:00,La Liga,Matchweek 25,Fri,1.0,1.0,Villarreal,Getafe,1,draw,home_win,0.5602417,0.2162061,0.2235522
+2024-02-17,21:00,La Liga,Matchweek 25,Sat,0.0,0.0,Valencia,Sevilla,1,draw,home_win,0.5133493,0.26094514,0.22570553
+2024-02-17,18:30,La Liga,Matchweek 25,Sat,1.0,2.0,Celta Vigo,Barcelona,2,away_win,away_win,0.18682925,0.19969705,0.6134737
+2024-02-17,16:15,La Liga,Matchweek 25,Sat,2.0,0.0,Osasuna,Cadiz,0,home_win,home_win,0.59765464,0.24201357,0.1603318
+2024-02-18,16:15,La Liga,Matchweek 25,Sun,1.0,1.0,Granada,Almeria,1,draw,home_win,0.49648848,0.3108388,0.19267276
+2024-02-18,18:30,La Liga,Matchweek 25,Sun,1.0,2.0,Mallorca,Real Sociedad,2,away_win,away_win,0.26599506,0.33824727,0.39575768
+2024-02-18,21:00,La Liga,Matchweek 25,Sun,0.0,0.0,Betis,Alaves,1,draw,home_win,0.56545615,0.2805983,0.15394552
+2024-02-18,14:00,La Liga,Matchweek 25,Sun,1.0,1.0,Rayo Vallecano,Real Madrid,1,draw,away_win,0.18237384,0.19956395,0.6180622
+2024-02-19,21:00,La Liga,Matchweek 25,Mon,3.0,2.0,Athletic Club,Girona,0,home_win,home_win,0.44491825,0.2538911,0.3011906
+2024-02-23,21:00,La Liga,Matchweek 26,Fri,1.0,3.0,Real Sociedad,Villarreal,2,away_win,home_win,0.54272795,0.21794118,0.23933086
+2024-02-24,18:30,La Liga,Matchweek 26,Sat,1.0,1.0,Alaves,Mallorca,1,draw,home_win,0.53591335,0.24484499,0.21924168
+2024-02-24,16:15,La Liga,Matchweek 26,Sat,4.0,0.0,Barcelona,Getafe,0,home_win,home_win,0.51570857,0.21692605,0.26736543
+2024-02-25,14:00,La Liga,Matchweek 26,Sun,2.0,2.0,Cadiz,Celta Vigo,1,draw,home_win,0.45784718,0.31691533,0.22523747
+2024-02-25,16:15,La Liga,Matchweek 26,Sun,3.0,1.0,Betis,Athletic Club,0,home_win,away_win,0.31538054,0.2865134,0.39810604
+2024-02-25,21:00,La Liga,Matchweek 26,Sun,1.0,0.0,Real Madrid,Sevilla,0,home_win,home_win,0.70713204,0.17202817,0.12083974
+2024-02-25,17:30,La Liga,Matchweek 26,Sun,1.0,1.0,Las Palmas,Osasuna,1,draw,home_win,0.62979317,0.23510663,0.1351002
+2024-02-26,21:00,La Liga,Matchweek 26,Mon,3.0,0.0,Girona,Rayo Vallecano,0,home_win,home_win,0.5071935,0.34884354,0.14396296
+2024-03-01,21:00,La Liga,Matchweek 27,Fri,1.0,0.0,Celta Vigo,Almeria,0,home_win,home_win,0.5828807,0.22725911,0.18986021
+2024-03-02,16:15,La Liga,Matchweek 27,Sat,1.0,1.0,Rayo Vallecano,Cadiz,1,draw,home_win,0.5604499,0.2195582,0.2199919
+2024-03-02,21:00,La Liga,Matchweek 27,Sat,2.0,2.0,Valencia,Real Madrid,1,draw,away_win,0.1565091,0.23047547,0.6130154
+2024-03-02,18:30,La Liga,Matchweek 27,Sat,3.0,3.0,Getafe,Las Palmas,1,draw,draw,0.33099705,0.37828878,0.29071411
+2024-03-02,14:00,La Liga,Matchweek 27,Sat,3.0,2.0,Sevilla,Real Sociedad,0,home_win,away_win,0.23969647,0.27136716,0.4889363
+2024-03-03,14:00,La Liga,Matchweek 27,Sun,5.0,1.0,Villarreal,Granada,0,home_win,home_win,0.6626926,0.20239587,0.13491157
+2024-03-03,18:30,La Liga,Matchweek 27,Sun,1.0,0.0,Mallorca,Girona,0,home_win,away_win,0.21347432,0.2367766,0.5497491
+2024-03-03,21:00,La Liga,Matchweek 27,Sun,0.0,0.0,Athletic Club,Barcelona,1,draw,away_win,0.23075032,0.23675485,0.53249484
+2024-03-04,21:00,La Liga,Matchweek 27,Mon,1.0,0.0,Osasuna,Alaves,0,home_win,home_win,0.64658123,0.2318794,0.12153932
+2024-03-08,21:00,La Liga,Matchweek 28,Fri,1.0,0.0,Barcelona,Mallorca,0,home_win,home_win,0.6718384,0.17134234,0.15681922
+2024-03-09,18:30,La Liga,Matchweek 28,Sat,2.0,3.0,Granada,Real Sociedad,2,away_win,away_win,0.22074084,0.2447542,0.53450495
+2024-03-09,21:00,La Liga,Matchweek 28,Sat,2.0,0.0,Girona,Osasuna,0,home_win,home_win,0.69490093,0.19287732,0.11222176
+2024-03-09,14:00,La Liga,Matchweek 28,Sat,1.0,0.0,Valencia,Getafe,0,home_win,home_win,0.46173176,0.3139574,0.22431082
+2024-03-10,14:00,La Liga,Matchweek 28,Sun,1.0,0.0,Alaves,Rayo Vallecano,0,home_win,home_win,0.50009793,0.35399473,0.14590736
+2024-03-10,21:00,La Liga,Matchweek 28,Sun,2.0,3.0,Betis,Villarreal,2,away_win,home_win,0.52795446,0.2112284,0.26081714
+2024-03-10,18:30,La Liga,Matchweek 28,Sun,4.0,0.0,Real Madrid,Celta Vigo,0,home_win,home_win,0.7424638,0.15469332,0.10284285
+2024-03-10,15:15,La Liga,Matchweek 28,Sun,0.0,2.0,Las Palmas,Athletic Club,2,away_win,draw,0.31307784,0.3730829,0.31383926
+2024-03-11,21:00,La Liga,Matchweek 28,Mon,2.0,2.0,Almeria,Sevilla,1,draw,draw,0.3482476,0.37614962,0.2756028
+2024-03-15,21:00,La Liga,Matchweek 29,Fri,2.0,0.0,Real Sociedad,Cadiz,0,home_win,home_win,0.5992642,0.19852719,0.20220861
+2024-03-16,14:00,La Liga,Matchweek 29,Sat,1.0,0.0,Mallorca,Granada,0,home_win,home_win,0.5625018,0.2769217,0.16057655
+2024-03-16,18:30,La Liga,Matchweek 29,Sat,1.0,0.0,Getafe,Girona,0,home_win,away_win,0.19492413,0.328969,0.47610694
+2024-03-16,21:00,La Liga,Matchweek 29,Sat,2.0,0.0,Athletic Club,Alaves,0,home_win,home_win,0.60947585,0.27532637,0.11519779
+2024-03-16,16:15,La Liga,Matchweek 29,Sat,2.0,4.0,Osasuna,Real Madrid,2,away_win,away_win,0.19471824,0.22865961,0.5766221
+2024-03-17,14:00,La Liga,Matchweek 29,Sun,1.0,2.0,Sevilla,Celta Vigo,2,away_win,home_win,0.6232362,0.24569118,0.1310727
+2024-03-17,16:15,La Liga,Matchweek 29,Sun,1.0,0.0,Villarreal,Valencia,0,home_win,home_win,0.6486004,0.19272244,0.15867715
+2024-03-17,15:15,La Liga,Matchweek 29,Sun,0.0,1.0,Las Palmas,Almeria,2,away_win,home_win,0.6401443,0.2272924,0.13256331
+2024-03-17,18:30,La Liga,Matchweek 29,Sun,2.0,0.0,Rayo Vallecano,Betis,0,home_win,away_win,0.2896329,0.3274525,0.38291466
+2024-03-29,21:00,La Liga,Matchweek 30,Fri,1.0,0.0,Cadiz,Granada,0,home_win,home_win,0.6827577,0.20947708,0.10776521
+2024-03-30,16:15,La Liga,Matchweek 30,Sat,0.0,3.0,Almeria,Osasuna,2,away_win,home_win,0.42611998,0.30160248,0.27227756
+2024-03-30,18:30,La Liga,Matchweek 30,Sat,0.0,0.0,Valencia,Mallorca,1,draw,home_win,0.47111857,0.2796011,0.24928032
+2024-03-30,14:00,La Liga,Matchweek 30,Sat,0.0,1.0,Getafe,Sevilla,2,away_win,home_win,0.52155364,0.30300203,0.17544438
+2024-03-30,21:00,La Liga,Matchweek 30,Sat,1.0,0.0,Barcelona,Las Palmas,0,home_win,home_win,0.4814246,0.22589391,0.2926815
+2024-03-31,16:15,La Liga,Matchweek 30,Sun,3.0,2.0,Girona,Betis,0,home_win,home_win,0.46032816,0.2428577,0.29681417
+2024-03-31,21:00,La Liga,Matchweek 30,Sun,2.0,0.0,Real Madrid,Athletic Club,0,home_win,home_win,0.64378774,0.19600533,0.16020694
+2024-03-31,18:30,La Liga,Matchweek 30,Sun,0.0,1.0,Alaves,Real Sociedad,2,away_win,away_win,0.15203145,0.21397427,0.6339943
+2024-03-31,14:00,La Liga,Matchweek 30,Sun,0.0,0.0,Celta Vigo,Rayo Vallecano,1,draw,home_win,0.5641066,0.26044166,0.17545176
+2024-04-04,20:00,La Liga,Matchweek 26,Thu,0.0,1.0,Granada,Valencia,2,away_win,away_win,0.3448367,0.2596072,0.39555606
+2024-04-12,21:00,La Liga,Matchweek 31,Fri,2.0,1.0,Betis,Celta Vigo,0,home_win,home_win,0.602082,0.22707528,0.1708427
+2024-04-13,18:30,La Liga,Matchweek 31,Sat,0.0,1.0,Mallorca,Real Madrid,2,away_win,away_win,0.16048989,0.22037446,0.6191356
+2024-04-13,16:15,La Liga,Matchweek 31,Sat,0.0,0.0,Rayo Vallecano,Getafe,1,draw,home_win,0.50996786,0.3291061,0.16092603
+2024-04-13,21:00,La Liga,Matchweek 31,Sat,0.0,1.0,Cadiz,Barcelona,2,away_win,away_win,0.2631024,0.28824294,0.44865468
+2024-04-14,18:30,La Liga,Matchweek 31,Sun,1.0,1.0,Athletic Club,Villarreal,1,draw,home_win,0.46420825,0.2945881,0.24120362
+2024-04-14,16:15,La Liga,Matchweek 31,Sun,2.0,0.0,Granada,Alaves,0,home_win,away_win,0.33352795,0.27368015,0.3927919
+2024-04-14,13:00,La Liga,Matchweek 31,Sun,0.0,2.0,Las Palmas,Sevilla,2,away_win,home_win,0.60632837,0.21006466,0.18360697
+2024-04-14,21:00,La Liga,Matchweek 31,Sun,2.0,2.0,Real Sociedad,Almeria,1,draw,home_win,0.67198676,0.16356951,0.16444379
+2024-04-15,21:00,La Liga,Matchweek 31,Mon,0.0,1.0,Osasuna,Valencia,2,away_win,home_win,0.57580984,0.2335719,0.19061825
+2024-04-19,21:00,La Liga,Matchweek 32,Fri,1.0,1.0,Athletic Club,Granada,1,draw,home_win,0.6624337,0.1969906,0.14057568
+2024-04-20,18:30,La Liga,Matchweek 32,Sat,1.0,2.0,Valencia,Betis,2,away_win,home_win,0.51018125,0.25975582,0.23006295
+2024-04-20,16:15,La Liga,Matchweek 32,Sat,2.0,1.0,Rayo Vallecano,Osasuna,0,home_win,home_win,0.5702932,0.31196025,0.11774658
+2024-04-20,21:00,La Liga,Matchweek 32,Sat,4.0,1.0,Girona,Cadiz,0,home_win,home_win,0.5515831,0.27034572,0.17807122
+2024-04-20,14:00,La Liga,Matchweek 32,Sat,4.0,1.0,Celta Vigo,Las Palmas,0,home_win,home_win,0.55475414,0.21974069,0.22550514
+2024-04-21,21:00,La Liga,Matchweek 32,Sun,3.0,2.0,Real Madrid,Barcelona,0,home_win,home_win,0.46797222,0.26024967,0.27177814
+2024-04-21,16:15,La Liga,Matchweek 32,Sun,1.0,2.0,Almeria,Villarreal,2,away_win,away_win,0.29454678,0.34212112,0.36333206
+2024-04-21,14:00,La Liga,Matchweek 32,Sun,1.0,1.0,Getafe,Real Sociedad,1,draw,away_win,0.13939397,0.24050178,0.62010425
+2024-04-22,21:00,La Liga,Matchweek 32,Mon,2.0,1.0,Sevilla,Mallorca,0,home_win,home_win,0.4231466,0.32043865,0.25641477
+2024-04-26,21:00,La Liga,Matchweek 33,Fri,0.0,1.0,Real Sociedad,Real Madrid,2,away_win,away_win,0.25418615,0.18063267,0.5651812
+2024-04-27,18:30,La Liga,Matchweek 33,Sat,3.0,0.0,Alaves,Celta Vigo,0,home_win,home_win,0.36766824,0.32503715,0.3072946
+2024-04-27,13:00,La Liga,Matchweek 33,Sat,0.0,2.0,Las Palmas,Girona,2,away_win,away_win,0.22165073,0.20058315,0.5777661
+2024-04-27,16:15,La Liga,Matchweek 33,Sat,1.0,3.0,Almeria,Getafe,2,away_win,home_win,0.3714443,0.34034497,0.28821066
+2024-04-28,14:00,La Liga,Matchweek 33,Sun,1.0,1.0,Cadiz,Mallorca,1,draw,home_win,0.46285388,0.32763496,0.20951119
+2024-04-28,21:00,La Liga,Matchweek 33,Sun,1.0,1.0,Betis,Sevilla,1,draw,home_win,0.66433775,0.19111316,0.14454913
+2024-04-28,16:15,La Liga,Matchweek 33,Sun,3.0,0.0,Granada,Osasuna,0,home_win,home_win,0.38207823,0.31258807,0.30533367
+2024-04-28,18:30,La Liga,Matchweek 33,Sun,3.0,0.0,Villarreal,Rayo Vallecano,0,home_win,home_win,0.65971714,0.16669752,0.1735854
+2024-04-29,21:00,La Liga,Matchweek 33,Mon,4.0,2.0,Barcelona,Valencia,0,home_win,home_win,0.62061137,0.21771061,0.16167797
+2024-05-03,21:00,La Liga,Matchweek 34,Fri,0.0,2.0,Getafe,Athletic Club,2,away_win,home_win,0.3553909,0.30521345,0.33939564
+2024-05-04,16:15,La Liga,Matchweek 34,Sat,3.0,0.0,Real Madrid,Cadiz,0,home_win,home_win,0.61784005,0.2377377,0.14442231
+2024-05-04,14:00,La Liga,Matchweek 34,Sat,2.0,0.0,Real Sociedad,Las Palmas,0,home_win,home_win,0.5655532,0.1808855,0.25356135
+2024-05-04,18:30,La Liga,Matchweek 34,Sat,4.0,2.0,Girona,Barcelona,0,home_win,away_win,0.3193896,0.2604648,0.4201456
+2024-05-05,16:15,La Liga,Matchweek 34,Sun,3.0,2.0,Celta Vigo,Villarreal,0,home_win,away_win,0.3518127,0.25424036,0.39394692
+2024-05-05,18:30,La Liga,Matchweek 34,Sun,0.0,1.0,Valencia,Alaves,2,away_win,home_win,0.5466717,0.30901188,0.14431642
+2024-05-05,14:00,La Liga,Matchweek 34,Sun,0.0,2.0,Osasuna,Betis,2,away_win,away_win,0.28548035,0.29815987,0.41635984
+2024-05-05,21:00,La Liga,Matchweek 34,Sun,0.0,1.0,Rayo Vallecano,Almeria,2,away_win,home_win,0.56828004,0.29510003,0.13661996
+2024-05-05,21:00,La Liga,Matchweek 34,Sun,3.0,0.0,Sevilla,Granada,0,home_win,home_win,0.46662042,0.37654227,0.15683736
+2024-05-10,21:00,La Liga,Matchweek 35,Fri,2.0,2.0,Alaves,Girona,1,draw,away_win,0.18351224,0.24361844,0.5728693
+2024-05-11,16:15,La Liga,Matchweek 35,Sat,3.0,2.0,Villarreal,Sevilla,0,home_win,home_win,0.52956116,0.24383064,0.22660822
+2024-05-11,14:00,La Liga,Matchweek 35,Sat,1.0,0.0,Mallorca,Las Palmas,0,home_win,home_win,0.40809253,0.37515515,0.21675235
+2024-05-11,18:30,La Liga,Matchweek 35,Sat,0.0,4.0,Granada,Real Madrid,2,away_win,away_win,0.19415344,0.25422803,0.5516186
+2024-05-11,21:00,La Liga,Matchweek 35,Sat,2.0,2.0,Athletic Club,Osasuna,1,draw,home_win,0.78312254,0.11017698,0.10670046
+2024-05-12,21:00,La Liga,Matchweek 35,Sun,3.0,2.0,Betis,Almeria,0,home_win,home_win,0.70552176,0.1746462,0.119832
+2024-05-12,18:30,La Liga,Matchweek 35,Sun,0.0,0.0,Valencia,Rayo Vallecano,1,draw,home_win,0.5066591,0.29751748,0.19582339
+2024-05-12,14:00,La Liga,Matchweek 35,Sun,1.0,0.0,Cadiz,Getafe,0,home_win,home_win,0.4741891,0.27415127,0.2516597
+2024-05-13,21:00,La Liga,Matchweek 35,Mon,2.0,0.0,Barcelona,Real Sociedad,0,home_win,home_win,0.47661343,0.24259885,0.28078765
+2024-05-14,22:00,La Liga,Matchweek 36,Tue,0.0,1.0,Girona,Villarreal,2,away_win,home_win,0.55502737,0.26432225,0.18065037
+2024-05-14,19:30,La Liga,Matchweek 36,Tue,1.0,1.0,Osasuna,Mallorca,1,draw,home_win,0.54311377,0.29401731,0.16286893
+2024-05-14,21:30,La Liga,Matchweek 36,Tue,5.0,0.0,Real Madrid,Alaves,0,home_win,home_win,0.5803649,0.23381357,0.1858215
+2024-05-15,19:30,La Liga,Matchweek 36,Wed,2.0,1.0,Rayo Vallecano,Granada,0,home_win,home_win,0.50464416,0.28852764,0.20682816
+2024-05-15,22:00,La Liga,Matchweek 36,Wed,2.0,1.0,Celta Vigo,Athletic Club,0,home_win,home_win,0.48311883,0.2538489,0.26303223
+2024-05-15,19:30,La Liga,Matchweek 36,Wed,0.0,1.0,Sevilla,Cadiz,2,away_win,home_win,0.47337663,0.3258798,0.20074356
+2024-05-16,21:30,La Liga,Matchweek 36,Thu,0.0,2.0,Almeria,Barcelona,2,away_win,away_win,0.2482202,0.2519773,0.4998025
+2024-05-16,18:30,La Liga,Matchweek 36,Thu,2.0,2.0,Las Palmas,Betis,1,draw,away_win,0.27898663,0.2866699,0.4343435
+2024-05-16,22:00,La Liga,Matchweek 36,Thu,1.0,0.0,Real Sociedad,Valencia,0,home_win,home_win,0.7200841,0.1677627,0.11215319
+2024-05-18,21:00,La Liga,Matchweek 37,Sat,1.0,0.0,Alaves,Getafe,0,home_win,home_win,0.518149,0.2886461,0.19320488
+2024-05-19,19:00,La Liga,Matchweek 37,Sun,3.0,0.0,Barcelona,Rayo Vallecano,0,home_win,home_win,0.6241579,0.1733747,0.20246741
+2024-05-19,19:00,La Liga,Matchweek 37,Sun,0.0,0.0,Cadiz,Las Palmas,1,draw,home_win,0.5052259,0.3145152,0.18025891
+2024-05-19,19:00,La Liga,Matchweek 37,Sun,0.0,2.0,Betis,Real Sociedad,2,away_win,home_win,0.43103635,0.28189188,0.28707173
+2024-05-19,19:00,La Liga,Matchweek 37,Sun,1.0,3.0,Valencia,Girona,2,away_win,away_win,0.22886468,0.19254173,0.57859355
+2024-05-19,19:00,La Liga,Matchweek 37,Sun,1.0,2.0,Granada,Celta Vigo,2,away_win,away_win,0.27553156,0.26886848,0.45560002
+2024-05-19,19:00,La Liga,Matchweek 37,Sun,2.0,2.0,Mallorca,Almeria,1,draw,home_win,0.5452285,0.32268894,0.1320826
+2024-05-19,19:00,La Liga,Matchweek 37,Sun,2.0,0.0,Athletic Club,Sevilla,0,home_win,home_win,0.59733534,0.21275349,0.18991116
+2024-05-19,19:00,La Liga,Matchweek 37,Sun,4.0,4.0,Villarreal,Real Madrid,1,draw,away_win,0.3275747,0.25515467,0.41727066
+2024-05-24,21:00,La Liga,Matchweek 38,Fri,7.0,0.0,Girona,Granada,0,home_win,home_win,0.64541537,0.18735938,0.16722527
+2024-05-25,14:00,La Liga,Matchweek 38,Sat,1.0,1.0,Osasuna,Villarreal,1,draw,away_win,0.31152588,0.28306118,0.4054129
+2024-05-25,21:00,La Liga,Matchweek 38,Sat,0.0,0.0,Real Madrid,Betis,1,draw,home_win,0.47795743,0.29330403,0.22873856
+2024-05-25,18:30,La Liga,Matchweek 38,Sat,0.0,1.0,Rayo Vallecano,Athletic Club,2,away_win,home_win,0.51219356,0.20182145,0.28598496
+2024-05-25,18:30,La Liga,Matchweek 38,Sat,6.0,1.0,Almeria,Cadiz,0,home_win,home_win,0.37786034,0.31613076,0.30600888
+2024-05-26,15:15,La Liga,Matchweek 38,Sun,1.0,1.0,Las Palmas,Alaves,1,draw,home_win,0.49520394,0.21417,0.29062605
+2024-05-26,14:00,La Liga,Matchweek 38,Sun,1.0,2.0,Getafe,Mallorca,2,away_win,home_win,0.68229914,0.205493,0.11220785
+2024-05-26,16:15,La Liga,Matchweek 38,Sun,2.0,2.0,Celta Vigo,Valencia,1,draw,home_win,0.6334354,0.2433251,0.1232395
+2024-05-26,21:00,La Liga,Matchweek 38,Sun,1.0,2.0,Sevilla,Barcelona,2,away_win,away_win,0.15990075,0.19461365,0.6454856

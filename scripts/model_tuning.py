@@ -1,7 +1,7 @@
 import pandas as pd
-import numpy as np  # For np.log in hyperopt space if needed
+import numpy as np
 import xgboost as xgb
-from sklearn.metrics import accuracy_score, f1_score
+from sklearn.metrics import accuracy_score, f1_score, log_loss # MODIFIED: Added log_loss
 from hyperopt import hp, fmin, tpe, STATUS_OK, Trials
 import json
 import os
@@ -9,7 +9,7 @@ from typing import List, Optional
 import warnings
 
 warnings.filterwarnings("ignore", category=UserWarning)
-warnings.filterwarnings("ignore", category=FutureWarning)  # For XGBoost related future warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 
 class XGBoostHyperparameterTuner:
@@ -209,7 +209,7 @@ class XGBoostHyperparameterTuner:
             json.dump(final_model_params, f, indent=4)
         print(f"Best parameters saved to {output_file_path}")
 
-        return final_model_params  # Return the full set for model instantiation
+        return final_model_params
 
 
 if __name__ == "__main__":

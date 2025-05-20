@@ -1,0 +1,201 @@
+Date,Time,Comp,Round,Day,GF,GA,Home_Team,Away_Team,Target,actual_result,predicted_result,home_win_prob,draw_prob,away_win_prob
+2024-01-05,20:45,Serie A,Matchweek 19,Fri,1.0,1.0,Bologna,Genoa,1,draw,draw,0.3776632,0.39500353,0.22733329
+2024-01-06,20:45,Serie A,Matchweek 19,Sat,1.0,0.0,Sassuolo,Fiorentina,0,home_win,away_win,0.21637975,0.12532322,0.65829706
+2024-01-06,15:00,Serie A,Matchweek 19,Sat,2.0,3.0,Frosinone,Monza,2,away_win,away_win,0.37798133,0.19536659,0.42665204
+2024-01-06,18:00,Serie A,Matchweek 19,Sat,1.0,1.0,Lecce,Cagliari,1,draw,home_win,0.60766524,0.21655612,0.17577869
+2024-01-06,12:30,Serie A,Matchweek 19,Sat,2.0,1.0,Inter,Hellas Verona,0,home_win,home_win,0.7243809,0.15672113,0.11889796
+2024-01-07,18:00,Serie A,Matchweek 19,Sun,1.0,2.0,Salernitana,Juventus,2,away_win,away_win,0.36330447,0.1802035,0.45649198
+2024-01-07,20:45,Serie A,Matchweek 19,Sun,1.0,1.0,Roma,Atalanta,1,draw,away_win,0.3787849,0.18342929,0.4377858
+2024-01-07,12:30,Serie A,Matchweek 19,Sun,0.0,3.0,Empoli,Milan,2,away_win,away_win,0.21357131,0.33679056,0.44963813
+2024-01-07,15:00,Serie A,Matchweek 19,Sun,3.0,0.0,Torino,Napoli,0,home_win,away_win,0.16190237,0.10773114,0.73036647
+2024-01-07,15:00,Serie A,Matchweek 19,Sun,1.0,2.0,Udinese,Lazio,2,away_win,away_win,0.19991326,0.18138708,0.6186996
+2024-01-13,15:00,Serie A,Matchweek 20,Sat,0.0,0.0,Genoa,Torino,1,draw,away_win,0.29646206,0.13768542,0.56585246
+2024-01-13,20:45,Serie A,Matchweek 20,Sat,1.0,5.0,Monza,Inter,2,away_win,away_win,0.2025481,0.2921613,0.5052906
+2024-01-13,18:00,Serie A,Matchweek 20,Sat,2.0,1.0,Hellas Verona,Empoli,0,home_win,home_win,0.6098252,0.26051986,0.12965497
+2024-01-13,15:00,Serie A,Matchweek 20,Sat,2.0,1.0,Napoli,Salernitana,0,home_win,home_win,0.7841215,0.15619431,0.059684172
+2024-01-14,15:00,Serie A,Matchweek 20,Sun,2.0,1.0,Cagliari,Bologna,0,home_win,away_win,0.30140042,0.13246918,0.5661304
+2024-01-14,20:45,Serie A,Matchweek 20,Sun,3.0,1.0,Milan,Roma,0,home_win,home_win,0.47715858,0.17287827,0.3499631
+2024-01-14,18:00,Serie A,Matchweek 20,Sun,2.0,2.0,Fiorentina,Udinese,1,draw,home_win,0.5748912,0.2579193,0.16718951
+2024-01-14,12:30,Serie A,Matchweek 20,Sun,1.0,0.0,Lazio,Lecce,0,home_win,home_win,0.6033586,0.1811103,0.21553108
+2024-01-15,20:45,Serie A,Matchweek 20,Mon,5.0,0.0,Atalanta,Frosinone,0,home_win,home_win,0.6157557,0.16289566,0.22134872
+2024-01-16,20:45,Serie A,Matchweek 20,Tue,3.0,0.0,Juventus,Sassuolo,0,home_win,home_win,0.5617364,0.24768227,0.19058132
+2024-01-20,18:00,Serie A,Matchweek 21,Sat,2.0,1.0,Roma,Hellas Verona,0,home_win,home_win,0.62908,0.21393242,0.15698756
+2024-01-20,20:45,Serie A,Matchweek 21,Sat,2.0,3.0,Udinese,Milan,2,away_win,away_win,0.19865958,0.16945063,0.6318898
+2024-01-21,12:30,Serie A,Matchweek 21,Sun,3.0,1.0,Frosinone,Cagliari,0,home_win,home_win,0.50979954,0.29820642,0.19199403
+2024-01-21,15:00,Serie A,Matchweek 21,Sun,3.0,0.0,Empoli,Monza,0,home_win,home_win,0.34293348,0.32649535,0.33057117
+2024-01-21,18:00,Serie A,Matchweek 21,Sun,1.0,2.0,Salernitana,Genoa,2,away_win,home_win,0.4731997,0.2614401,0.2653602
+2024-01-21,20:45,Serie A,Matchweek 21,Sun,0.0,3.0,Lecce,Juventus,2,away_win,away_win,0.23694655,0.20961915,0.55343425
+2024-01-26,20:45,Serie A,Matchweek 22,Fri,1.0,2.0,Cagliari,Torino,2,away_win,away_win,0.31701672,0.1697077,0.51327556
+2024-01-27,20:45,Serie A,Matchweek 22,Sat,2.0,2.0,Milan,Bologna,1,draw,home_win,0.61602247,0.18039443,0.20358308
+2024-01-27,18:00,Serie A,Matchweek 22,Sat,1.0,1.0,Juventus,Empoli,1,draw,home_win,0.70680875,0.17631201,0.11687925
+2024-01-27,15:00,Serie A,Matchweek 22,Sat,2.0,0.0,Atalanta,Udinese,0,home_win,home_win,0.76269096,0.100418106,0.13689098
+2024-01-28,12:30,Serie A,Matchweek 22,Sun,2.0,1.0,Genoa,Lecce,0,home_win,home_win,0.51841867,0.17627518,0.30530614
+2024-01-28,18:00,Serie A,Matchweek 22,Sun,0.0,0.0,Lazio,Napoli,1,draw,away_win,0.34143338,0.25523904,0.4033276
+2024-01-28,15:00,Serie A,Matchweek 22,Sun,1.0,1.0,Hellas Verona,Frosinone,1,draw,home_win,0.5534417,0.2179847,0.2285736
+2024-01-28,15:00,Serie A,Matchweek 22,Sun,1.0,0.0,Monza,Sassuolo,0,home_win,home_win,0.4675879,0.27873212,0.25367996
+2024-01-28,20:45,Serie A,Matchweek 22,Sun,0.0,1.0,Fiorentina,Inter,2,away_win,away_win,0.23656662,0.3178815,0.4455519
+2024-01-29,20:45,Serie A,Matchweek 22,Mon,1.0,2.0,Salernitana,Roma,2,away_win,away_win,0.14888665,0.13287891,0.7182345
+2024-02-02,20:45,Serie A,Matchweek 23,Fri,3.0,2.0,Lecce,Fiorentina,0,home_win,away_win,0.30366582,0.12268713,0.5736471
+2024-02-03,15:00,Serie A,Matchweek 23,Sat,0.0,0.0,Udinese,Monza,1,draw,away_win,0.3077263,0.31187975,0.38039398
+2024-02-03,18:00,Serie A,Matchweek 23,Sat,2.0,3.0,Frosinone,Milan,2,away_win,away_win,0.21723583,0.20826308,0.5745011
+2024-02-03,20:45,Serie A,Matchweek 23,Sat,4.0,2.0,Bologna,Sassuolo,0,home_win,home_win,0.46583217,0.32370448,0.2104633
+2024-02-03,15:00,Serie A,Matchweek 23,Sat,0.0,0.0,Empoli,Genoa,1,draw,home_win,0.5549258,0.22483677,0.22023742
+2024-02-04,20:45,Serie A,Matchweek 23,Sun,1.0,0.0,Inter,Juventus,0,home_win,home_win,0.594612,0.21061294,0.1947751
+2024-02-04,15:00,Serie A,Matchweek 23,Sun,2.0,1.0,Napoli,Hellas Verona,0,home_win,home_win,0.6752679,0.18455309,0.14017901
+2024-02-04,18:00,Serie A,Matchweek 23,Sun,3.0,1.0,Atalanta,Lazio,0,home_win,home_win,0.64048237,0.17089127,0.1886263
+2024-02-04,12:30,Serie A,Matchweek 23,Sun,0.0,0.0,Torino,Salernitana,1,draw,home_win,0.6838852,0.16591083,0.15020391
+2024-02-05,20:45,Serie A,Matchweek 23,Mon,4.0,0.0,Roma,Cagliari,0,home_win,home_win,0.6301523,0.22896212,0.14088562
+2024-02-09,20:45,Serie A,Matchweek 24,Fri,1.0,3.0,Salernitana,Empoli,2,away_win,home_win,0.56958437,0.2621195,0.1682961
+2024-02-10,18:00,Serie A,Matchweek 24,Sat,2.0,4.0,Roma,Inter,2,away_win,away_win,0.20630588,0.21939771,0.5742964
+2024-02-10,20:45,Serie A,Matchweek 24,Sat,1.0,1.0,Sassuolo,Torino,1,draw,away_win,0.38558403,0.19856758,0.4158484
+2024-02-10,15:00,Serie A,Matchweek 24,Sat,1.0,3.0,Cagliari,Lazio,2,away_win,away_win,0.3149289,0.21339092,0.47168016
+2024-02-11,20:45,Serie A,Matchweek 24,Sun,1.0,0.0,Milan,Napoli,0,home_win,home_win,0.57447135,0.12641631,0.29911235
+2024-02-11,15:00,Serie A,Matchweek 24,Sun,4.0,0.0,Bologna,Lecce,0,home_win,home_win,0.48096925,0.20266657,0.31636423
+2024-02-11,18:00,Serie A,Matchweek 24,Sun,1.0,4.0,Genoa,Atalanta,2,away_win,away_win,0.22921073,0.083160184,0.6876291
+2024-02-11,12:30,Serie A,Matchweek 24,Sun,5.0,1.0,Fiorentina,Frosinone,0,home_win,home_win,0.6865492,0.15655012,0.1569007
+2024-02-11,15:00,Serie A,Matchweek 24,Sun,0.0,0.0,Monza,Hellas Verona,1,draw,draw,0.34823847,0.35483232,0.29692924
+2024-02-12,20:45,Serie A,Matchweek 24,Mon,0.0,1.0,Juventus,Udinese,2,away_win,home_win,0.5660515,0.22171846,0.21223004
+2024-02-14,19:00,Serie A,Matchweek 21,Wed,2.0,0.0,Bologna,Fiorentina,0,home_win,home_win,0.52709424,0.17156734,0.30133846
+2024-02-16,21:00,Serie A,Matchweek 25,Fri,4.0,0.0,Inter,Salernitana,0,home_win,home_win,0.7782735,0.10757326,0.114153184
+2024-02-16,19:00,Serie A,Matchweek 25,Fri,2.0,0.0,Torino,Lecce,0,home_win,home_win,0.42806953,0.30564165,0.26628885
+2024-02-17,18:00,Serie A,Matchweek 25,Sat,2.0,2.0,Hellas Verona,Juventus,1,draw,away_win,0.25874624,0.14549641,0.59575737
+2024-02-17,20:45,Serie A,Matchweek 25,Sat,3.0,0.0,Atalanta,Sassuolo,0,home_win,home_win,0.79044443,0.09951214,0.110043466
+2024-02-17,15:00,Serie A,Matchweek 25,Sat,1.0,1.0,Napoli,Genoa,1,draw,home_win,0.7629817,0.16348265,0.07353562
+2024-02-18,20:45,Serie A,Matchweek 25,Sun,4.0,2.0,Monza,Milan,0,home_win,away_win,0.20103757,0.32104373,0.47791865
+2024-02-18,18:00,Serie A,Matchweek 25,Sun,0.0,3.0,Frosinone,Roma,2,away_win,away_win,0.20352505,0.16173285,0.6347421
+2024-02-18,15:00,Serie A,Matchweek 25,Sun,1.0,1.0,Empoli,Fiorentina,1,draw,away_win,0.37631577,0.14298901,0.4806952
+2024-02-18,12:30,Serie A,Matchweek 25,Sun,1.0,2.0,Lazio,Bologna,2,away_win,home_win,0.4232633,0.23239763,0.3443391
+2024-02-18,15:00,Serie A,Matchweek 25,Sun,1.0,1.0,Udinese,Cagliari,1,draw,home_win,0.56412095,0.28565976,0.15021932
+2024-02-22,20:45,Serie A,Matchweek 21,Thu,0.0,2.0,Torino,Lazio,2,away_win,away_win,0.34503016,0.19838491,0.4565849
+2024-02-23,20:45,Serie A,Matchweek 26,Fri,2.0,0.0,Bologna,Hellas Verona,0,home_win,home_win,0.60415566,0.21240766,0.18343669
+2024-02-24,20:45,Serie A,Matchweek 26,Sat,2.0,0.0,Genoa,Udinese,0,home_win,home_win,0.48362193,0.28036243,0.2360157
+2024-02-24,15:00,Serie A,Matchweek 26,Sat,2.0,3.0,Sassuolo,Empoli,2,away_win,home_win,0.49762866,0.29697713,0.20539422
+2024-02-24,18:00,Serie A,Matchweek 26,Sat,0.0,2.0,Salernitana,Monza,2,away_win,away_win,0.3068185,0.18256366,0.51061785
+2024-02-25,15:00,Serie A,Matchweek 26,Sun,1.0,1.0,Cagliari,Napoli,1,draw,away_win,0.3225716,0.13056092,0.5468675
+2024-02-25,18:00,Serie A,Matchweek 26,Sun,0.0,4.0,Lecce,Inter,2,away_win,away_win,0.28688613,0.23041707,0.4826968
+2024-02-25,12:30,Serie A,Matchweek 26,Sun,3.0,2.0,Juventus,Frosinone,0,home_win,home_win,0.716257,0.14673737,0.13700572
+2024-02-25,20:45,Serie A,Matchweek 26,Sun,1.0,1.0,Milan,Atalanta,1,draw,home_win,0.49495813,0.173224,0.33181787
+2024-02-26,20:45,Serie A,Matchweek 26,Mon,2.0,1.0,Fiorentina,Lazio,0,home_win,home_win,0.46060964,0.23494045,0.30444986
+2024-02-26,18:30,Serie A,Matchweek 26,Mon,3.0,2.0,Roma,Torino,0,home_win,home_win,0.47476658,0.21840474,0.30682862
+2024-02-28,18:00,Serie A,Matchweek 21,Wed,1.0,6.0,Sassuolo,Napoli,2,away_win,away_win,0.17484592,0.17499606,0.65015805
+2024-02-28,20:45,Serie A,Matchweek 21,Wed,4.0,0.0,Inter,Atalanta,0,home_win,home_win,0.7004192,0.101385556,0.19819523
+2024-03-01,20:45,Serie A,Matchweek 27,Fri,0.0,1.0,Lazio,Milan,2,away_win,home_win,0.43797112,0.21873389,0.34329495
+2024-03-02,15:00,Serie A,Matchweek 27,Sat,1.0,1.0,Udinese,Salernitana,1,draw,home_win,0.49503964,0.2724367,0.23252366
+2024-03-02,20:45,Serie A,Matchweek 27,Sat,0.0,0.0,Torino,Fiorentina,1,draw,home_win,0.5603584,0.21682599,0.22281563
+2024-03-02,18:00,Serie A,Matchweek 27,Sat,1.0,4.0,Monza,Roma,2,away_win,away_win,0.25856158,0.20049332,0.5409451
+2024-03-03,18:00,Serie A,Matchweek 27,Sun,1.0,2.0,Atalanta,Bologna,2,away_win,home_win,0.6946475,0.08569531,0.21965721
+2024-03-03,15:00,Serie A,Matchweek 27,Sun,0.0,1.0,Empoli,Cagliari,2,away_win,home_win,0.56124246,0.30979344,0.12896411
+2024-03-03,20:45,Serie A,Matchweek 27,Sun,2.0,1.0,Napoli,Juventus,0,home_win,home_win,0.44249356,0.2945063,0.26300016
+2024-03-03,15:00,Serie A,Matchweek 27,Sun,1.0,1.0,Frosinone,Lecce,1,draw,draw,0.36266726,0.42588878,0.21144396
+2024-03-03,12:30,Serie A,Matchweek 27,Sun,1.0,0.0,Hellas Verona,Sassuolo,0,home_win,home_win,0.45091268,0.26239717,0.28669012
+2024-03-04,20:45,Serie A,Matchweek 27,Mon,2.0,1.0,Inter,Genoa,0,home_win,home_win,0.8636498,0.063093655,0.07325659
+2024-03-08,20:45,Serie A,Matchweek 28,Fri,1.0,1.0,Napoli,Torino,1,draw,home_win,0.67024666,0.19602692,0.13372643
+2024-03-09,18:00,Serie A,Matchweek 28,Sat,0.0,1.0,Bologna,Inter,2,away_win,away_win,0.2752257,0.27047047,0.4543038
+2024-03-09,15:00,Serie A,Matchweek 28,Sat,4.0,2.0,Cagliari,Salernitana,0,home_win,home_win,0.53481424,0.2634705,0.20171525
+2024-03-09,20:45,Serie A,Matchweek 28,Sat,2.0,3.0,Genoa,Monza,2,away_win,home_win,0.58954877,0.20811626,0.202335
+2024-03-09,15:00,Serie A,Matchweek 28,Sat,1.0,0.0,Sassuolo,Frosinone,0,home_win,draw,0.3285769,0.41479823,0.2566249
+2024-03-10,15:00,Serie A,Matchweek 28,Sun,1.0,0.0,Milan,Empoli,0,home_win,home_win,0.578011,0.30177882,0.120210215
+2024-03-10,12:30,Serie A,Matchweek 28,Sun,0.0,1.0,Lecce,Hellas Verona,2,away_win,home_win,0.42919686,0.33440802,0.23639517
+2024-03-10,18:00,Serie A,Matchweek 28,Sun,2.0,2.0,Juventus,Atalanta,1,draw,home_win,0.45742592,0.23749375,0.30508026
+2024-03-10,20:45,Serie A,Matchweek 28,Sun,2.0,2.0,Fiorentina,Roma,1,draw,away_win,0.31065264,0.15545328,0.53389406
+2024-03-11,20:45,Serie A,Matchweek 28,Mon,1.0,2.0,Lazio,Udinese,2,away_win,home_win,0.4393858,0.28546488,0.27514926
+2024-03-15,20:45,Serie A,Matchweek 29,Fri,0.0,1.0,Empoli,Bologna,2,away_win,away_win,0.19596319,0.14968958,0.6543472
+2024-03-16,15:00,Serie A,Matchweek 29,Sat,0.0,2.0,Udinese,Torino,2,away_win,away_win,0.38836387,0.14625166,0.46538442
+2024-03-16,20:45,Serie A,Matchweek 29,Sat,2.0,3.0,Frosinone,Lazio,2,away_win,away_win,0.30094072,0.22442572,0.4746336
+2024-03-16,15:00,Serie A,Matchweek 29,Sat,1.0,0.0,Monza,Cagliari,0,home_win,draw,0.391369,0.41417232,0.19445866
+2024-03-16,18:00,Serie A,Matchweek 29,Sat,0.0,1.0,Salernitana,Lecce,2,away_win,home_win,0.52682304,0.2615854,0.21159154
+2024-03-17,12:30,Serie A,Matchweek 29,Sun,0.0,0.0,Juventus,Genoa,1,draw,home_win,0.6898512,0.16950127,0.14064755
+2024-03-17,18:00,Serie A,Matchweek 29,Sun,1.0,0.0,Roma,Sassuolo,0,home_win,home_win,0.43856266,0.17981574,0.3816216
+2024-03-17,15:00,Serie A,Matchweek 29,Sun,1.0,3.0,Hellas Verona,Milan,2,away_win,away_win,0.24959624,0.23702577,0.513378
+2024-03-17,20:45,Serie A,Matchweek 29,Sun,1.0,1.0,Inter,Napoli,1,draw,home_win,0.67885625,0.06253969,0.25860402
+2024-03-30,12:30,Serie A,Matchweek 30,Sat,0.0,3.0,Napoli,Atalanta,2,away_win,home_win,0.4564367,0.2911727,0.25239062
+2024-03-30,20:45,Serie A,Matchweek 30,Sat,1.0,2.0,Fiorentina,Milan,2,away_win,away_win,0.22048996,0.3582956,0.4212144
+2024-03-30,15:00,Serie A,Matchweek 30,Sat,1.0,0.0,Torino,Monza,0,home_win,home_win,0.4838289,0.2346925,0.28147864
+2024-03-30,18:00,Serie A,Matchweek 30,Sat,1.0,0.0,Lazio,Juventus,0,home_win,home_win,0.43139154,0.13940187,0.4292066
+2024-03-30,15:00,Serie A,Matchweek 30,Sat,1.0,1.0,Genoa,Frosinone,1,draw,home_win,0.6601844,0.17063403,0.16918157
+2024-04-01,15:00,Serie A,Matchweek 30,Mon,1.0,1.0,Sassuolo,Udinese,1,draw,away_win,0.3450962,0.30367652,0.35122728
+2024-04-01,12:30,Serie A,Matchweek 30,Mon,3.0,0.0,Bologna,Salernitana,0,home_win,home_win,0.6563121,0.18003327,0.16365464
+2024-04-01,15:00,Serie A,Matchweek 30,Mon,1.0,1.0,Cagliari,Hellas Verona,1,draw,home_win,0.386146,0.28116417,0.33268985
+2024-04-01,20:45,Serie A,Matchweek 30,Mon,2.0,0.0,Inter,Empoli,0,home_win,home_win,0.6954293,0.13134481,0.17322582
+2024-04-01,18:00,Serie A,Matchweek 30,Mon,0.0,0.0,Lecce,Roma,1,draw,away_win,0.3132299,0.19149253,0.4952776
+2024-04-05,20:45,Serie A,Matchweek 31,Fri,2.0,2.0,Salernitana,Sassuolo,1,draw,home_win,0.48709637,0.19400896,0.31889465
+2024-04-06,20:45,Serie A,Matchweek 31,Sat,3.0,2.0,Empoli,Torino,0,home_win,away_win,0.2748227,0.15319377,0.5719835
+2024-04-06,15:00,Serie A,Matchweek 31,Sat,3.0,0.0,Milan,Lecce,0,home_win,home_win,0.7193055,0.1793452,0.10134924
+2024-04-06,18:00,Serie A,Matchweek 31,Sat,1.0,0.0,Roma,Lazio,0,home_win,home_win,0.5325642,0.20170829,0.26572752
+2024-04-07,12:30,Serie A,Matchweek 31,Sun,0.0,0.0,Frosinone,Bologna,1,draw,away_win,0.23863754,0.1362355,0.62512696
+2024-04-07,20:45,Serie A,Matchweek 31,Sun,1.0,0.0,Juventus,Fiorentina,0,home_win,home_win,0.5767004,0.23840083,0.18489882
+2024-04-07,15:00,Serie A,Matchweek 31,Sun,2.0,4.0,Monza,Napoli,2,away_win,away_win,0.3258496,0.1589376,0.5152128
+2024-04-07,18:00,Serie A,Matchweek 31,Sun,2.0,1.0,Cagliari,Atalanta,0,home_win,away_win,0.4274468,0.1361661,0.4363871
+2024-04-07,18:00,Serie A,Matchweek 31,Sun,1.0,2.0,Hellas Verona,Genoa,2,away_win,home_win,0.4259496,0.35671282,0.21733755
+2024-04-08,20:45,Serie A,Matchweek 31,Mon,1.0,2.0,Udinese,Inter,2,away_win,away_win,0.22349654,0.14929695,0.6272065
+2024-04-12,20:45,Serie A,Matchweek 32,Fri,4.0,1.0,Lazio,Salernitana,0,home_win,home_win,0.6301455,0.1891323,0.18072215
+2024-04-13,18:00,Serie A,Matchweek 32,Sat,0.0,0.0,Torino,Juventus,1,draw,away_win,0.4047322,0.15676306,0.43850476
+2024-04-13,20:45,Serie A,Matchweek 32,Sat,0.0,0.0,Bologna,Monza,1,draw,home_win,0.65544224,0.17476851,0.16978927
+2024-04-13,15:00,Serie A,Matchweek 32,Sat,1.0,0.0,Lecce,Empoli,0,home_win,home_win,0.50272614,0.22621045,0.27106345
+2024-04-14,12:30,Serie A,Matchweek 32,Sun,2.0,2.0,Napoli,Frosinone,1,draw,home_win,0.6098693,0.25505972,0.13507096
+2024-04-14,15:00,Serie A,Matchweek 32,Sun,3.0,3.0,Sassuolo,Milan,1,draw,away_win,0.14567642,0.30092347,0.55340016
+2024-04-14,20:45,Serie A,Matchweek 32,Sun,2.0,2.0,Inter,Cagliari,1,draw,home_win,0.8047726,0.10658658,0.088640764
+2024-04-15,20:45,Serie A,Matchweek 32,Mon,2.0,2.0,Atalanta,Hellas Verona,1,draw,home_win,0.8103894,0.11104509,0.07856552
+2024-04-15,18:30,Serie A,Matchweek 32,Mon,1.0,1.0,Fiorentina,Genoa,1,draw,home_win,0.59388494,0.19984925,0.20626579
+2024-04-19,20:45,Serie A,Matchweek 33,Fri,2.0,2.0,Cagliari,Juventus,1,draw,away_win,0.31589842,0.14125901,0.54284257
+2024-04-19,18:30,Serie A,Matchweek 33,Fri,0.0,1.0,Genoa,Lazio,2,away_win,away_win,0.37874767,0.17176186,0.4494905
+2024-04-20,18:00,Serie A,Matchweek 33,Sat,1.0,0.0,Empoli,Napoli,0,home_win,away_win,0.12943761,0.10744998,0.7631124
+2024-04-20,20:45,Serie A,Matchweek 33,Sat,1.0,0.0,Hellas Verona,Udinese,0,home_win,home_win,0.4446532,0.36166123,0.19368555
+2024-04-21,18:00,Serie A,Matchweek 33,Sun,0.0,2.0,Salernitana,Fiorentina,2,away_win,away_win,0.3079038,0.1525543,0.5395419
+2024-04-21,12:30,Serie A,Matchweek 33,Sun,0.0,3.0,Sassuolo,Lecce,2,away_win,draw,0.27605033,0.39127132,0.33267835
+2024-04-21,20:45,Serie A,Matchweek 33,Sun,1.0,2.0,Monza,Atalanta,2,away_win,away_win,0.24244173,0.27760252,0.4799558
+2024-04-21,15:00,Serie A,Matchweek 33,Sun,0.0,0.0,Torino,Frosinone,1,draw,home_win,0.6213444,0.1724498,0.20620584
+2024-04-22,18:30,Serie A,Matchweek 33,Mon,1.0,3.0,Roma,Bologna,2,away_win,home_win,0.49197283,0.14248316,0.36554402
+2024-04-22,20:45,Serie A,Matchweek 33,Mon,1.0,2.0,Milan,Inter,2,away_win,away_win,0.28859332,0.23154882,0.47985783
+2024-04-25,20:00,Serie A,Matchweek 32,Thu,1.0,2.0,Udinese,Roma,2,away_win,away_win,0.28666043,0.23360321,0.47973633
+2024-04-26,20:45,Serie A,Matchweek 34,Fri,3.0,0.0,Frosinone,Salernitana,0,home_win,home_win,0.46932027,0.28409737,0.24658237
+2024-04-27,18:00,Serie A,Matchweek 34,Sat,0.0,0.0,Juventus,Milan,1,draw,draw,0.32007128,0.34880653,0.33112216
+2024-04-27,20:45,Serie A,Matchweek 34,Sat,1.0,0.0,Lazio,Hellas Verona,0,home_win,home_win,0.56501216,0.21088263,0.22410521
+2024-04-27,15:00,Serie A,Matchweek 34,Sat,1.0,1.0,Lecce,Monza,1,draw,home_win,0.51488537,0.26121977,0.22389483
+2024-04-28,20:45,Serie A,Matchweek 34,Sun,5.0,1.0,Fiorentina,Sassuolo,0,home_win,home_win,0.60587114,0.14540422,0.24872462
+2024-04-28,12:30,Serie A,Matchweek 34,Sun,2.0,0.0,Inter,Torino,0,home_win,home_win,0.56779253,0.122062236,0.3101453
+2024-04-28,18:00,Serie A,Matchweek 34,Sun,2.0,0.0,Atalanta,Empoli,0,home_win,home_win,0.77951455,0.111785665,0.10869976
+2024-04-28,18:00,Serie A,Matchweek 34,Sun,2.0,2.0,Napoli,Roma,1,draw,home_win,0.6675819,0.16384414,0.16857398
+2024-04-28,15:00,Serie A,Matchweek 34,Sun,1.0,1.0,Bologna,Udinese,1,draw,home_win,0.61536515,0.20706657,0.17756826
+2024-04-29,20:45,Serie A,Matchweek 34,Mon,3.0,0.0,Genoa,Cagliari,0,home_win,draw,0.31956875,0.37627634,0.30415487
+2024-05-03,20:45,Serie A,Matchweek 35,Fri,0.0,0.0,Torino,Bologna,1,draw,away_win,0.37299666,0.20056453,0.42643884
+2024-05-04,18:00,Serie A,Matchweek 35,Sat,2.0,2.0,Monza,Lazio,1,draw,away_win,0.24836503,0.31108093,0.44055408
+2024-05-04,20:45,Serie A,Matchweek 35,Sat,1.0,0.0,Sassuolo,Inter,0,home_win,away_win,0.098592676,0.2578798,0.6435275
+2024-05-05,15:00,Serie A,Matchweek 35,Sun,0.0,0.0,Empoli,Frosinone,1,draw,away_win,0.3555205,0.25293225,0.39154723
+2024-05-05,15:00,Serie A,Matchweek 35,Sun,2.0,1.0,Hellas Verona,Fiorentina,0,home_win,away_win,0.29710463,0.1272278,0.57566756
+2024-05-05,18:00,Serie A,Matchweek 35,Sun,3.0,3.0,Milan,Genoa,1,draw,home_win,0.6301034,0.20068567,0.16921093
+2024-05-05,12:30,Serie A,Matchweek 35,Sun,1.0,1.0,Cagliari,Lecce,1,draw,home_win,0.48691213,0.25265938,0.2604285
+2024-05-05,20:45,Serie A,Matchweek 35,Sun,1.0,1.0,Roma,Juventus,1,draw,home_win,0.42439348,0.20997988,0.36562663
+2024-05-06,20:45,Serie A,Matchweek 35,Mon,1.0,1.0,Udinese,Napoli,1,draw,away_win,0.094678484,0.11672221,0.78859925
+2024-05-06,18:00,Serie A,Matchweek 35,Mon,1.0,2.0,Salernitana,Atalanta,2,away_win,away_win,0.24265228,0.23001048,0.52733725
+2024-05-10,20:45,Serie A,Matchweek 36,Fri,0.0,5.0,Frosinone,Inter,2,away_win,away_win,0.21736674,0.13593897,0.6466943
+2024-05-11,18:00,Serie A,Matchweek 36,Sat,0.0,2.0,Napoli,Bologna,2,away_win,home_win,0.53717476,0.14256799,0.32025725
+2024-05-11,20:45,Serie A,Matchweek 36,Sat,5.0,1.0,Milan,Cagliari,0,home_win,home_win,0.6860169,0.19231693,0.12166617
+2024-05-12,18:00,Serie A,Matchweek 36,Sun,1.0,1.0,Juventus,Salernitana,1,draw,home_win,0.6062872,0.23066667,0.1630461
+2024-05-12,12:30,Serie A,Matchweek 36,Sun,2.0,0.0,Lazio,Empoli,0,home_win,home_win,0.61991763,0.22289065,0.15719175
+2024-05-12,15:00,Serie A,Matchweek 36,Sun,1.0,2.0,Hellas Verona,Torino,2,away_win,away_win,0.24830347,0.22555208,0.52614444
+2024-05-12,15:00,Serie A,Matchweek 36,Sun,2.0,1.0,Genoa,Sassuolo,0,home_win,away_win,0.35988033,0.23480685,0.40531287
+2024-05-12,20:45,Serie A,Matchweek 36,Sun,2.0,1.0,Atalanta,Roma,0,home_win,home_win,0.57369363,0.11115474,0.3151516
+2024-05-13,20:45,Serie A,Matchweek 36,Mon,2.0,1.0,Fiorentina,Monza,0,home_win,home_win,0.75475174,0.1628121,0.08243615
+2024-05-13,18:30,Serie A,Matchweek 36,Mon,0.0,2.0,Lecce,Udinese,2,away_win,home_win,0.57634556,0.23260291,0.19105156
+2024-05-17,20:45,Serie A,Matchweek 37,Fri,2.0,2.0,Fiorentina,Napoli,1,draw,home_win,0.49865636,0.14214633,0.35919732
+2024-05-18,20:45,Serie A,Matchweek 37,Sat,3.0,1.0,Torino,Milan,0,home_win,away_win,0.24849752,0.2524701,0.4990324
+2024-05-18,18:00,Serie A,Matchweek 37,Sat,0.0,2.0,Lecce,Atalanta,2,away_win,away_win,0.17611648,0.14245348,0.6814301
+2024-05-19,15:00,Serie A,Matchweek 37,Sun,0.0,1.0,Monza,Frosinone,2,away_win,away_win,0.34280878,0.29053226,0.36665902
+2024-05-19,15:00,Serie A,Matchweek 37,Sun,1.0,1.0,Udinese,Empoli,1,draw,away_win,0.28437185,0.347073,0.36855513
+2024-05-19,20:45,Serie A,Matchweek 37,Sun,1.0,0.0,Roma,Genoa,0,home_win,home_win,0.59478956,0.22061303,0.18459739
+2024-05-19,18:00,Serie A,Matchweek 37,Sun,1.0,1.0,Inter,Lazio,1,draw,home_win,0.6709723,0.10687245,0.22215524
+2024-05-19,12:30,Serie A,Matchweek 37,Sun,0.0,2.0,Sassuolo,Cagliari,2,away_win,draw,0.23075913,0.45525527,0.3139856
+2024-05-20,20:45,Serie A,Matchweek 37,Mon,3.0,3.0,Bologna,Juventus,1,draw,home_win,0.544015,0.1918388,0.26414618
+2024-05-20,18:30,Serie A,Matchweek 37,Mon,1.0,2.0,Salernitana,Hellas Verona,2,away_win,away_win,0.28639618,0.25144812,0.46215567
+2024-05-23,20:45,Serie A,Matchweek 38,Thu,2.0,3.0,Cagliari,Fiorentina,2,away_win,away_win,0.17184998,0.139115,0.689035
+2024-05-24,20:45,Serie A,Matchweek 38,Fri,2.0,0.0,Genoa,Bologna,0,home_win,away_win,0.22712299,0.11584231,0.6570347
+2024-05-25,20:45,Serie A,Matchweek 38,Sat,3.0,3.0,Milan,Salernitana,1,draw,home_win,0.77559316,0.11467229,0.10973457
+2024-05-25,18:00,Serie A,Matchweek 38,Sat,2.0,0.0,Juventus,Monza,0,home_win,home_win,0.71264076,0.12698078,0.16037843
+2024-05-26,20:45,Serie A,Matchweek 38,Sun,2.0,1.0,Empoli,Roma,0,home_win,away_win,0.13281265,0.123254314,0.743933
+2024-05-26,20:45,Serie A,Matchweek 38,Sun,1.0,1.0,Lazio,Sassuolo,1,draw,home_win,0.55001336,0.26866844,0.18131818
+2024-05-26,18:00,Serie A,Matchweek 38,Sun,0.0,0.0,Napoli,Lecce,1,draw,home_win,0.77004784,0.14215076,0.08780135
+2024-05-26,18:00,Serie A,Matchweek 38,Sun,3.0,0.0,Atalanta,Torino,0,home_win,home_win,0.6427674,0.12373385,0.23349875
+2024-05-26,20:45,Serie A,Matchweek 38,Sun,0.0,1.0,Frosinone,Udinese,2,away_win,home_win,0.462653,0.30251926,0.23482776
+2024-05-26,20:45,Serie A,Matchweek 38,Sun,2.0,2.0,Hellas Verona,Inter,1,draw,away_win,0.13859679,0.20728976,0.6541135
+2024-06-02,18:00,Serie A,Matchweek 29,Sun,2.0,3.0,Atalanta,Fiorentina,2,away_win,home_win,0.67240924,0.11476382,0.2128269

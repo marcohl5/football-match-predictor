@@ -1,0 +1,164 @@
+Date,Time,Comp,Round,Day,GF,GA,Home_Team,Away_Team,Target,actual_result,predicted_result,home_win_prob,draw_prob,away_win_prob
+2024-01-12,20:30,Bundesliga,Matchweek 17,Fri,3.0,0.0,Bayern Munich,Hoffenheim,0,home_win,home_win,0.63368005,0.21938041,0.14693959
+2024-01-13,15:30,Bundesliga,Matchweek 17,Sat,1.0,1.0,Mainz 05,Wolfsburg,1,draw,home_win,0.53891027,0.27489495,0.18619476
+2024-01-13,18:30,Bundesliga,Matchweek 17,Sat,0.0,3.0,Darmstadt 98,Dortmund,2,away_win,home_win,0.4908989,0.19931772,0.3097834
+2024-01-13,15:30,Bundesliga,Matchweek 17,Sat,0.0,0.0,Freiburg,Union Berlin,1,draw,home_win,0.64176697,0.22676733,0.13146566
+2024-01-13,15:30,Bundesliga,Matchweek 17,Sat,0.0,1.0,RB Leipzig,Eint Frankfurt,2,away_win,home_win,0.6685992,0.20794979,0.123450965
+2024-01-13,15:30,Bundesliga,Matchweek 17,Sat,0.0,1.0,Augsburg,Leverkusen,2,away_win,away_win,0.27344975,0.15134491,0.5752054
+2024-01-13,15:30,Bundesliga,Matchweek 17,Sat,1.0,1.0,Koln,Heidenheim,1,draw,home_win,0.6270134,0.1707392,0.20224743
+2024-01-14,17:30,Bundesliga,Matchweek 17,Sun,3.0,1.0,Gladbach,Stuttgart,0,home_win,home_win,0.43473884,0.236488,0.3287732
+2024-01-14,15:30,Bundesliga,Matchweek 17,Sun,1.0,1.0,Bochum,Werder Bremen,1,draw,home_win,0.60640025,0.19228914,0.20131063
+2024-01-20,15:30,Bundesliga,Matchweek 18,Sat,1.0,0.0,Bochum,Stuttgart,0,home_win,home_win,0.45603272,0.15981103,0.38415623
+2024-01-20,15:30,Bundesliga,Matchweek 18,Sat,3.0,2.0,Freiburg,Hoffenheim,0,home_win,home_win,0.69416124,0.2246648,0.08117399
+2024-01-20,15:30,Bundesliga,Matchweek 18,Sat,2.0,2.0,Darmstadt 98,Eint Frankfurt,1,draw,home_win,0.4288615,0.28667098,0.2844675
+2024-01-20,15:30,Bundesliga,Matchweek 18,Sat,0.0,4.0,Koln,Dortmund,2,away_win,home_win,0.49042907,0.17443492,0.335136
+2024-01-20,18:30,Bundesliga,Matchweek 18,Sat,2.0,3.0,RB Leipzig,Leverkusen,2,away_win,home_win,0.43785262,0.15016662,0.41198078
+2024-01-20,15:30,Bundesliga,Matchweek 18,Sat,1.0,1.0,Heidenheim,Wolfsburg,1,draw,home_win,0.57005864,0.17615154,0.25378978
+2024-01-21,17:30,Bundesliga,Matchweek 18,Sun,1.0,2.0,Gladbach,Augsburg,2,away_win,home_win,0.58965766,0.21775602,0.1925863
+2024-01-21,15:30,Bundesliga,Matchweek 18,Sun,0.0,1.0,Bayern Munich,Werder Bremen,2,away_win,home_win,0.6956554,0.19990084,0.104443766
+2024-01-24,20:30,Bundesliga,Matchweek 13,Wed,1.0,0.0,Bayern Munich,Union Berlin,0,home_win,home_win,0.5665441,0.28672487,0.146731
+2024-01-26,20:30,Bundesliga,Matchweek 19,Fri,1.0,0.0,Eint Frankfurt,Mainz 05,0,home_win,home_win,0.62179154,0.22688551,0.15132296
+2024-01-27,15:30,Bundesliga,Matchweek 19,Sat,1.0,1.0,Wolfsburg,Koln,1,draw,home_win,0.4274352,0.2586211,0.31394368
+2024-01-27,15:30,Bundesliga,Matchweek 19,Sat,5.0,2.0,Stuttgart,RB Leipzig,0,home_win,away_win,0.28697154,0.23023662,0.48279187
+2024-01-27,15:30,Bundesliga,Matchweek 19,Sat,2.0,3.0,Augsburg,Bayern Munich,2,away_win,away_win,0.122821175,0.14148484,0.735694
+2024-01-27,15:30,Bundesliga,Matchweek 19,Sat,3.0,1.0,Werder Bremen,Freiburg,0,home_win,away_win,0.37406212,0.24159782,0.38434005
+2024-01-27,18:30,Bundesliga,Matchweek 19,Sat,0.0,0.0,Leverkusen,Gladbach,1,draw,home_win,0.81525373,0.092262544,0.092483684
+2024-01-27,15:30,Bundesliga,Matchweek 19,Sat,1.0,1.0,Hoffenheim,Heidenheim,1,draw,home_win,0.76593435,0.1382693,0.095796384
+2024-01-28,17:30,Bundesliga,Matchweek 19,Sun,3.0,1.0,Dortmund,Bochum,0,home_win,home_win,0.78609693,0.12989856,0.08400449
+2024-01-28,15:30,Bundesliga,Matchweek 19,Sun,1.0,0.0,Union Berlin,Darmstadt 98,0,home_win,home_win,0.5806644,0.28727975,0.13205583
+2024-02-02,20:30,Bundesliga,Matchweek 20,Fri,0.0,0.0,Heidenheim,Dortmund,1,draw,home_win,0.52065796,0.18019599,0.2991461
+2024-02-03,15:30,Bundesliga,Matchweek 20,Sat,1.0,3.0,Freiburg,Stuttgart,2,away_win,home_win,0.35003713,0.30951825,0.34044465
+2024-02-03,15:30,Bundesliga,Matchweek 20,Sat,0.0,2.0,Darmstadt 98,Leverkusen,2,away_win,away_win,0.1787479,0.16394469,0.6573074
+2024-02-03,15:30,Bundesliga,Matchweek 20,Sat,1.0,1.0,Bochum,Augsburg,1,draw,home_win,0.7580867,0.101416625,0.14049672
+2024-02-03,18:30,Bundesliga,Matchweek 20,Sat,2.0,0.0,Koln,Eint Frankfurt,0,home_win,home_win,0.5571323,0.15494327,0.2879244
+2024-02-03,15:30,Bundesliga,Matchweek 20,Sat,3.0,1.0,Bayern Munich,Gladbach,0,home_win,home_win,0.7369386,0.16075632,0.102305084
+2024-02-03,15:30,Bundesliga,Matchweek 20,Sat,0.0,1.0,Mainz 05,Werder Bremen,2,away_win,home_win,0.6349632,0.1998595,0.16517727
+2024-02-04,17:30,Bundesliga,Matchweek 20,Sun,2.0,0.0,RB Leipzig,Union Berlin,0,home_win,home_win,0.7661077,0.13385645,0.100035906
+2024-02-04,15:30,Bundesliga,Matchweek 20,Sun,2.0,2.0,Wolfsburg,Hoffenheim,1,draw,away_win,0.3958416,0.17395757,0.43020087
+2024-02-07,18:30,Bundesliga,Matchweek 18,Wed,1.0,1.0,Mainz 05,Union Berlin,1,draw,home_win,0.65042937,0.20841758,0.14115307
+2024-02-09,20:30,Bundesliga,Matchweek 21,Fri,3.0,0.0,Dortmund,Freiburg,0,home_win,home_win,0.7701427,0.1081433,0.121714085
+2024-02-10,18:30,Bundesliga,Matchweek 21,Sat,3.0,0.0,Leverkusen,Bayern Munich,0,home_win,away_win,0.35729155,0.23925787,0.40345052
+2024-02-10,15:30,Bundesliga,Matchweek 21,Sat,0.0,0.0,Gladbach,Darmstadt 98,1,draw,home_win,0.6015125,0.23534204,0.16314547
+2024-02-10,15:30,Bundesliga,Matchweek 21,Sat,2.0,2.0,Augsburg,RB Leipzig,1,draw,away_win,0.13778844,0.30986494,0.5523466
+2024-02-10,15:30,Bundesliga,Matchweek 21,Sat,1.0,2.0,Werder Bremen,Heidenheim,2,away_win,home_win,0.60404295,0.24816594,0.14779116
+2024-02-10,15:30,Bundesliga,Matchweek 21,Sat,1.0,1.0,Eint Frankfurt,Bochum,1,draw,home_win,0.5895756,0.25190657,0.15851781
+2024-02-10,15:30,Bundesliga,Matchweek 21,Sat,1.0,0.0,Union Berlin,Wolfsburg,0,home_win,home_win,0.6701034,0.15814734,0.17174928
+2024-02-11,17:30,Bundesliga,Matchweek 21,Sun,1.0,1.0,Hoffenheim,Koln,1,draw,home_win,0.74212086,0.12806594,0.12981316
+2024-02-11,15:30,Bundesliga,Matchweek 21,Sun,3.0,1.0,Stuttgart,Mainz 05,0,home_win,home_win,0.7791973,0.12706289,0.09373985
+2024-02-16,20:30,Bundesliga,Matchweek 22,Fri,0.0,1.0,Koln,Werder Bremen,2,away_win,home_win,0.483097,0.21807319,0.29882976
+2024-02-17,15:30,Bundesliga,Matchweek 22,Sat,1.0,1.0,Wolfsburg,Dortmund,1,draw,away_win,0.32516745,0.14087331,0.5339592
+2024-02-17,15:30,Bundesliga,Matchweek 22,Sat,1.0,2.0,Heidenheim,Leverkusen,2,away_win,away_win,0.38550574,0.16945066,0.4450436
+2024-02-17,15:30,Bundesliga,Matchweek 22,Sat,1.0,0.0,Mainz 05,Augsburg,0,home_win,home_win,0.7258832,0.15117876,0.12293803
+2024-02-17,15:30,Bundesliga,Matchweek 22,Sat,1.0,2.0,Darmstadt 98,Stuttgart,2,away_win,away_win,0.14263904,0.19581375,0.66154724
+2024-02-17,15:30,Bundesliga,Matchweek 22,Sat,0.0,1.0,Hoffenheim,Union Berlin,2,away_win,home_win,0.6471029,0.21992698,0.13297011
+2024-02-17,18:30,Bundesliga,Matchweek 22,Sat,2.0,0.0,RB Leipzig,Gladbach,0,home_win,home_win,0.8180357,0.11252392,0.06944037
+2024-02-18,15:30,Bundesliga,Matchweek 22,Sun,3.0,3.0,Freiburg,Eint Frankfurt,1,draw,home_win,0.38708496,0.36120862,0.25170642
+2024-02-18,17:30,Bundesliga,Matchweek 22,Sun,3.0,2.0,Bochum,Bayern Munich,0,home_win,away_win,0.22050788,0.10326449,0.6762276
+2024-02-23,20:30,Bundesliga,Matchweek 23,Fri,2.0,1.0,Leverkusen,Mainz 05,0,home_win,home_win,0.75155735,0.16346405,0.08497862
+2024-02-24,18:30,Bundesliga,Matchweek 23,Sat,2.0,1.0,Bayern Munich,RB Leipzig,0,home_win,home_win,0.43484357,0.27663362,0.28852284
+2024-02-24,15:30,Bundesliga,Matchweek 23,Sat,5.0,2.0,Gladbach,Bochum,0,home_win,home_win,0.6358875,0.2298428,0.13426974
+2024-02-24,15:30,Bundesliga,Matchweek 23,Sat,1.0,1.0,Werder Bremen,Darmstadt 98,1,draw,home_win,0.6772459,0.20787296,0.114881136
+2024-02-24,15:30,Bundesliga,Matchweek 23,Sat,1.0,1.0,Stuttgart,Koln,1,draw,home_win,0.7603962,0.16375308,0.07585075
+2024-02-24,15:30,Bundesliga,Matchweek 23,Sat,2.0,2.0,Union Berlin,Heidenheim,1,draw,home_win,0.7801719,0.11438626,0.105441846
+2024-02-25,19:30,Bundesliga,Matchweek 23,Sun,2.0,1.0,Augsburg,Freiburg,0,home_win,draw,0.20419475,0.4557938,0.34001142
+2024-02-25,15:30,Bundesliga,Matchweek 23,Sun,2.0,2.0,Eint Frankfurt,Wolfsburg,1,draw,home_win,0.65848345,0.21503358,0.12648298
+2024-02-25,17:30,Bundesliga,Matchweek 23,Sun,2.0,3.0,Dortmund,Hoffenheim,2,away_win,home_win,0.6084631,0.17848198,0.21305487
+2024-03-01,20:30,Bundesliga,Matchweek 24,Fri,2.0,2.0,Freiburg,Bayern Munich,1,draw,away_win,0.17276783,0.24135104,0.5858811
+2024-03-02,15:30,Bundesliga,Matchweek 24,Sat,0.0,2.0,Union Berlin,Dortmund,2,away_win,home_win,0.4509606,0.20826209,0.34077734
+2024-03-02,15:30,Bundesliga,Matchweek 24,Sat,1.0,4.0,Bochum,RB Leipzig,2,away_win,away_win,0.26487494,0.26722652,0.46789852
+2024-03-02,15:30,Bundesliga,Matchweek 24,Sat,1.0,1.0,Mainz 05,Gladbach,1,draw,home_win,0.63990104,0.23594797,0.12415099
+2024-03-02,15:30,Bundesliga,Matchweek 24,Sat,0.0,6.0,Darmstadt 98,Augsburg,2,away_win,home_win,0.4732164,0.27536243,0.25142115
+2024-03-02,15:30,Bundesliga,Matchweek 24,Sat,1.0,2.0,Heidenheim,Eint Frankfurt,2,away_win,home_win,0.4863068,0.22874478,0.28494844
+2024-03-02,18:30,Bundesliga,Matchweek 24,Sat,2.0,3.0,Wolfsburg,Stuttgart,2,away_win,away_win,0.19126022,0.21802907,0.5907107
+2024-03-03,17:30,Bundesliga,Matchweek 24,Sun,2.0,1.0,Hoffenheim,Werder Bremen,0,home_win,home_win,0.6425684,0.2289102,0.12852138
+2024-03-03,15:30,Bundesliga,Matchweek 24,Sun,0.0,2.0,Koln,Leverkusen,2,away_win,away_win,0.31802613,0.17124085,0.510733
+2024-03-08,20:30,Bundesliga,Matchweek 25,Fri,2.0,0.0,Stuttgart,Union Berlin,0,home_win,home_win,0.71857506,0.2007271,0.08069787
+2024-03-09,15:30,Bundesliga,Matchweek 25,Sat,2.0,0.0,RB Leipzig,Darmstadt 98,0,home_win,home_win,0.79393506,0.11518326,0.090881735
+2024-03-09,15:30,Bundesliga,Matchweek 25,Sat,1.0,0.0,Augsburg,Heidenheim,0,home_win,home_win,0.56242585,0.34778836,0.08978577
+2024-03-09,15:30,Bundesliga,Matchweek 25,Sat,3.0,3.0,Gladbach,Koln,1,draw,home_win,0.6870868,0.19725047,0.11566271
+2024-03-09,15:30,Bundesliga,Matchweek 25,Sat,8.0,1.0,Bayern Munich,Mainz 05,0,home_win,home_win,0.7786092,0.15761095,0.063779816
+2024-03-09,18:30,Bundesliga,Matchweek 25,Sat,1.0,2.0,Werder Bremen,Dortmund,2,away_win,home_win,0.4278595,0.22657657,0.345564
+2024-03-10,17:30,Bundesliga,Matchweek 25,Sun,3.0,1.0,Eint Frankfurt,Hoffenheim,0,home_win,home_win,0.4238868,0.38775817,0.18835504
+2024-03-10,19:30,Bundesliga,Matchweek 25,Sun,2.0,0.0,Leverkusen,Wolfsburg,0,home_win,home_win,0.7572552,0.14372528,0.09901952
+2024-03-10,15:30,Bundesliga,Matchweek 25,Sun,1.0,2.0,Bochum,Freiburg,2,away_win,home_win,0.38881204,0.23500079,0.3761872
+2024-03-15,20:30,Bundesliga,Matchweek 26,Fri,1.0,5.0,Koln,RB Leipzig,2,away_win,away_win,0.22853816,0.27964517,0.49181667
+2024-03-16,15:30,Bundesliga,Matchweek 26,Sat,1.0,3.0,Wolfsburg,Augsburg,2,away_win,home_win,0.5031059,0.16056249,0.33633164
+2024-03-16,15:30,Bundesliga,Matchweek 26,Sat,2.0,1.0,Union Berlin,Werder Bremen,0,home_win,home_win,0.5108576,0.32055664,0.16858584
+2024-03-16,15:30,Bundesliga,Matchweek 26,Sat,2.0,0.0,Mainz 05,Bochum,0,home_win,home_win,0.57821053,0.25127044,0.17051898
+2024-03-16,15:30,Bundesliga,Matchweek 26,Sat,2.0,5.0,Darmstadt 98,Bayern Munich,2,away_win,away_win,0.108733594,0.19629546,0.69497097
+2024-03-16,15:30,Bundesliga,Matchweek 26,Sat,1.0,1.0,Heidenheim,Gladbach,1,draw,home_win,0.535283,0.31045577,0.1542612
+2024-03-16,18:30,Bundesliga,Matchweek 26,Sat,0.0,3.0,Hoffenheim,Stuttgart,2,away_win,home_win,0.41007566,0.22648178,0.36344254
+2024-03-17,17:30,Bundesliga,Matchweek 26,Sun,3.0,1.0,Dortmund,Eint Frankfurt,0,home_win,home_win,0.7396112,0.10392271,0.15646607
+2024-03-17,15:30,Bundesliga,Matchweek 26,Sun,2.0,3.0,Freiburg,Leverkusen,2,away_win,away_win,0.34981287,0.17633568,0.47385147
+2024-03-30,15:30,Bundesliga,Matchweek 27,Sat,0.0,0.0,RB Leipzig,Mainz 05,1,draw,home_win,0.79544765,0.13081688,0.07373549
+2024-03-30,15:30,Bundesliga,Matchweek 27,Sat,2.0,1.0,Leverkusen,Hoffenheim,0,home_win,home_win,0.72405463,0.18882516,0.08712024
+2024-03-30,15:30,Bundesliga,Matchweek 27,Sat,0.0,0.0,Eint Frankfurt,Union Berlin,1,draw,home_win,0.7682973,0.15926974,0.072432995
+2024-03-30,18:30,Bundesliga,Matchweek 27,Sat,0.0,2.0,Bayern Munich,Dortmund,2,away_win,home_win,0.7390229,0.13633397,0.12464308
+2024-03-30,15:30,Bundesliga,Matchweek 27,Sat,0.0,3.0,Gladbach,Freiburg,2,away_win,home_win,0.5576797,0.23866257,0.2036577
+2024-03-30,15:30,Bundesliga,Matchweek 27,Sat,0.0,2.0,Werder Bremen,Wolfsburg,2,away_win,home_win,0.5417717,0.31401193,0.14421631
+2024-03-31,19:30,Bundesliga,Matchweek 27,Sun,2.0,2.0,Bochum,Darmstadt 98,1,draw,home_win,0.70404255,0.19147266,0.10448479
+2024-03-31,15:30,Bundesliga,Matchweek 27,Sun,1.0,1.0,Augsburg,Koln,1,draw,draw,0.38626772,0.38908458,0.2246477
+2024-03-31,17:30,Bundesliga,Matchweek 27,Sun,3.0,3.0,Stuttgart,Heidenheim,1,draw,home_win,0.78773355,0.1483752,0.063891195
+2024-04-05,20:30,Bundesliga,Matchweek 28,Fri,1.0,1.0,Eint Frankfurt,Werder Bremen,1,draw,home_win,0.76419604,0.1685778,0.067226194
+2024-04-06,18:30,Bundesliga,Matchweek 28,Sat,0.0,1.0,Dortmund,Stuttgart,2,away_win,home_win,0.5464354,0.19622177,0.25734285
+2024-04-06,15:30,Bundesliga,Matchweek 28,Sat,4.0,0.0,Mainz 05,Darmstadt 98,0,home_win,home_win,0.7963226,0.11489099,0.08878644
+2024-04-06,15:30,Bundesliga,Matchweek 28,Sat,3.0,2.0,Heidenheim,Bayern Munich,0,home_win,away_win,0.3584763,0.25642863,0.38509506
+2024-04-06,15:30,Bundesliga,Matchweek 28,Sat,0.0,1.0,Union Berlin,Leverkusen,2,away_win,away_win,0.35395843,0.13965222,0.5063893
+2024-04-06,15:30,Bundesliga,Matchweek 28,Sat,1.0,4.0,Freiburg,RB Leipzig,2,away_win,away_win,0.11299745,0.42089722,0.4661053
+2024-04-06,15:30,Bundesliga,Matchweek 28,Sat,2.0,1.0,Koln,Bochum,0,home_win,draw,0.39001662,0.45903325,0.15095015
+2024-04-07,17:30,Bundesliga,Matchweek 28,Sun,1.0,3.0,Wolfsburg,Gladbach,2,away_win,home_win,0.60265714,0.27659947,0.12074342
+2024-04-07,15:30,Bundesliga,Matchweek 28,Sun,3.0,1.0,Hoffenheim,Augsburg,0,home_win,home_win,0.6467487,0.15552713,0.19772418
+2024-04-12,20:30,Bundesliga,Matchweek 29,Fri,2.0,0.0,Augsburg,Union Berlin,0,home_win,home_win,0.6567377,0.13808814,0.20517415
+2024-04-13,15:30,Bundesliga,Matchweek 29,Sat,1.0,1.0,Bochum,Heidenheim,1,draw,home_win,0.5805555,0.18408097,0.23536347
+2024-04-13,18:30,Bundesliga,Matchweek 29,Sat,3.0,0.0,Stuttgart,Eint Frankfurt,0,home_win,home_win,0.5882616,0.24648075,0.16525768
+2024-04-13,15:30,Bundesliga,Matchweek 29,Sat,2.0,0.0,Bayern Munich,Koln,0,home_win,home_win,0.7982246,0.14612785,0.055647492
+2024-04-13,15:30,Bundesliga,Matchweek 29,Sat,1.0,2.0,Gladbach,Dortmund,2,away_win,home_win,0.48772356,0.16047804,0.35179844
+2024-04-13,15:30,Bundesliga,Matchweek 29,Sat,3.0,0.0,RB Leipzig,Wolfsburg,0,home_win,home_win,0.7378394,0.1351524,0.12700823
+2024-04-13,15:30,Bundesliga,Matchweek 29,Sat,4.0,1.0,Mainz 05,Hoffenheim,0,home_win,home_win,0.6356067,0.21007016,0.15432313
+2024-04-14,17:30,Bundesliga,Matchweek 29,Sun,5.0,0.0,Leverkusen,Werder Bremen,0,home_win,home_win,0.6979915,0.21087728,0.09113129
+2024-04-14,15:30,Bundesliga,Matchweek 29,Sun,0.0,1.0,Darmstadt 98,Freiburg,2,away_win,away_win,0.3216921,0.3306206,0.34768727
+2024-04-19,20:30,Bundesliga,Matchweek 30,Fri,3.0,1.0,Eint Frankfurt,Augsburg,0,home_win,home_win,0.75050217,0.12570725,0.12379058
+2024-04-20,15:30,Bundesliga,Matchweek 30,Sat,1.0,2.0,Heidenheim,RB Leipzig,2,away_win,draw,0.26018977,0.43407974,0.3057305
+2024-04-20,15:30,Bundesliga,Matchweek 30,Sat,0.0,2.0,Koln,Darmstadt 98,2,away_win,home_win,0.7509078,0.13445345,0.11463875
+2024-04-20,15:30,Bundesliga,Matchweek 30,Sat,4.0,3.0,Hoffenheim,Gladbach,0,home_win,home_win,0.4443441,0.2938225,0.2618334
+2024-04-20,18:30,Bundesliga,Matchweek 30,Sat,1.0,5.0,Union Berlin,Bayern Munich,2,away_win,away_win,0.22724739,0.18414994,0.58860266
+2024-04-20,15:30,Bundesliga,Matchweek 30,Sat,1.0,0.0,Wolfsburg,Bochum,0,home_win,home_win,0.630898,0.25454408,0.114557914
+2024-04-21,15:30,Bundesliga,Matchweek 30,Sun,2.0,1.0,Werder Bremen,Stuttgart,0,home_win,home_win,0.518789,0.20848736,0.27272364
+2024-04-21,19:30,Bundesliga,Matchweek 30,Sun,1.0,1.0,Freiburg,Mainz 05,1,draw,home_win,0.5014481,0.37260383,0.1259481
+2024-04-21,17:30,Bundesliga,Matchweek 30,Sun,1.0,1.0,Dortmund,Leverkusen,1,draw,home_win,0.5209982,0.13805008,0.34095177
+2024-04-26,20:30,Bundesliga,Matchweek 31,Fri,3.0,2.0,Bochum,Hoffenheim,0,home_win,home_win,0.6123966,0.18065372,0.2069497
+2024-04-27,18:30,Bundesliga,Matchweek 31,Sat,2.0,2.0,Leverkusen,Stuttgart,1,draw,home_win,0.60812056,0.22436042,0.167519
+2024-04-27,15:30,Bundesliga,Matchweek 31,Sat,1.0,2.0,Freiburg,Wolfsburg,2,away_win,draw,0.36855048,0.39139274,0.24005681
+2024-04-27,15:30,Bundesliga,Matchweek 31,Sat,0.0,3.0,Augsburg,Werder Bremen,2,away_win,home_win,0.47355965,0.3223479,0.20409241
+2024-04-27,15:30,Bundesliga,Matchweek 31,Sat,2.0,1.0,Bayern Munich,Eint Frankfurt,0,home_win,home_win,0.6184156,0.26199245,0.119591966
+2024-04-27,15:30,Bundesliga,Matchweek 31,Sat,4.0,1.0,RB Leipzig,Dortmund,0,home_win,home_win,0.5017317,0.1830432,0.31522506
+2024-04-28,19:30,Bundesliga,Matchweek 31,Sun,0.0,1.0,Darmstadt 98,Heidenheim,2,away_win,home_win,0.36597857,0.31455332,0.31946814
+2024-04-28,15:30,Bundesliga,Matchweek 31,Sun,0.0,0.0,Gladbach,Union Berlin,1,draw,home_win,0.6077663,0.25498357,0.13725014
+2024-04-28,17:30,Bundesliga,Matchweek 31,Sun,1.0,1.0,Mainz 05,Koln,1,draw,home_win,0.7309335,0.1626955,0.10637098
+2024-05-03,20:30,Bundesliga,Matchweek 32,Fri,1.0,1.0,Hoffenheim,RB Leipzig,1,draw,home_win,0.4030106,0.23533762,0.36165172
+2024-05-04,15:30,Bundesliga,Matchweek 32,Sat,3.0,0.0,Wolfsburg,Darmstadt 98,0,home_win,home_win,0.7108091,0.17156686,0.11762399
+2024-05-04,15:30,Bundesliga,Matchweek 32,Sat,2.0,2.0,Werder Bremen,Gladbach,1,draw,home_win,0.41049728,0.23963244,0.34987026
+2024-05-04,15:30,Bundesliga,Matchweek 32,Sat,5.0,1.0,Dortmund,Augsburg,0,home_win,home_win,0.7188928,0.15869322,0.122413985
+2024-05-04,15:30,Bundesliga,Matchweek 32,Sat,3.0,1.0,Stuttgart,Bayern Munich,0,home_win,away_win,0.25620797,0.3220849,0.42170712
+2024-05-04,18:30,Bundesliga,Matchweek 32,Sat,0.0,0.0,Koln,Freiburg,1,draw,home_win,0.6810105,0.15313245,0.16585703
+2024-05-05,17:30,Bundesliga,Matchweek 32,Sun,1.0,5.0,Eint Frankfurt,Leverkusen,2,away_win,away_win,0.22028448,0.120050244,0.6596652
+2024-05-05,15:30,Bundesliga,Matchweek 32,Sun,3.0,4.0,Union Berlin,Bochum,2,away_win,home_win,0.47924474,0.34212652,0.17862876
+2024-05-05,19:30,Bundesliga,Matchweek 32,Sun,1.0,1.0,Heidenheim,Mainz 05,1,draw,home_win,0.55746967,0.30157688,0.14095351
+2024-05-10,20:30,Bundesliga,Matchweek 33,Fri,0.0,1.0,Augsburg,Stuttgart,2,away_win,home_win,0.61471295,0.18136893,0.20391805
+2024-05-11,15:30,Bundesliga,Matchweek 33,Sat,1.0,1.0,Gladbach,Eint Frankfurt,1,draw,home_win,0.56702733,0.23844588,0.1945268
+2024-05-11,18:30,Bundesliga,Matchweek 33,Sat,3.0,0.0,Mainz 05,Dortmund,0,home_win,home_win,0.44431987,0.21209711,0.34358305
+2024-05-11,15:30,Bundesliga,Matchweek 33,Sat,1.0,1.0,Freiburg,Heidenheim,1,draw,home_win,0.41212898,0.3293707,0.25850028
+2024-05-11,15:30,Bundesliga,Matchweek 33,Sat,1.0,1.0,RB Leipzig,Werder Bremen,1,draw,home_win,0.55361813,0.2977764,0.14860545
+2024-05-11,15:30,Bundesliga,Matchweek 33,Sat,3.0,2.0,Koln,Union Berlin,0,home_win,home_win,0.48153117,0.32480577,0.19366309
+2024-05-12,15:30,Bundesliga,Matchweek 33,Sun,0.0,6.0,Darmstadt 98,Hoffenheim,2,away_win,home_win,0.42063504,0.23525825,0.34410667
+2024-05-12,19:30,Bundesliga,Matchweek 33,Sun,0.0,5.0,Bochum,Leverkusen,2,away_win,away_win,0.3658816,0.19112891,0.4429895
+2024-05-12,17:30,Bundesliga,Matchweek 33,Sun,2.0,0.0,Bayern Munich,Wolfsburg,0,home_win,home_win,0.7584091,0.16476047,0.07683045
+2024-05-18,15:30,Bundesliga,Matchweek 34,Sat,4.0,2.0,Hoffenheim,Bayern Munich,0,home_win,away_win,0.32075456,0.17957662,0.49966887
+2024-05-18,15:30,Bundesliga,Matchweek 34,Sat,2.0,2.0,Eint Frankfurt,RB Leipzig,1,draw,home_win,0.42918056,0.14635919,0.42446026
+2024-05-18,15:30,Bundesliga,Matchweek 34,Sat,2.0,1.0,Leverkusen,Augsburg,0,home_win,home_win,0.63429004,0.18693489,0.1787751
+2024-05-18,15:30,Bundesliga,Matchweek 34,Sat,4.0,1.0,Werder Bremen,Bochum,0,home_win,home_win,0.6194747,0.22160561,0.15891968
+2024-05-18,15:30,Bundesliga,Matchweek 34,Sat,2.0,1.0,Union Berlin,Freiburg,0,home_win,home_win,0.667165,0.1485474,0.18428762
+2024-05-18,15:30,Bundesliga,Matchweek 34,Sat,1.0,3.0,Wolfsburg,Mainz 05,2,away_win,home_win,0.64976877,0.19421804,0.15601316
+2024-05-18,15:30,Bundesliga,Matchweek 34,Sat,4.0,1.0,Heidenheim,Koln,0,home_win,home_win,0.5338018,0.2889916,0.17720659
+2024-05-18,15:30,Bundesliga,Matchweek 34,Sat,4.0,0.0,Stuttgart,Gladbach,0,home_win,home_win,0.5165698,0.29622018,0.18721
+2024-05-18,15:30,Bundesliga,Matchweek 34,Sat,4.0,0.0,Dortmund,Darmstadt 98,0,home_win,home_win,0.80351996,0.11316508,0.08331495
